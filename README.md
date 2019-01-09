@@ -83,6 +83,19 @@ Input Joint는 Root(Hip)를 제외한 Joint 전체, Output Joint는 Root(hip)이
 
 **Epoch : 10000**
 
+![img](./research_code/result_data/exp1/exp1_train_hist.png)
+
+
+
+평균 0.17 정도까지 L2 Loss가 줄어드는 것을 확인.
+
 
 ![img](./research_code/result_data/exp1/exp1_Frame_ED.png)
-![img](./research_code/result_data/exp1/exp1_train_hist.png)
+
+
+
+400까지가 학습에 사용한 프레임이며 이로부터 멀어질 수록 Euclidean Distance가 증가하는 것을 확인.
+
+
+
+모션 데이터는 시계열에 따른 Corelation이 있고 마지막으로 학습한 프레임에서 멀어질 수록 본 적 없던 분포의 모션으로 변해가기 때문으로 추정.
