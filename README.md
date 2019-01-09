@@ -60,10 +60,20 @@ Input Joint는 Root(Hip)를 제외한 Joint 전체, Output Joint는 Root(hip)이
 10000 에폭 학습시켰다.
 
 **Input Frame : 69_01 / 1~400 frame**
+
+
 **Output Frame : 69_01 / 401~469 frame**
+
+
 **Input Joint : All Joints - {Root(Hip)}**
+
+
 **Output Joint : Root(Hip)**
+
+
 **Model : 1-Layer Neural Net(Single Layer Perceptron)**
+
+
 **Epoch : 10000**
 
 
