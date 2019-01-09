@@ -1,8 +1,12 @@
 neural_motion_project
 
-# 1.Dataset
+# 1.Dataset & Library
 CMU Motion Capture Dataset - BVH Form
 ([https://sites.google.com/a/cgspeed.com/cgspeed/motion-capture/3dsmax-friendly-release-of-cmu-motion-database])
+
+PyMO - BVH Parsing Library
+([https://github.com/omimo/PyMO])
+
 
 ## 1.1.Detail
 CMU Motion Capture Dataset중에서도 우선 Subject 16을 대상으로 실험을 진행한다.
