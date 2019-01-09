@@ -84,3 +84,5 @@ Input Joint는 Root(Hip)를 제외한 Joint 전체, Output Joint는 Root(hip)이
 **Epoch : 10000**
 
 
+![img](./research_code/result_data/exp1/exp1_Frame_ED.png)
+![img](./research_code/result_data/exp1/exp1_train_hist.png)
