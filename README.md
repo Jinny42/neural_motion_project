@@ -54,7 +54,7 @@ Input Joint 수와 Output Joint 수를 변경시켜가며 Ablation Study를 진�
 
 
 # 4.Experiment Log
-# 4.1.EXP-1
+## 4.1.EXP-1
 정말 단순한 문제부터 시작하기 위해 하나의 시퀀스(69_01) 안의 프레임들을 학습용과 Validation용으로 나눠 사용하였다.
 Input Joint는 Root(Hip)를 제외한 Joint 전체, Output Joint는 Root(hip)이다. 즉 엉덩이를 제외한 나머지 관절위치만 보고 엉덩이의 위치를 예측하는 문제다.
 신경망은 1-Layer Neural Net(Single Layer Perceptron)를 사용했고 GD로 학습시켰다.
