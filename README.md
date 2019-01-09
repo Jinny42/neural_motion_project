@@ -98,3 +98,11 @@ Input Joint는 Root(Hip)를 제외한 Joint 전체, Output Joint는 Root(hip)이
 
 
 모션 데이터는 시계열에 따른 Corelation이 있고 마지막으로 학습한 프레임에서 멀어질 수록 본 적 없던 분포의 모션으로 변해가기 때문으로 추정.
+
+
+
+증감을 반복하는 패턴으로 보건데, Locomotion의 반복되는 Phase들중 특정 Phase에만 신경망이 Optimize된 것이 아닌가하는 생각이 듬.
+
+
+
+중간에 비어보이는 부분은 그래픽 오류임 실제로는 부드럽게 이어져있다는 것을 inferencce_loss.txt를 보면 확인할 수 있음.
