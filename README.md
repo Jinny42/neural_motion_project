@@ -105,4 +105,7 @@ Input Joint는 Root(Hip)를 제외한 Joint 전체, Output Joint는 Root(hip)이
 
 
 
-중간에 비어보이는 부분은 그래픽 오류임 실제로는 부드럽게 이어져있다는 것을 inferencce_loss.txt를 보면 확인할 수 있음.
+위 가설을 검증하기 위해 왼발과 오른발의 높이를 동시에 나타내 보았는데 적어도 이 신경망에서는 특별한 상관관계가 있다고 해석하기 어려워 보인다.
+
+
+![img](./research_code/result_data/exp1/ED_foot_height.png)
