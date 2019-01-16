@@ -37,15 +37,19 @@ def frame_dist_plot_from_txt(path = 'result_data/inference_loss.txt') :
         ED_idx_from = line.find('-') + 2
         ED_idx_to = line.find('\n')
 
+        if frame_idx_from == -1:
+            continue
+
         frame = line[frame_idx_from:frame_idx_to]
         ED = line[ED_idx_from:ED_idx_to]
 
         frame_list.append(eval(frame))
         ED_list.append(eval(ED))
 
-    plt.bar(frame_list, ED_list, label='ED')
+    plt.plot(frame_list, ED_list, label='ED')
     plt.xlabel('Frame')
     plt.ylabel('ED')
+    plt.tight_layout()
     plt.legend()
     plt.grid(False)
     plt.savefig('Frame_ED.png')
@@ -99,6 +103,3 @@ def draw_stickfigure3d(mocap_track, frame, data=None, joints=None, draw_names=Fa
                     color='rgba(0,0,0,0.9')
 
     return ax
-
-
-frame_dist_plot_from_txt('inference_loss.txt')
