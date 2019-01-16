@@ -83,13 +83,13 @@ Input Joint는 Root(Hip)를 제외한 Joint 전체, Output Joint는 Root(hip)이
 
 **Epoch : 10000**
 
-![img](./research_code/result_data/exp1/exp1_train_hist.png)
+![img](./research_code/result_data/exp1/train_hist.png)
 
 
 
 평균 0.17 정도까지 (L2 Loss * 3)^0.5가 줄어드는 것을 확인. (이게 Euclidean Distance의 평균은 아닌데 이 때 뭔가 착각해서 표를 잘못 만들어 버림. Plotting에만 쓰이는 값이라 나중에 결과 정리할 때 일괄적으로 수정해야 겠음)
 
-![img](./research_code/result_data/exp1/exp1_Frame_ED.png)
+![img](./research_code/result_data/exp1/Frame_ED.png)
 
 
 
