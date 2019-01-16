@@ -103,3 +103,6 @@ def draw_stickfigure3d(mocap_track, frame, data=None, joints=None, draw_names=Fa
                     color='rgba(0,0,0,0.9')
 
     return ax
+
+
+# frame_dist_plot_from_txt(path = 'result_data/exp1/inference_loss.txt')
