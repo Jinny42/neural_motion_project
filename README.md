@@ -41,7 +41,7 @@ Motion을 Locomotion으로 한정하는 것은 Subject 선정과도 관련이 �
 
 
 # 3.Result Processing
-Metric은 단순 L2 Loss(Euclidean Distance^2)와 Percentage of Correct Keypoint(PCK)를 사용한다.
+Metric은 단순 Euclidean Distance와 Percentage of Correct Keypoint(PCK)를 사용한다.
 
 
 
@@ -87,7 +87,7 @@ Input Joint는 Root(Hip)를 제외한 Joint 전체, Output Joint는 Root(hip)이
 
 
 
-평균 0.17 정도까지 (L2 Loss * 3)^0.5가 줄어드는 것을 확인. (이게 Euclidean Distance의 평균은 아닌데 이 때 뭔가 착각해서 표를 잘못 만들어 버림. Plotting에만 쓰이는 값이라 나중에 결과 정리할 때 일괄적으로 수정해야 겠음)
+평균 0.301 정도까지 평균 Euclidean Distance가 줄어드는 것을 확인.
 
 ![img](./research_code/result_data/exp1/Frame_ED.png)
 
