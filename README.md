@@ -70,10 +70,10 @@ Input Joint는 Root(Hip)를 제외한 Joint 전체, Output Joint는 Root(hip)이
 
 
 
-**Input Frame : 69_01 / 1~400 frame**
+**Training Frame : 69_01 / 1~400 frame**
 
 
-**Output Frame : 69_01 / 401~469 frame**
+**Test Frame : 69_01 / 401~469 frame**
 
 
 **Input Joint : All Joints - {Root(Hip)}**
@@ -138,7 +138,7 @@ Input Joint는 Root(Hip)를 제외한 Joint 전체, Output Joint는 Root(hip)이
 조작 변인
 
 
-**Training Frame : **
+**Training Frame**
 
 
 ### 4.2.1
@@ -147,6 +147,8 @@ Input Joint는 Root(Hip)를 제외한 Joint 전체, Output Joint는 Root(hip)이
 ![img](./research_code/result_data/exp2/train_hist.png)
 
 최종 Training ED : 0.004
+
+
 최종 Test ED : 5.324
 
 ![img](./research_code/result_data/exp2/Frame_ED.png)
