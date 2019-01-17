@@ -39,6 +39,10 @@ Motion을 Locomotion으로 한정하는 것은 Subject 선정과도 관련이 �
 모션을 처리하는데 적합한 구조에 대한 연구가 분명 있었을 것이고 논문도 나와있겠지만 논문을 찾아보기에 앞서 우선 단순한 1 Layer 신경망으로부터 실험을 해나가기로 한다. Input으로 들어가는 각 Joint의 Position들 간의 관계가 독립이지 않기 때문에 당연히 잘 안 되겠지만 Root(Hip) 하나만 찾는 문제의 경우 사실 Mean에 가까운 위치라서 얼추 나올 것 같기도 하다.
 
 
+## 2.2. 4-Layer Neural Net
+학습 데이터수 변화에 따른 변화를 관찰하기 위해 사용
+
+
 
 # 3.Result Processing
 Metric은 단순 Euclidean Distance와 Percentage of Correct Keypoint(PCK)를 사용한다.
@@ -109,3 +113,47 @@ Input Joint는 Root(Hip)를 제외한 Joint 전체, Output Joint는 Root(hip)이
 
 
 ![img](./research_code/result_data/exp1/ED_foot_height.png)
+
+
+## 4.2.EXP-2
+학습데이터수 변화에 따른 결과(ED)를 관찰한다.
+
+통제 변인
+
+**Test Frame : 69_02 / 301~343 frame**
+
+
+**Input Joint : All Joints - {Root(Hip)}**
+
+
+**Output Joint : Root(Hip)**
+
+
+**Model : 4-Layer Neural Net(Single Layer Perceptron)**
+
+
+**Epoch : 3000**
+
+
+조작 변인
+
+
+**Training Frame : **
+
+
+### 4.2.1
+**Training Frame : 69_02 / 1~300 frame (총 프레임 수 : 300)**
+
+![img](./research_code/result_data/exp2/train_hist.png)
+
+최종 Training ED : 0.004
+최종 Test ED : 5.324
+
+![img](./research_code/result_data/exp2/Frame_ED.png)
+
+Trainig Set에 관해선 거의 모든 프레임에서 사실상 0에 가깝게 수렴. Test Set에선 Training Set의 시간으로부터 멀어질수록 오차가 증가.
+
+
+### 4.2.2
+**Training Frame : 69_02 / 1~300 frame + 69_01 (총 프레임 수 : 769)**
+
