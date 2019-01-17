@@ -3,7 +3,7 @@ from pymo.parsers import BVHParser
 from pymo.preprocessing import *
 
 def get_ED_error():
-    path = 'result_data/exp1/inference_loss.txt'
+    path = 'inference_loss.txt'
     frame_list = []
     ED_list = []
 
@@ -16,7 +16,7 @@ def get_ED_error():
         ED_idx_from = line.find('-') + 2
         ED_idx_to = line.find('\n')
 
-        if frame_idx_from == -1:
+        if frame_idx_from == 0:
             continue
 
         frame = line[frame_idx_from:frame_idx_to]
@@ -42,8 +42,8 @@ def get_foot_heights():
     length = len(positions[0].values['RightToe_Yposition'])
 
     for i in range(length):
-        Rfoot_height = positions[0].values['RightToe_Yposition'][i] /4
-        Lfoot_height = positions[0].values['LeftToe_Yposition'][i] /4
+        Rfoot_height = positions[0].values['RightToe_Yposition'][i]
+        Lfoot_height = positions[0].values['LeftToe_Yposition'][i]
 
         Rfoot_height_list.append(Rfoot_height)
         Lfoot_height_list.append(Lfoot_height)

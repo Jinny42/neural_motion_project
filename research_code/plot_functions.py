@@ -37,7 +37,7 @@ def frame_dist_plot_from_txt(path = 'result_data/inference_loss.txt') :
         ED_idx_from = line.find('-') + 2
         ED_idx_to = line.find('\n')
 
-        if frame_idx_from == -1:
+        if frame_idx_from == 0:
             continue
 
         frame = line[frame_idx_from:frame_idx_to]

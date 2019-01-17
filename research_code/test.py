@@ -1,113 +1,45 @@
-from pymo.parsers import BVHParser
-from pymo.preprocessing import *
 from plot_functions import *
+import data_load
 import tensorflow as tf
 import numpy as np
 import matplotlib.pyplot as plt
 
 
-def get_pos_list(mocap_track, frame, data=None, joints=None):
-    if joints is None:
-        joints_to_draw = mocap_track.skeleton.keys()
-    else:
-        joints_to_draw = joints
-
-    if data is None:
-        df = mocap_track.values
-    else:
-        df = data
-
-    pos_list = []
-
-    # num = 0
-
-    for joint in joints_to_draw:
-        parent_x = df['%s_Xposition' % joint][frame]
-        parent_y = df['%s_Yposition' % joint][frame]
-        parent_z = df['%s_Zposition' % joint][frame]
-
-        pos_list.append(parent_x)
-        pos_list.append(parent_y)
-        pos_list.append(parent_z)
-
-        # print('joint : ', joint, ' ', num)
-        #
-        # num = num +1
-
-        children_to_draw = [c for c in mocap_track.skeleton[joint]['children'] if c in joints_to_draw]
-
-        for c in children_to_draw:
-            child_x = df['%s_Xposition' % c][frame]
-            child_y = df['%s_Yposition' % c][frame]
-            child_z = df['%s_Zposition' % c][frame]
-
-            pos_list.append(child_x)
-            pos_list.append(child_y)
-            pos_list.append(child_z)
-
-            # print('child : ', c, ' ', num)
-            #
-            # num = num + 1
-
-    return pos_list
-
-def get_pos_batch(pos_data):
-    batch_size = positions[0].values.shape[0]
-    pos_batch = np.empty((batch_size, 222), dtype=np.float32)
-    hip_label = np.empty((batch_size, 3), dtype=np.float32)
-    for i in range(batch_size):
-        pos_batch[i] = np.asarray(get_pos_list(pos_data[0], frame=i)[3:])
-        hip_label[i] = np.asarray(get_pos_list(pos_data[0], frame=i)[:3])
-
-
-    return pos_batch, hip_label
-
-
-def make_model(X, isTrain):
-    W1 = tf.get_variable("W1", shape=[222, 3], dtype=np.float32,
-                                  initializer=tf.random_normal_initializer(0, tf.sqrt(2/222)))# He initialization
+def make_model1(X, isTrain):
+    W1 = tf.get_variable("W1", shape=[111, 3], dtype=np.float32,
+                                  initializer=tf.random_normal_initializer(0, tf.sqrt(2/111)))# He initialization
     L1 = tf.matmul(X, W1)
-    # L1 = tf.layers.batch_normalization(L1, training=isTrain)
-    # L1 = tf.nn.relu(L1)
-
-    # W2 = tf.get_variable("W2", shape=[512, 512], dtype=np.float32,
-    #                      initializer=tf.random_normal_initializer(0, tf.sqrt(2/512)))
-    # L2 = tf.matmul(L1, W2)
-    # L2 = tf.layers.batch_normalization(L2, training=isTrain)
-    # L2 = tf.nn.relu(L2)
-    #
-    # W3 = tf.get_variable("W3", shape=[512, 1024], dtype=np.float32,
-    #                      initializer=tf.random_normal_initializer(0, tf.sqrt(2/1024)))
-    # L3 = tf.matmul(L2, W3)
-    # L3 = tf.layers.batch_normalization(L3, training=isTrain)
-    # L3 = tf.nn.relu(L3)
-    #
-    # W4 = tf.get_variable("W4", shape=[1024, 1024], dtype=np.float32,
-    #                      initializer=tf.random_normal_initializer(0, tf.sqrt(2 / 1024)))
-    # L4 = tf.matmul(L3, W4)
-    # L4 = tf.layers.batch_normalization(L4, training=isTrain)
-    # L4 = tf.nn.relu(L4)
-    #
-    # W5 = tf.get_variable("W5", shape=[1024, 2048], dtype=np.float32,
-    #                      initializer=tf.random_normal_initializer(0, tf.sqrt(2 / 1024)))
-    # L5 = tf.matmul(L4, W5)
-    # L5 = tf.layers.batch_normalization(L5, training=isTrain)
-    # L5 = tf.nn.relu(L5)
-    #
-    # W6 = tf.get_variable("W6", shape=[2048, 2048], dtype=np.float32,
-    #                      initializer=tf.random_normal_initializer(0, tf.sqrt(2 / 1024)))
-    # L6 = tf.matmul(L5, W6)
-    # L6 = tf.layers.batch_normalization(L6, training=isTrain)
-    # L6 = tf.nn.relu(L6)
-    #
-    # W7 = tf.get_variable("W7", shape=[2048, 3], dtype=np.float32,
-    #                      initializer=tf.random_normal_initializer(0, tf.sqrt(2/1024)))
-    # L7 = tf.matmul(L6, W7)
 
     return L1
 
+def make_model2(X, isTrain):
+    W1 = tf.get_variable("W1", shape=[111, 256], dtype=np.float32,
+                                  initializer=tf.random_normal_initializer(0, tf.sqrt(2/111)))# He initialization
+    L1 = tf.matmul(X, W1)
+    L1 = tf.layers.batch_normalization(L1, training=isTrain)
+    L1 = tf.nn.relu(L1)
+
+    W2 = tf.get_variable("W2", shape=[256, 512], dtype=np.float32,
+                         initializer=tf.random_normal_initializer(0, tf.sqrt(2/256)))
+    L2 = tf.matmul(L1, W2)
+    L2 = tf.layers.batch_normalization(L2, training=isTrain)
+    L2 = tf.nn.relu(L2)
+
+
+    W3 = tf.get_variable("W3", shape=[512, 1024], dtype=np.float32,
+                         initializer=tf.random_normal_initializer(0, tf.sqrt(2/512)))
+    L3 = tf.matmul(L2, W3)
+    L3 = tf.layers.batch_normalization(L3, training=isTrain)
+    L3 = tf.nn.relu(L3)
+
+    W4 = tf.get_variable("W4", shape=[1024, 3], dtype=np.float32,
+                         initializer=tf.random_normal_initializer(0, tf.sqrt(2 / 1024)))
+    L4 = tf.matmul(L3, W4)
+
+    return L4
+
 def make_train_graph(input, label, is_training):
-    logit = make_model(input, is_training)
+    logit = make_model2(input, is_training)
 
     loss_L2 = tf.pow(logit - label, 2)
     sum_L2 = tf.reduce_sum(loss_L2)
@@ -127,7 +59,7 @@ def make_train_graph(input, label, is_training):
 def train(input, label, max_epoch) :
     #####Make placeholder
     ### Input
-    X = tf.placeholder(tf.float32, [None, 222])
+    X = tf.placeholder(tf.float32, [None, 111])
     ### Label
     Y = tf.placeholder(tf.float32, [None, 3])
     ### Is training
@@ -162,13 +94,17 @@ def train(input, label, max_epoch) :
         print('[%d/%d] - mean ED: %.3f'
               % ((epoch + 1), max_epoch, ED))
 
-def inference(input, label) :
+def inference() :
+    ##### Data Loader
+    DataLoader = data_load.DataLoader('motion_data/69/')
+    input_batch, label_batch = DataLoader.get_single_motion(1, 0, 3)
+
     ##### Loss Log txt file
     log_txt = open('inference_loss.txt', 'a')
 
     #####Make placeholder
     ### Input
-    X = tf.placeholder(tf.float32, [None, 222])
+    X = tf.placeholder(tf.float32, [None, 111])
     ### Label
     Y = tf.placeholder(tf.float32, [None, 3])
     ### Is training
@@ -189,17 +125,22 @@ def inference(input, label) :
         sess.run(tf.global_variables_initializer())
 
 
-    ED = sess.run(loss_ED, feed_dict={X: input,
-                                        Y: label,
+    ED = sess.run(loss_ED, feed_dict={X: input_batch,
+                                        Y: label_batch,
                                         is_training: False})
 
-    for i in range(len(input)):
+    for i in range(len(input_batch)):
         log_txt.write('\n[%d] - %.3f'%(i, ED[i]))
 
     log_txt.close()
     print('mean loss: %.3f' % np.mean(ED))
 
-def cross_val(input, label, max_epoch, data_cut) :
+def cross_val(max_epoch, data_cut) :
+    ##### Data Loader
+    DataLoader=data_load.DataLoader('motion_data/69/')
+    input_batch, label_batch= DataLoader.get_single_motion(1, 0, 3)
+
+
     ##### Histogram for Visualizing
     log_ED = {}
     log_ED['train_ED'] = []
@@ -210,7 +151,7 @@ def cross_val(input, label, max_epoch, data_cut) :
 
     #####Make placeholder
     ### Input
-    X = tf.placeholder(tf.float32, [None, 222])
+    X = tf.placeholder(tf.float32, [None, 111])
     ### Label
     Y = tf.placeholder(tf.float32, [None, 3])
     ### Is training
@@ -236,15 +177,15 @@ def cross_val(input, label, max_epoch, data_cut) :
         ########################################################################################################
         ##Update
         _, ED = sess.run([train_op, tf.reduce_mean(loss_ED)],
-                             feed_dict={X: input[:data_cut], Y: label[:data_cut], is_training: True})
+                             feed_dict={X: input_batch[:data_cut], Y: label_batch[:data_cut], is_training: True})
 
         log_txt.write('\n\n[%d/%d] -  mean of ED: %.3f'
                % ((epoch + 1), max_epoch, ED))
         log_ED['train_ED'].append(ED)
 
         if epoch % 1 == 0 :
-            ED = sess.run(tf.reduce_mean(loss_ED), feed_dict={X: input[data_cut:],
-                                                              Y: label[data_cut:], is_training: False})
+            ED = sess.run(tf.reduce_mean(loss_ED), feed_dict={X: input_batch[data_cut:],
+                                                              Y: label_batch[data_cut:], is_training: False})
 
             log_txt.write('\n mean of ED: %.3f'% ED)
             log_ED['val_ED'].append(ED)
@@ -256,20 +197,7 @@ def cross_val(input, label, max_epoch, data_cut) :
 
 
 
-parser = BVHParser()
-
-parsed_data = parser.parse('motion_data/69/69_01.bvh')
-
-mp = MocapParameterizer('position')
-
-positions = mp.fit_transform([parsed_data])
-
-# draw_stickfigure3d(positions[0], 1)
-# plt.show()
-
-position_batch, hip_label = get_pos_batch(positions)
-
-# cross_val(position_batch, hip_label, 10000, 400)
+# cross_val(3000, 300)
 # train(position_batch, hip_label, 10000)
-# inference(position_batch, hip_label)
-frame_dist_plot_from_txt()
+inference()
+frame_dist_plot_from_txt('inference_loss.txt')
