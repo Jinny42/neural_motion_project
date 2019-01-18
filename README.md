@@ -212,7 +212,7 @@ Epoch수는 2000으로 줄인다.
 **Training Frame : (69_01 ~ 69_75) /8**
 
 
-**Test Frame : 69_00 /8**
+**Test Frame : 69_00**
 
 
 **Input Joint : All Joints - {Root(Hip)}**
