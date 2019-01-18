@@ -188,11 +188,11 @@ Trainig Set에 관해선 거의 모든 프레임에서 사실상 0에 가깝게 
 
 
 
-데이터셋이 늘어날수록 확실한 성능향상이 있음을 확인. 앞선 실험처럼 신경망이 Trainig set에 대해 충분히 수렴하기 전에 Test ED가 급격하게 감소하는 부분은 없이 일관적으로 Test ED가 감소했다.
+데이터셋이 늘어날수록 확실한 성능향상이 있음을 확인.
 
 
 
-## 4.3
+## 4.3.EXP-3
 
 학습데이터 수 변화에 따른 결과(ED)를 관찰한다. 데이터 수를 대폭 확대하여 Subject 69의 모션 전체를 사용한다. 69_00 전체를 Test set으로 나머지 69_01 ~ 69_75 전체를 Trainig set으로 사용한다.
 
@@ -204,10 +204,13 @@ Epoch수는 2000으로 줄인다.
 
 
 
-**Training Frame : (69_01 ~ 69_75) /8
 
 
-**Test Frame : 69_00 / 8**
+
+**Training Frame : (69_01 ~ 69_75) /8 **
+
+
+**Test Frame : 69_00 /8**
 
 
 **Input Joint : All Joints - {Root(Hip)}**
@@ -227,7 +230,7 @@ Epoch수는 2000으로 줄인다.
 
 
 
-![img](./research_code/result_data/exp2.2/train_hist.png)
+![img](./research_code/result_data/exp3.1/train_hist.png)
 
 최종 Training ED : 0.120
 
@@ -235,7 +238,7 @@ Epoch수는 2000으로 줄인다.
 최종 Test ED : 0.125
 
 
-![img](./research_code/result_data/exp2/Frame_ED.png)
+![img](./research_code/result_data/exp3.1/Frame_ED.png)
 
 
 예상대로 데이터 수를 늘리자 8배 Downsample 되었음에도 Generalization 능력이 큰 폭으로 향상됨을 확인. 실수로 파일을 유실해서 기록하지 못했지만 16배 Downsample해도 최종 Test ED가 0.13 정도로 나오는 등 큰 성능저하는 없었음.
