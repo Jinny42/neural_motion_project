@@ -129,7 +129,7 @@ Input Joint는 Root(Hip)를 제외한 Joint 전체, Output Joint는 Root(hip)이
 **Output Joint : Root(Hip)**
 
 
-**Model : 4-Layer Neural Net(Single Layer Perceptron)**
+**Model : 4-Layer Neural Net**
 
 
 **Epoch : 3000**
@@ -160,7 +160,7 @@ Trainig Set에 관해선 거의 모든 프레임에서 사실상 0에 가깝게 
 
 
 ### 4.2.2
-**Training Frame : 69_02 / 1~300 frame + 69_01 + 69_03 (총 프레임 수 : 1169)**
+**Training Frame : 69_02 / 1~300 frame + 69_01 (총 프레임 수 : 643)**
 
 
 ![img](./research_code/result_data/exp2.2/train_hist.png)
@@ -175,10 +175,10 @@ Trainig Set에 관해선 거의 모든 프레임에서 사실상 0에 가깝게 
 
 
 
-데이터셋이 약 1.5배 늘어난 것만으로 상당한 성능 상향을 확인
+데이터셋이 약간 늘어난 것만으로 상당한 성능 상향을 확인
 
 ### 4.2.3
-**Training Frame : 69_02 / 1~300 frame + 69_01 + 69_03 (총 프레임 수 : 1169)**
+**Training Frame : 69_02 / 1~300 frame + 69_01 + 69_03 (총 프레임 수 : 1073)**
 
 
 ![img](./research_code/result_data/exp2.3/train_hist.png)
@@ -209,10 +209,10 @@ Epoch수는 2000으로 줄인다.
 
 
 
-**Training Frame : (69_01 ~ 69_75) /8**
+**Training Frame : (69_02 ~ 69_75) /8**
 
 
-**Test Frame : 69_00**
+**Test Frame : 69_01**
 
 
 **Input Joint : All Joints - {Root(Hip)}**
@@ -221,7 +221,7 @@ Epoch수는 2000으로 줄인다.
 **Output Joint : Root(Hip)**
 
 
-**Model : 4-Layer Neural Net(Single Layer Perceptron)**
+**Model : 4-Layer Neural Net**
 
 
 **Epoch : 2000**
@@ -244,3 +244,45 @@ Epoch수는 2000으로 줄인다.
 
 
 최종 Trainig ED를 보았을 때 Underfitting이 확실해 보이므로 다음실험에서 Epoch수를 5배 늘릴 것임. 
+
+## 4.4.EXP-4
+
+**Training Frame : 69_03 ~ 69_74 /8**
+
+
+**Test Frame : 69_01, 69_02, 69_75**
+
+
+**Input Joint : All Joints - {Root(Hip)}**
+
+
+**Output Joint : Root(Hip)**
+
+
+**Model : 4-Layer Neural Net**
+
+
+**Epoch : 10000**
+
+
+
+![img](./research_code/result_data/exp4.1/train_hist.png)
+
+최종 Training ED : 0.043
+
+
+최종 Test ED : 0.163
+
+
+![img](./research_code/result_data/exp4.1/Frame_ED.png)
+
+69_01(1~469)와 69_02(470~813)에서는 0.4이하의 낮은 ED를 보여주었으나 앉기, 줍기 등의 복잡한 동작이 포함된 69_75(814~1912)에서는 심한 경우 ED가 1이 넘기도 하였음. 해당 신경망은 locomotion에 대해서만 잘 작동하는 것을 확인.
+
+
+
+이것이 Data Imbalance 문제라면 Data를 바꿔봐야할 것이고 신경망 자체의 한계라면 신경망을 더 깊게 만들어야 함.
+
+
+
+또한 지금까지 GD를 이용했는데 SGD를 이용해 보는 것도 좋을 것 같음.
+
