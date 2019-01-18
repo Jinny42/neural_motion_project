@@ -1,4 +1,4 @@
-neural_motion_project
+﻿neural_motion_project
 
 # 1.Dataset & Library
 CMU Motion Capture Dataset - BVH Form
@@ -151,11 +151,95 @@ Input Joint는 Root(Hip)를 제외한 Joint 전체, Output Joint는 Root(hip)이
 
 최종 Test ED : 5.324
 
+
+최저 Test ED : 2.815(그러나 이때 Training ED가 11.370로 측정되어 의미는 없음)
+
 ![img](./research_code/result_data/exp2/Frame_ED.png)
 
 Trainig Set에 관해선 거의 모든 프레임에서 사실상 0에 가깝게 수렴. Test Set에선 Training Set의 시간으로부터 멀어질수록 오차가 증가.
 
 
 ### 4.2.2
-**Training Frame : 69_02 / 1~300 frame + 69_01 (총 프레임 수 : 769)**
+**Training Frame : 69_02 / 1~300 frame + 69_01 + 69_03 (총 프레임 수 : 1169)**
 
+
+![img](./research_code/result_data/exp2.2/train_hist.png)
+
+최종 Training ED : 0.009
+
+
+최종 Test ED : 0.577
+
+
+최저 Test ED : 0.490(Training ED : 0.043)
+
+
+
+데이터셋이 약 1.5배 늘어난 것만으로 상당한 성능 상향을 확인
+
+### 4.2.3
+**Training Frame : 69_02 / 1~300 frame + 69_01 + 69_03 (총 프레임 수 : 1169)**
+
+
+![img](./research_code/result_data/exp2.3/train_hist.png)
+
+최종 Training ED : 0.016
+최종 Test ED : 0.566
+
+
+
+데이터셋이 늘어날수록 확실한 성능향상이 있음을 확인. 앞선 실험처럼 신경망이 Trainig set에 대해 충분히 수렴하기 전에 Test ED가 급격하게 감소하는 부분은 없이 일관적으로 Test ED가 감소했다.
+
+
+
+## 4.3
+
+학습데이터 수 변화에 따른 결과(ED)를 관찰한다. 데이터 수를 대폭 확대하여 Subject 69의 모션 전체를 사용한다. 69_00 전체를 Test set으로 나머지 69_01 ~ 69_75 전체를 Trainig set으로 사용한다.
+
+
+또한 프레임간 모션의 변화가 크지 않으므로 8배 Downsample해서 결과를 확인한다.
+
+
+Epoch수는 2000으로 줄인다. 
+
+
+
+**Training Frame : (69_01 ~ 69_75) /8
+
+
+**Test Frame : 69_00 / 8**
+
+
+**Input Joint : All Joints - {Root(Hip)}**
+
+
+**Output Joint : Root(Hip)**
+
+
+**Model : 4-Layer Neural Net(Single Layer Perceptron)**
+
+
+**Epoch : 2000**
+
+
+
+###4.3.1
+
+
+
+![img](./research_code/result_data/exp2.2/train_hist.png)
+
+최종 Training ED : 0.120
+
+
+최종 Test ED : 0.125
+
+
+![img](./research_code/result_data/exp2/Frame_ED.png)
+
+
+예상대로 데이터 수를 늘리자 8배 Downsample 되었음에도 Generalization 능력이 큰 폭으로 향상됨을 확인. 실수로 파일을 유실해서 기록하지 못했지만 16배 Downsample해도 최종 Test ED가 0.13 정도로 나오는 등 큰 성능저하는 없었음.
+
+
+
+최종 Trainig ED를 보았을 때 Underfitting이 확실해 보이므로 다음실험에서 Epoch수를 5배 늘릴 것임. 
