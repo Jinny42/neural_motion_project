@@ -184,6 +184,8 @@ Trainig Set에 관해선 거의 모든 프레임에서 사실상 0에 가깝게 
 ![img](./research_code/result_data/exp2.3/train_hist.png)
 
 최종 Training ED : 0.016
+
+
 최종 Test ED : 0.566
 
 
@@ -207,7 +209,7 @@ Epoch수는 2000으로 줄인다.
 
 
 
-**Training Frame : (69_01 ~ 69_75) /8 **
+**Training Frame : (69_01 ~ 69_75) /8**
 
 
 **Test Frame : 69_00 /8**
