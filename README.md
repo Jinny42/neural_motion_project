@@ -228,10 +228,6 @@ Epoch수는 2000으로 줄인다.
 
 
 
-###4.3.1
-
-
-
 ![img](./research_code/result_data/exp3.1/train_hist.png)
 
 최종 Training ED : 0.120
