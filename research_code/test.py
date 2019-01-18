@@ -138,7 +138,7 @@ def inference() :
 def cross_val(max_epoch, data_cut) :
     ##### Data Loader
     DataLoader=data_load.DataLoader('motion_data/69/')
-    input_batch, label_batch= DataLoader.get_single_motion(1, 0, 3)
+    input_batch, label_batch = DataLoader.get_multi_motion([0, 2, 1], 0, 3)
 
 
     ##### Histogram for Visualizing
@@ -197,7 +197,7 @@ def cross_val(max_epoch, data_cut) :
 
 
 
-# cross_val(3000, 300)
+cross_val(2000, 1156)
 # train(position_batch, hip_label, 10000)
-inference()
-frame_dist_plot_from_txt('inference_loss.txt')
+# inference()
+# frame_dist_plot_from_txt('inference_loss.txt')

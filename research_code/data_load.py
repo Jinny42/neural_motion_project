@@ -84,8 +84,8 @@ class DataLoader:
             input_batch_list.append(input_batch)
             label_batch_list.append(label_batch)
 
-        multi_input_batch = np.stack(input_batch_list, axis=0)
-        multi_label_batch = np.stack(label_batch_list, axis=0)
+        multi_input_batch = np.concatenate(input_batch_list, axis=0)
+        multi_label_batch = np.concatenate(label_batch_list, axis=0)
 
         return multi_input_batch, multi_label_batch
 
@@ -103,8 +103,8 @@ class DataLoader:
             input_batch_list.append(input_batch)
             label_batch_list.append(label_batch)
 
-        total_input_batch = np.stack(input_batch_list, axis=0)
-        total_label_batch = np.stack(label_batch_list, axis=0)
+        total_input_batch = np.concatenate(input_batch_list, axis=0)
+        total_label_batch = np.concatenate(label_batch_list, axis=0)
 
         return total_input_batch, total_label_batch
 
