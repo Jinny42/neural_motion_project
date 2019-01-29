@@ -6,15 +6,22 @@ from pymo.preprocessing import *
 
 class DataLoader:
 
-    def __init__(self, dir_path='motion_data/69/'):
-        file_names = os.listdir(dir_path)
-        self.path_list = [os.path.join(dir_path, file_name) for file_name in file_names]
+    def __init__(self):
+        self.path_list = None
         self.parser = BVHParser()
         self.mp = MocapParameterizer('position')
         self.label_idx_from = None
         self.label_idx_to = None
         self.joints_to_draw = None
         self.df = None
+
+    def set_subject_path(self, subject_list):
+        self.path_list = []
+        for subject_num in subject_list:
+            dir_path = 'motion_data/' + str(subject_num) + '/'
+            file_names = os.listdir(dir_path)
+            for file_name in file_names :
+                self.path_list.append(os.path.join(dir_path, file_name))
 
     def get_pos_list(self, frame):
         pos_list = []
@@ -40,8 +47,8 @@ class DataLoader:
 
         return pos_list
 
-    def get_pos_batch(self, pos_data):
-        batch_size = pos_data[0].values.shape[0]
+    def get_pos_batch(self, pos_data, down_sample_scale):
+        batch_size = pos_data[0].values.shape[0] // down_sample_scale
         label_len = self.label_idx_to - self.label_idx_from
 
         input_batch = np.empty((batch_size, 114-label_len), dtype=np.float32)
@@ -51,14 +58,14 @@ class DataLoader:
         self.df = pos_data[0].values
 
         for i in range(batch_size):
-            pos_list = self.get_pos_list(frame=i)
+            pos_list = self.get_pos_list(frame=i * down_sample_scale)
 
             label_batch[i] = np.asarray(pos_list[self.label_idx_from:self.label_idx_to])
             input_batch[i] = np.asarray(pos_list[:self.label_idx_from] + pos_list[self.label_idx_to:])
 
         return input_batch, label_batch
 
-    def get_single_motion(self, motion_num, label_idx_from, label_idx_to):
+    def get_single_motion(self, motion_num, label_idx_from, label_idx_to, down_sample_scale=1):
         idx = motion_num
         self.label_idx_from = label_idx_from
         self.label_idx_to = label_idx_to
@@ -66,10 +73,10 @@ class DataLoader:
         path = self.path_list[idx]
         parsed_data = self.parser.parse(path)
         positions = self.mp.fit_transform([parsed_data])
-        input_batch, label_batch = self.get_pos_batch(positions)
+        input_batch, label_batch = self.get_pos_batch(positions, down_sample_scale)
         return input_batch, label_batch
 
-    def get_multi_motion(self, motion_list, label_idx_from, label_idx_to):
+    def get_multi_motion(self, motion_list, label_idx_from, label_idx_to, down_sample_scale=1):
         self.label_idx_from = label_idx_from
         self.label_idx_to = label_idx_to
 
@@ -80,7 +87,7 @@ class DataLoader:
             path = self.path_list[idx]
             parsed_data = self.parser.parse(path)
             positions = self.mp.fit_transform([parsed_data])
-            input_batch, label_batch = self.get_pos_batch(positions)
+            input_batch, label_batch = self.get_pos_batch(positions, down_sample_scale)
             input_batch_list.append(input_batch)
             label_batch_list.append(label_batch)
 
@@ -89,7 +96,7 @@ class DataLoader:
 
         return multi_input_batch, multi_label_batch
 
-    def get_total_motion(self, label_idx_from, label_idx_to):
+    def get_total_motion(self, label_idx_from, label_idx_to, down_sample_scale=1):
         self.label_idx_from = label_idx_from
         self.label_idx_to = label_idx_to
 
@@ -99,7 +106,7 @@ class DataLoader:
         for path in self.path_list:
             parsed_data = self.parser.parse(path)
             positions = self.mp.fit_transform([parsed_data])
-            input_batch, label_batch = self.get_pos_batch(positions)
+            input_batch, label_batch = self.get_pos_batch(positions, down_sample_scale)
             input_batch_list.append(input_batch)
             label_batch_list.append(label_batch)
 

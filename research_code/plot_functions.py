@@ -24,6 +24,43 @@ def epoch_ED_plot(log_ED, show=False, save=False, path='result_data/Train_hist.p
     else:
         plt.close()
 
+def epoch_ED_plot_from_txt(path='result_data/Train_hist.png'):
+    epoch_list = []
+    train_ED_list = []
+    test_ED_list = []
+
+    with open(path, 'r') as rf:
+        lines = rf.readlines()
+
+    for line in lines:
+        epoch_idx_from = line.find('[') + 1
+        epoch_idx_to = line.find('/')
+        train_ED_idx_from = line.find('mean of train ED: ') + 18
+        train_ED_idx_to = line.find(' ///')
+        test_ED_idx_from = line.find('mean of test ED: ') + 17
+        test_ED_idx_to = line.find('\n')
+
+        if epoch_idx_from == 0:
+            continue
+
+        epoch = line[epoch_idx_from:epoch_idx_to]
+        train_ED = line[train_ED_idx_from:train_ED_idx_to]
+        test_ED = line[test_ED_idx_from:test_ED_idx_to]
+
+        epoch_list.append(eval(epoch))
+        train_ED_list.append(eval(train_ED))
+        test_ED_list.append(eval(test_ED))
+
+    plt.plot(epoch_list, train_ED_list, label='train_ED')
+    plt.plot(epoch_list, test_ED_list, label='test_ED')
+    plt.xlabel('epoch')
+    plt.ylabel('ED')
+    plt.tight_layout()
+    plt.legend()
+    plt.grid(False)
+    plt.savefig('epoch_ED.png')
+    plt.show()
+
 def frame_dist_plot_from_txt(path = 'result_data/inference_loss.txt') :
     frame_list = []
     ED_list = []

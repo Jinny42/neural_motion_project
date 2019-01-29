@@ -135,16 +135,23 @@ def inference() :
     log_txt.close()
     print('mean loss: %.3f' % np.mean(ED))
 
-def cross_val(max_epoch, data_cut) :
+def cross_val(max_epoch) :
     ##### Data Loader
-    DataLoader=data_load.DataLoader('motion_data/69/')
-    input_batch, label_batch = DataLoader.get_multi_motion([0, 2, 1], 0, 3)
+    DataLoader=data_load.DataLoader()
+    DataLoader.set_subject_path([60, 61, 62, 63, 64, 69, 70, 73, 74, 75])
 
+    ##### training set
+    input_batch, label_batch = DataLoader.get_multi_motion([i for i in range(0, 235)], 0, 3, 8)
 
-    ##### Histogram for Visualizing
-    log_ED = {}
-    log_ED['train_ED'] = []
-    log_ED['val_ED'] = []
+    #### test set
+    test_input_batch, test_label_batch = DataLoader.get_multi_motion([i for i in range(235, 255)], 0, 3)
+
+    ########## don't use because of overflow problem(maybe) ##########
+    # ##### Histogram for Visualizing
+    # log_ED = {}
+    # log_ED['train_ED'] = []
+    # log_ED['val_ED'] = []
+    ##################################################################
 
     ##### Loss Log txt file
     log_txt = open('loss.txt', 'a')
@@ -177,27 +184,29 @@ def cross_val(max_epoch, data_cut) :
         ########################################################################################################
         ##Update
         _, ED = sess.run([train_op, tf.reduce_mean(loss_ED)],
-                             feed_dict={X: input_batch[:data_cut], Y: label_batch[:data_cut], is_training: True})
+                         feed_dict={X: input_batch, Y: label_batch, is_training: True})
 
-        log_txt.write('\n\n[%d/%d] -  mean of ED: %.3f'
-               % ((epoch + 1), max_epoch, ED))
-        log_ED['train_ED'].append(ED)
+        info_txt = '\n\n[%d/%d] -  mean of train ED: %.3f' % ((epoch + 1), max_epoch, ED)
+        log_txt.write(info_txt)
+        print(info_txt)
+        # log_ED['train_ED'].append(ED) ########## don't use because of overflow problem(maybe) ##########
 
         if epoch % 1 == 0 :
-            ED = sess.run(tf.reduce_mean(loss_ED), feed_dict={X: input_batch[data_cut:],
-                                                              Y: label_batch[data_cut:], is_training: False})
+            ED = sess.run(tf.reduce_mean(loss_ED), feed_dict={X: test_input_batch,
+                                                              Y: test_label_batch, is_training: False})
 
-            log_txt.write('\n mean of ED: %.3f'% ED)
-            log_ED['val_ED'].append(ED)
+            info_txt = ' /// mean of test ED: %.3f' % ED
+            log_txt.write(info_txt)
+            print(info_txt)
+            # log_ED['val_ED'].append(ED) ########## don't use because of overflow problem(maybe) ##########
 
 
-    epoch_ED_plot(log_ED, save=True, path='train_hist.png')
+    # epoch_ED_plot(log_ED, save=True, path='train_hist.png') ########## don't use because of overflow problem(maybe) ##########
     log_txt.close()
     saver.save(sess, './model/model.ckpt')
 
 
-
-cross_val(2000, 1156)
-# train(position_batch, hip_label, 10000)
+cross_val(2000)
+# epoch_ED_plot_from_txt('loss.txt')
 # inference()
 # frame_dist_plot_from_txt('inference_loss.txt')
