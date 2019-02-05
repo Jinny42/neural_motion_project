@@ -1,13 +1,19 @@
-import numpy as np
 import os
 from pymo.parsers import BVHParser
 from pymo.preprocessing import *
 
 
 class DataLoader:
+    def __init__(self, root_path = 'motion_data/'):
+        self.path_list = []
+        self.total_path_list = []
+        self.subject_names = os.listdir(root_path)
+        for subject_num in self.subject_names:
+            dir_path = os.path.join(root_path, subject_num)
+            file_names = os.listdir(dir_path)
+            for file_name in file_names:
+                self.total_path_list.append(os.path.join(dir_path, file_name))
 
-    def __init__(self):
-        self.path_list = None
         self.parser = BVHParser()
         self.mp = MocapParameterizer('position')
         self.label_idx_from = None
@@ -15,13 +21,14 @@ class DataLoader:
         self.joints_to_draw = None
         self.df = None
 
-    def set_subject_path(self, subject_list):
-        self.path_list = []
-        for subject_num in subject_list:
-            dir_path = 'motion_data/' + str(subject_num) + '/'
-            file_names = os.listdir(dir_path)
-            for file_name in file_names :
-                self.path_list.append(os.path.join(dir_path, file_name))
+    def set_data_path(self, is_train, train_rate = 0.9):
+        subject_len = len(self.total_path_list)
+        train_len = int(subject_len * train_rate)
+        if is_train :
+            self.path_list = self.total_path_list[:train_len]
+        else :
+            self.path_list = self.total_path_list[train_len:]
+
 
     def get_pos_list(self, frame):
         pos_list = []
