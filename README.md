@@ -370,7 +370,7 @@ Data set을 확대하자 매우 형편없는 결과를 보여주는데 Trainig s
 **Model : 4-Layer Neural Net(without BN)**
 
 
-**Epoch : 30000**
+**Epoch : 11500**
 
 
 **Optimizer : Adam Optimizer(LR : 0.002)**
