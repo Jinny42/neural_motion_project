@@ -381,6 +381,14 @@ Data set을 확대하자 매우 형편없는 결과를 보여주는데 Trainig s
 
 
 
+최종 Training ED : 0.432
+
+
+
+최종 Test ED : 0.670
+
+
+
 Batch Normalization을 제거해보자 성능이 어느정도 향상되었다. 
 
 
