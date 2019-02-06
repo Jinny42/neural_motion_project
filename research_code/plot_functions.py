@@ -28,6 +28,8 @@ def epoch_ED_plot_from_txt(path='result_data/Train_hist.png'):
     epoch_list = []
     train_ED_list = []
     test_ED_list = []
+    train_PCK_list = []
+    test_PCK_list = []
 
     with open(path, 'r') as rf:
         lines = rf.readlines()
@@ -36,9 +38,13 @@ def epoch_ED_plot_from_txt(path='result_data/Train_hist.png'):
         epoch_idx_from = line.find('[') + 1
         epoch_idx_to = line.find('/')
         train_ED_idx_from = line.find('mean of train ED: ') + 18
-        train_ED_idx_to = line.find(' ///')
+        train_ED_idx_to = line.find(' //')
+        train_PCK_idx_from = line.find('train PCK: ') + 11
+        train_PCK_idx_to = line.find(' ///')
         test_ED_idx_from = line.find('mean of test ED: ') + 17
-        test_ED_idx_to = line.find('\n')
+        test_ED_idx_to = line.find(' ////')
+        test_PCK_idx_from = line.find('test PCK: ') + 10
+        test_PCK_idx_to = line.find('\n')
 
         if epoch_idx_from == 0:
             continue
@@ -46,11 +52,16 @@ def epoch_ED_plot_from_txt(path='result_data/Train_hist.png'):
         epoch = line[epoch_idx_from:epoch_idx_to]
         train_ED = line[train_ED_idx_from:train_ED_idx_to]
         test_ED = line[test_ED_idx_from:test_ED_idx_to]
+        train_PCK = line[train_PCK_idx_from:train_PCK_idx_to]
+        test_PCK = line[test_PCK_idx_from:test_PCK_idx_to]
 
         epoch_list.append(eval(epoch))
         train_ED_list.append(eval(train_ED))
         test_ED_list.append(eval(test_ED))
+        train_PCK_list.append(eval(train_PCK))
+        test_PCK_list.append(eval(test_PCK))
 
+    plt.figure()
     plt.plot(epoch_list, train_ED_list, label='train_ED')
     plt.plot(epoch_list, test_ED_list, label='test_ED')
     plt.xlabel('epoch')
@@ -61,9 +72,21 @@ def epoch_ED_plot_from_txt(path='result_data/Train_hist.png'):
     plt.savefig('epoch_ED.png')
     plt.show()
 
+    plt.figure()
+    plt.plot(epoch_list, train_PCK_list, label='train_PCK')
+    plt.plot(epoch_list, test_PCK_list, label='test_PCK')
+    plt.xlabel('epoch')
+    plt.ylabel('PCK')
+    plt.tight_layout()
+    plt.legend()
+    plt.grid(False)
+    plt.savefig('epoch_PCK.png')
+    plt.show()
+
 def frame_dist_plot_from_txt(path = 'result_data/inference_loss.txt') :
     frame_list = []
     ED_list = []
+    PCK_list = []
 
     with open(path, 'r') as rf:
         lines = rf.readlines()
@@ -72,17 +95,22 @@ def frame_dist_plot_from_txt(path = 'result_data/inference_loss.txt') :
         frame_idx_from = line.find('[') + 1
         frame_idx_to = line.find(']')
         ED_idx_from = line.find('-') + 2
-        ED_idx_to = line.find('\n')
+        ED_idx_to = line.find(' /')
+        PCK_idx_from = line.find('/ ') + 2
+        PCK_idx_to = line.find('\n')
 
         if frame_idx_from == 0:
             continue
 
         frame = line[frame_idx_from:frame_idx_to]
         ED = line[ED_idx_from:ED_idx_to]
+        PCK = line[PCK_idx_from:PCK_idx_to]
 
         frame_list.append(eval(frame))
         ED_list.append(eval(ED))
+        PCK_list.append(eval(PCK))
 
+    plt.figure()
     plt.plot(frame_list, ED_list, label='ED')
     plt.xlabel('Frame')
     plt.ylabel('ED')
@@ -90,6 +118,16 @@ def frame_dist_plot_from_txt(path = 'result_data/inference_loss.txt') :
     plt.legend()
     plt.grid(False)
     plt.savefig('Frame_ED.png')
+    plt.show()
+
+    plt.figure()
+    plt.plot(frame_list, PCK_list, label='PCK')
+    plt.xlabel('Frame')
+    plt.ylabel('PCK')
+    plt.tight_layout()
+    plt.legend()
+    plt.grid(False)
+    plt.savefig('Frame_PCK.png')
     plt.show()
 
 
