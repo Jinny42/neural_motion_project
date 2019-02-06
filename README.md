@@ -46,7 +46,7 @@ EXP-5부터는 전체 Motion Data를 모두 사용한다. 서브젝트 상관없
 
 
 ## 2.2. 4-Layer Neural Net
-학습 데이터수 변화에 따른 변화를 관찰하기 위해 사용
+학습 데이터수 변화에 따른 변화를 관찰하기 위해 사용. EXP-6에서는 본 신경망에 Batch Normalization을 제거하고 Bias Function을 더해보았다.
 
 
 
@@ -92,6 +92,11 @@ Input Joint는 Root(Hip)를 제외한 Joint 전체, Output Joint는 Root(hip)이
 
 
 **Epoch : 10000**
+
+
+**Optimizer : Adam Optimizer(LR : 0.0002)**
+
+
 
 ![img](./research_code/result_data/exp1/train_hist.png)
 
@@ -141,8 +146,11 @@ Input Joint는 Root(Hip)를 제외한 Joint 전체, Output Joint는 Root(hip)이
 **Epoch : 3000**
 
 
-조작 변인
+**Optimizer : Adam Optimizer(LR : 0.0002)**
 
+
+
+조작 변인
 
 **Training Frame**
 
@@ -233,6 +241,9 @@ Epoch수는 2000으로 줄인다.
 **Epoch : 2000**
 
 
+**Optimizer : Adam Optimizer(LR : 0.0002)**
+
+
 
 ![img](./research_code/result_data/exp3.1/train_hist.png)
 
@@ -271,6 +282,9 @@ Epoch수는 2000으로 줄인다.
 **Epoch : 10000**
 
 
+**Optimizer : Adam Optimizer(LR : 0.0002)**
+
+
 
 ![img](./research_code/result_data/exp4.1/train_hist.png)
 
@@ -291,6 +305,99 @@ Epoch수는 2000으로 줄인다.
 
 
 또한 지금까지 GD를 이용했는데 SGD를 이용해 보는 것도 좋을 것 같음.
+
+
+## 4.5.EXP-5
+
+여기서부터는 전체 Data set을 모두 활용하기로 한다. 자세한 사항은 1.1.1을 참고.
+
+
+
+**Training Motion : 1 ~ 2293 /8**
+
+
+**Test Motion : 2294 ~ 2548**
+
+
+**Input Joint : All Joints - {Root(Hip)}**
+
+
+**Output Joint : Root(Hip)**
+
+
+**Model : 4-Layer Neural Net**
+
+
+**Epoch : 30000**
+
+
+**Optimizer : Adam Optimizer(LR : 0.002)**
+
+
+
+![img](./research_code/result_data/exp5.1/train_hist.png)
+
+최종 Training ED : 3.980
+
+
+최종 Test ED : 5.606
+
+
+Data set을 확대하자 매우 형편없는 결과를 보여주는데 Trainig set에서조차 일정 수준이상 수렴하지 않는 모습을 모여준다.
+
+
+
+결과를 따로 기록하진 않았지만 신경망에 더 깊게 해보거나 Training set을 줄여보는 등 여러 시도를 해보았으나 결과가 나아지지 않았다.
+
+
+
+## 4.6.EXP-6
+
+
+
+**Training Motion : 1 ~ 2293 /8**
+
+
+**Test Motion : 2294 ~ 2548**
+
+
+**Input Joint : All Joints - {Root(Hip)}**
+
+
+**Output Joint : Root(Hip)**
+
+
+**Model : 4-Layer Neural Net(without BN)**
+
+
+**Epoch : 30000**
+
+
+**Optimizer : Adam Optimizer(LR : 0.002)**
+
+
+
+![img](./research_code/result_data/exp6.1/train_hist.png)
+
+
+
+Batch Normalization을 제거해보자 성능이 어느정도 향상되었다. 
+
+
+
+전체 데이터(모집단)를 그대로 학습에 쓰기 때문에 Whitening에 사용되는 Moving Average와 Variance는 모집단의 것과 전혀 다르지 않을 것이고, 아마 이후 곱해지고 더해지는 scale factor(gamma)와 shift factor(beta)가, 일종의 신경망을 불필요하게 깊게 만드는 효과를 주고 있는 것은 아닌가 하는 생각에 본 실험을 계획해 보았다.
+
+
+
+위 가정을 제대로 검증하기 위해 이후 본 실험에 사용한 'Batch Normalization을 제거한 4-Layer Neural Net'의 결과를 'Batch Normalization을 적용한 2-Layer Neural Net'의 결과와 비교하는 실험을 해보아야 겠다. 
+
+
+
+또한 일반적으로 Batch Normalization은 거의 항상 Network의 수렴속도를 빠르게 하고 Regularizing 효과를 주어 신경망의 성능을 향상시키는 것으로 알려져 있는데 이런 경우는 처음 접해봐서 다소 의아하다. 이후 Batch Normalization 논문을 다시 읽어보고 좀 더 이론적인 검증을 해봐야겠다.
+
+
+
+또한 ED의 진동이 일어나고 있는 것으로 보아 Learning Rate에 문제가 있는 것 같아 바로 Learning Rate를 1/10배해서 ED가 어디까지 줄어드는지 실험해 보아야겠다.
 
 
 
@@ -354,7 +461,7 @@ Epoch수는 2000으로 줄인다.
 
 
 
-위 링크를 참조하여, 각 GPU에 Weight를 공유하는 동일한 모델을 복사하여 만들고, 각각의 Device에서 Feed Forward, Backward가 끝난 뒤 나온 Gradient의 평균을 구해 Weight를 Update하도록 하였다.
+위 링크를 참하여, 각 GPU에 Weight를 공유하는 동일한 모델을 복사하여 만들고, 각각의 Device에서 Feed Forward, Backward가 끝난 뒤 나온 Gradient의 평균을 구해 Weight를 Update하도록 하였다.
 
 
 
