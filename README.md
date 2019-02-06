@@ -32,7 +32,7 @@ Motion을 Locomotion으로 한정하는 것은 Subject 선정과도 관련이 �
 학습엔 69_01 ~ 69_64까지 사용하고 Validation엔 69_65 ~ 69_67까지 사용한다. 69_68 ~ 69_75는 일단 사용하지 않는다.
 
 ### 1.1.1.Use All Data
-EXP-5부터는 전체 Motion Data를 모두 사용한다. 서브젝트 상관없이 모든 모션의 수는 2548개이고 이 중 90%인 1~2293 모션을 Trainig Set으로 나머지 10%인 2294~2548 모션을 Test Set으로 사용한다. Training Set은 8배 Downsample(fps=15)해서 사용한다. 
+EXP-5부터는 전체 Motion Data를 모두 사용한다. 서브젝트 상관없이 모든 모션의 수는 2548개이고 이 중 90%인 1 ~ 2293 모션을 Trainig Set으로 나머지 10%인 2294 ~ 2548 모션을 Test Set으로 사용한다. Training Set은 8배 Downsample(fps=15)해서 사용한다. 
 
 
 
