@@ -335,7 +335,7 @@ Epoch수는 2000으로 줄인다.
 
 
 
-![img](./research_code/result_data/exp5.1/train_hist.png)
+![img](./research_code/result_data/exp5.1/epoch_ED.png)
 
 최종 Training ED : 3.980
 
@@ -377,7 +377,7 @@ Data set을 확대하자 매우 형편없는 결과를 보여주는데 Trainig s
 
 
 
-![img](./research_code/result_data/exp6.1/train_hist.png)
+![img](./research_code/result_data/exp6.1/epoch_ED.png)
 
 
 
