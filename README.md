@@ -36,7 +36,7 @@ EXP-5부터는 전체 Motion Data를 모두 사용한다. 서브젝트 상관없
 
 
 
-1~2293 모션을 8배 Downsample했을 때 Training에 사용된 Frame수는 479984개이며, 2294~2548 모션을 그대로 사용했을 때 Test에 사용된 Frame수는 413825개이다.
+1 ~ 2293 모션을 8배 Downsample했을 때 Training에 사용된 Frame수는 479984개이며, 2294 ~ 2548 모션을 그대로 사용했을 때 Test에 사용된 Frame수는 413825개이다.
 
 
 # 2.Neural Net Architecture
