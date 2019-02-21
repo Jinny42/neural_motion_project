@@ -1,6 +1,8 @@
 import os
+import time
 from pymo.parsers import BVHParser
 from pymo.preprocessing import *
+
 
 
 class DataLoader:
@@ -21,13 +23,59 @@ class DataLoader:
         self.joints_to_draw = None
         self.df = None
 
-    def set_data_path(self, is_train, train_rate = 0.9):
-        subject_len = len(self.total_path_list)
-        train_len = int(subject_len * train_rate)
+    def set_bvh_data_path(self, is_train, train_rate = 0.9):
+        motion_list= []
+        for path in self.toral_path_list :
+            is_bvh = path.find('.bvh')
+            if is_bvh == -1 :
+                continue
+            else :
+                motion_list.append(path)
+        motion_len = len(motion_list)
+        train_len = int(motion_len * train_rate)
         if is_train :
-            self.path_list = self.total_path_list[:train_len]
+            self.path_list = motion_list[:train_len]
         else :
-            self.path_list = self.total_path_list[train_len:]
+            self.path_list = motion_list[train_len:]
+
+    def merge_velocity_data(self):
+        motion_npy_list = []
+        input_batch_list = []
+        label_batch_list = []
+        for path in self.total_path_list:
+            is_npy = path.find('.npy')
+            if is_npy == -1:
+                continue
+            else:
+                motion_npy_list.append(path)
+
+        total_len = len(motion_npy_list)
+        progress = 0
+
+        for path in motion_npy_list:
+            start_time = time.time()
+
+            motion = np.load(path)
+            pre_motion = np.pad(motion, ((1, 0), (0, 0)), 'constant')
+            post_motion = np.pad(motion, ((0, 1), (0, 0)), 'constant')
+            velocity_motion = post_motion - pre_motion
+            velocity_motion = velocity_motion[1:-1]
+            motion_with_velocity = np.concatenate([motion[1:], velocity_motion], axis=1)
+            is_input = path.find('input')
+            if is_input == -1:
+                label_batch_list.append(motion_with_velocity)
+            else:
+                input_batch_list.append(motion_with_velocity)
+
+            progress = progress + 1
+            ptime = time.time() - start_time
+            print('[%d/%d] ptime = %.3f' % (progress, total_len, ptime))
+
+        total_input_batch = np.concatenate(input_batch_list, axis=0)
+        total_label_batch = np.concatenate(label_batch_list, axis=0)
+
+        return total_input_batch, total_label_batch
+
 
 
     def get_pos_list(self, frame):
@@ -110,15 +158,43 @@ class DataLoader:
         input_batch_list = []
         label_batch_list = []
 
+        total_len = len(self.path_list)
+        progress = 0
         for path in self.path_list:
+            start_time = time.time()
+
             parsed_data = self.parser.parse(path)
             positions = self.mp.fit_transform([parsed_data])
             input_batch, label_batch = self.get_pos_batch(positions, down_sample_scale)
             input_batch_list.append(input_batch)
             label_batch_list.append(label_batch)
 
+            progress = progress + 1
+            ptime = time.time() - start_time
+            print('[%d/%d] ptime = %.3f'%(progress, total_len, ptime))
+
         total_input_batch = np.concatenate(input_batch_list, axis=0)
         total_label_batch = np.concatenate(label_batch_list, axis=0)
 
         return total_input_batch, total_label_batch
 
+    def save_total_motion(self, label_idx_from, label_idx_to, down_sample_scale=1):
+        self.label_idx_from = label_idx_from
+        self.label_idx_to = label_idx_to
+
+        total_len = len(self.path_list)
+        progress = 0
+        for path in self.path_list:
+            start_time = time.time()
+
+            parsed_data = self.parser.parse(path)
+            positions = self.mp.fit_transform([parsed_data])
+            input_batch, label_batch = self.get_pos_batch(positions, down_sample_scale)
+            input_data_path = path[:-4] + '_input.npy'
+            label_data_path = path[:-4] + '_label.npy'
+            np.save(input_data_path, input_batch)
+            np.save(label_data_path, label_batch)
+
+            progress = progress + 1
+            ptime = time.time() - start_time
+            print('[%d/%d] ptime = %.3f'%(progress, total_len, ptime))

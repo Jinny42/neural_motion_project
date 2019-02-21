@@ -6,7 +6,7 @@ import time
 
 
 def make_model1(X, isTrain):
-    W1 = tf.get_variable("W1", shape=[111, 3], dtype=np.float32,
+    W1 = tf.get_variable("W1", shape=[108, 6], dtype=np.float32,
                                   initializer=tf.random_normal_initializer(0, tf.sqrt(2/111)))# He initialization
     L1 = tf.matmul(X, W1)
 
@@ -120,6 +120,21 @@ def make_model4(X, isTrain):
 
     return L4
 
+def make_model5(X, isTrain):
+    W1 = tf.get_variable("W1", shape=[216, 256], dtype=np.float32,
+                         initializer=tf.random_normal_initializer(0, tf.sqrt(2 / 111)))  # He initialization
+    B1 = tf.get_variable("B1", shape=[256], dtype=np.float32,
+                         initializer=tf.zeros_initializer())
+    L1 = tf.matmul(X, W1)
+    L1 = tf.nn.bias_add(L1, B1)
+    L1 = tf.nn.relu(L1)
+
+    W2 = tf.get_variable("W2", shape=[256, 12], dtype=np.float32,
+                         initializer=tf.random_normal_initializer(0, tf.sqrt(2 / 256)))
+    L2 = tf.matmul(L1, W2)
+
+    return L2
+
 def make_train_graph(input, label, is_training, gpu_num, split_num):
     input_list = tf.split(input, gpu_num * split_num)
     label_list = tf.split(label, gpu_num * split_num)
@@ -135,7 +150,7 @@ def make_train_graph(input, label, is_training, gpu_num, split_num):
             for i in range(split_num) :
                 iter = iter + 1
                 with tf.variable_scope(tf.get_variable_scope(), reuse= iter > 0):
-                    logit = make_model1(input_list[iter], is_training)
+                    logit = make_model5(input_list[iter], is_training)
                     loss_L2 = tf.pow(logit - label_list[iter], 2)
                     sum_L2 = tf.reduce_sum(loss_L2)
                     ED = tf.sqrt(tf.reduce_sum(loss_L2, axis=1))
@@ -160,7 +175,7 @@ def make_train_graph(input, label, is_training, gpu_num, split_num):
     with tf.control_dependencies(tf.get_collection(tf.GraphKeys.UPDATE_OPS)):
         #옵티마이저를 정의할 때 colocate_gradients_with_ops=True 옵션을 주어 Forward가 일어났던 GPU에서 Gradient 계산도 일어나도록 처리.
         #http://openresearch.ai/t/tensorpack-multigpu/45
-        train_op = tf.train.AdamOptimizer(0.002).minimize(sum_L2, colocate_gradients_with_ops=True)
+        train_op = tf.train.AdamOptimizer(0.0002).minimize(sum_L2, colocate_gradients_with_ops=True)
 
     return train_op, total_sum_L2, total_logit, total_ED, total_pck
 
@@ -196,7 +211,7 @@ def train(input, label, max_epoch, gpu_num, split_num) :
         _, ED = sess.run([train_op, mean_ED],
                              feed_dict={X: input, Y: label, is_training: True})
 
-        if epoch % 100 == 0 :
+        if epoch +1 % 100 == 0 :
             saver.save(sess, './model/model.ckpt')
             print('saved')
 
@@ -204,8 +219,8 @@ def train(input, label, max_epoch, gpu_num, split_num) :
               % ((epoch + 1), max_epoch, ED))
 
 def inference(gpu_num=2, split_num=1) :
-    input_batch = np.load('test_input_batch.npy')
-    label_batch = np.load('test_label_batch.npy')
+    input_batch = np.load('test_input_batch2.npy')
+    label_batch = np.load('test_label_batch2.npy')
 
     test_len = len(input_batch)
 
@@ -218,9 +233,9 @@ def inference(gpu_num=2, split_num=1) :
 
     #####Make placeholder
     ### Input
-    X = tf.placeholder(tf.float32, [None, 111])
+    X = tf.placeholder(tf.float32, [None, 108])
     ### Label
-    Y = tf.placeholder(tf.float32, [None, 3])
+    Y = tf.placeholder(tf.float32, [None, 6])
     ### Is training
     is_training = tf.placeholder(tf.bool)
 
@@ -250,10 +265,10 @@ def inference(gpu_num=2, split_num=1) :
     print('mean ED: %.3f, mean PCK: %.3f' % (np.mean(ED), np.mean(pck)))
 
 def cross_val(max_epoch, gpu_num=2, split_num=1, already_done_epoch=0) :
-    input_batch = np.load('input_batch.npy')
-    label_batch = np.load('label_batch.npy')
-    test_input_batch = np.load('test_input_batch.npy')
-    test_label_batch = np.load('test_label_batch.npy')
+    input_batch = np.load('input_batch3.npy')
+    label_batch = np.load('label_batch3.npy')
+    test_input_batch = np.load('test_input_batch3.npy')
+    test_label_batch = np.load('test_label_batch3.npy')
 
     train_len = len(input_batch)
     test_len = len(test_input_batch)
@@ -271,9 +286,9 @@ def cross_val(max_epoch, gpu_num=2, split_num=1, already_done_epoch=0) :
 
     #####Make placeholder
     ### Input
-    X = tf.placeholder(tf.float32, [None, 111])
+    X = tf.placeholder(tf.float32, [None, 216])
     ### Label
-    Y = tf.placeholder(tf.float32, [None, 3])
+    Y = tf.placeholder(tf.float32, [None, 12])
     ### Is training
     is_training = tf.placeholder(tf.bool)
 
@@ -327,9 +342,9 @@ def cross_val(max_epoch, gpu_num=2, split_num=1, already_done_epoch=0) :
 
 
 # total_start_time= time.time()
-cross_val(300000, 2, 1, 0)
+cross_val(100000, 2, 1, 0)
 # print(time.time()-total_start_time)
 epoch_ED_plot_from_txt('loss.txt')
 
-inference()
-frame_dist_plot_from_txt('inference_loss.txt')
+# inference()
+# frame_dist_plot_from_txt('inference_loss.txt')
