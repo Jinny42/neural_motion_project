@@ -425,7 +425,7 @@ Batch Normalization을 제거해보자 성능이 어느정도 향상되었다.
 
 
 
-이후 Learning Rate룰 더 내려봤지만 성능에 개선이 없음을 확인.
+이후 Learning Rate 더 내려봤지만 성능에 개선이 없음을 확인.
 
 
 
