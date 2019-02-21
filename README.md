@@ -407,6 +407,120 @@ Batch Normalization을 제거해보자 성능이 어느정도 향상되었다.
 
 또한 ED의 진동이 일어나고 있는 것으로 보아 Learning Rate에 문제가 있는 것 같아 바로 Learning Rate를 1/10배해서 ED가 어디까지 줄어드는지 실험해 보아야겠다.
 
+### 4.6.1
+
+**Optimizer : Adam Optimizer(LR : 0.0002)**
+
+
+
+![img](./research_code/result_data/exp6.2/epoch_ED.png)
+
+
+
+최종 Training ED : 0.399  
+
+
+
+최종 Test ED : 0.662
+
+
+
+이후 Learning Rate룰 더 내려봤지만 성능에 개선이 없음을 확인.
+
+
+
+## 4.7.EXP-7
+
+
+
+**Training Motion : 1 ~ 2293 /8**
+
+
+**Test Motion : 2294 ~ 2548**
+
+
+**Input Joint : All Joints - {Root(Hip)}**
+
+
+**Output Joint : Root(Hip)**
+
+
+**Model : 1-Layer Neural Net(Single Layer Perceptron)**
+
+
+**Epoch : 30000**
+
+
+**Optimizer : Adam Optimizer(LR : 0.002)**
+
+
+![img](./research_code/result_data/exp7.1/epoch_ED.png)
+
+
+
+최종 Training ED : 0.047 (PCK : 100%)
+
+
+
+최종 Test ED : 0.075 (PCK : 100%)
+
+
+
+![img](./research_code/result_data/exp7.1/Frame_PCK.png)
+
+
+
+Single Layer Perceptron으로 바꾸자 PCK 100% 달성. Joint의 수를 늘려보기로 한다.
+
+
+
+
+## 4.8.EXP-8
+
+
+**Training Motion : 1 ~ 2293 /8**
+
+
+**Test Motion : 2294 ~ 2548**
+
+
+**Input Joint : All Joints - {Left Foot, Left Footnub}**
+
+
+**Output Joint : {Left Foot, Left Footnub}**
+
+
+**Model : 1-Layer Neural Net(Single Layer Perceptron)**
+
+
+**Epoch : 30000**
+
+
+**Optimizer : Adam Optimizer(LR : 0.002)**
+
+
+
+
+![img](./research_code/result_data/exp8.1/epoch_ED.png)
+
+
+최종 Training ED : 0.280 (PCK : 63.5%)
+
+
+
+최종 Test ED : 0.335 (PCK : 53.3%)
+
+
+![img](./research_code/result_data/exp8.1/epoch_PCK.png)
+
+
+
+이외에도 신경망을 깊게해보고, 단순 Epock을 늘려보고, BN을 제거했다 넣었다 해보고, LR을 낮춰보고, Optimizer를 바꿔보고 별 짓을 다 해봤지만 성능향상이 거의 없음을 확인.
+
+
+
+Naive한 방법론으로는 한계에 봉착했다고 생각되어져서 모션신호를 Neural Net으로 처리하는 관련논문들을 찾아보고 좀 더 검증된 Representation Encoding 방법과 Neural Net Architecture로 실험계획을 새로 세워야겠음.
+
 
 
 # 5.ETC
