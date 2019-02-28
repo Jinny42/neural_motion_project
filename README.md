@@ -657,3 +657,27 @@ for epoch in range(max_epoch-already_done_epoch):
 
 
 프레임 별로 ED를 각각 확인하는 코드와 평균 ED를 구하는 코드를 분리시키고 싶지 않아서 나름대로 효율적으로 한답시고 저렇게 짰던 건데 정말 극도로 나쁜 습관이라는 것을 깊게 실감하며, 앞으로는 절대 반복문안에 세션 이외의 tf계열 함수를(대부분의 tf계열 함수가 반환하는 것은 tensor다!) 삽입하지 않는 습관을 들여 다시는 저런 실수를 하지 말아야겠다.
+
+
+
+## 5.3.Rotation Transform Error
+
+
+
+본 실험에서 BVH 파일 파싱 및 Position 추출에 사용했던 라이브러리인 PyMO에 심각한 오류가 발견되었다. PyMO로 추출한 Skeleton을 Visualize 해본 결과 사치가 뒤틀린 채 말도 안 되는 움직임을 보이는 모션들이 나타난 것이다.
+
+
+
+원인은 Joint들의 X축 Rotation과 Z축 Rotation이 서로 뒤바뀐 것이었다. BVH 파일중에는 Rotation Channel이 XYZ순으로 배열된 것도 있고 ZYX순으로 배열된 것도 있고 파일마다 순서가 다른데 PyMO 제작자는 ZYX순 배열에 대해서만 고려하고 있었다. Position Matrix(Translation Matrix)들끼리는 교환법칙이 성립하여 순서가 딱히 상관없지만, Rotation Matrix는 교환법칙이 성립하지 않기 때문에 반드시 BVH파일에 정의된 순서대로 Matrix들을 Join 해주어야 한다.
+
+
+
+분명 컴퓨터그래픽스 수업시간에 들었던 내용인데 막상 남이 짠 코드를 들여다 보려니 이 문제를 찾기 정말 힘들었다. 모든 배열순서에 대해 적용가능하게 코드를 수정하여 PyMO에 Pull Request했다.
+
+
+
+수정된 부분은 아래 링크에서 확인할 수 있다.
+[https://github.com/omimo/PyMO/pull/7/files]
+
+
+[https://github.com/demul/PyMO/commit/ced6ae980da7f09c15f1550e454ccd9a2a50d464]
