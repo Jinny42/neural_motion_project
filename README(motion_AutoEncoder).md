@@ -66,6 +66,7 @@ Clip Image가 CNN으로 처리할 수 있는 분포와 패턴을 가지고 있�
 ![img](./motion_AutoEncoder/images/img4.JPG)
 
 
+
 신경망 구조를 그림으로 나타내면 위와 같다. 4개의 열(관절)이 지워진 클립이 입력으로 주어지면, 
 
 
