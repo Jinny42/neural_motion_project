@@ -63,6 +63,27 @@ Clip Image가 CNN으로 처리할 수 있는 분포와 패턴을 가지고 있�
 
 
 
+![img](./motion_AutoEncoder/images/img4.JPG)
+
+
+신경망 구조를 그림으로 나타내면 위와 같다. 4개의 열(관절)이 지워진 클립이 입력으로 주어지면, 
+
+
+먼저 Convolution의 용이함을 위해 Resize된 뒤(Linear Interpolation),
+
+
+5층의 (Strided Convolution + Batch Normalization + Relu) 계층,
+
+
+2층의 (1x1 Convolution + Batch Normalization + Relu) 계층,
+
+
+4층의 (Transposed Convolution + Batch Normalization + Relu) 계층을 거쳐 
+
+
+마지막으로 1번의 Transposed Convolution 계층을 지나, 원본클립에서 지워진 열 각각에 대응되는 4개의 열을 가진 64*4*3 클립이 나오게 된다.
+
+
 
 ## 2.3. Augmentation
 최초 실험시 절대좌표를 쓰다보니 회전변환에 약한 모습을 보여, 매 Epoch마다 모든 모션에 랜덤한 각도의 y축 회전변환을 적용하여 학습시켰더니 절대좌표를 사용함에도 불구하고, 회전에도 어느정도 강건해지게 되었다.
