@@ -29,12 +29,12 @@ CMU Motion Capture Dataset의 모든 모션을 대상으로 실험을 진행한�
 
 ## 2.1. Motion clip
 
-![img](./motion_AutoEncoder/images/img1.jpg)
+![img](./motion_AutoEncoder/images/img1.JPG)
 
 Skeleton의 각 관절을 위와 같이 놓았을 때,
 
 
-![img](./motion_AutoEncoder/images/img2.jpg)
+![img](./motion_AutoEncoder/images/img2.JPG)
 
 Frame, Joint, Axis를 축으로 삼아 순서대로 나열하여 마치 이미지처럼 보이게 한 것을 클립이라 한다.
 
@@ -46,7 +46,7 @@ Frame, Joint, Axis를 축으로 삼아 순서대로 나열하여 마치 이미�
 모션을 클립화하여 CNN의 Input으로 사용하는 방법을 제안한 논문([https://arxiv.org/abs/1703.03492])
 모션을 Clip화한 Image에도 Pattern이 있고 이로부터 특징을 CNN으로 추출해 분류에 사용할 수 있다는 것이 위 논문의 핵심 아이디어이다.
 
-![img](./motion_AutoEncoder/images/img3.jpg)
+![img](./motion_AutoEncoder/images/img3.JPG)
 
 
 다만 내가 풀고자 하는 문제는 원본 Skeleton의 일부 Joint 위치를 알 수 없는 상태에서 나머지 Joint의 위치만으로 해당 Joint의 위치를 추정해내는 것이므로, 이로부터 만들어지는 Clip Image는 위의 그림처럼 마치 한 줄이 지워져 나간 모습일 것이다.
