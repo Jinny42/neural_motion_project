@@ -22,6 +22,9 @@ CMU Motion Capture Dataset의 모든 모션을 대상으로 실험을 진행한�
 
 
 
+
+
+
 # 2.Neural Net Architecture
 
 ## 2.1. Motion clip
@@ -62,6 +65,9 @@ Clip Image가 CNN으로 처리할 수 있는 분포와 패턴을 가지고 있�
 
 
 
+
+
+
 # 3.EXP Result
 
 
@@ -86,6 +92,10 @@ Clip Image가 CNN으로 처리할 수 있는 분포와 패턴을 가지고 있�
 **Optimizer : Adam Optimizer(LR : 0.0002)**
 
 
+================================================================
+
+
+
 최종 Training ED : 0.221
 
 
@@ -96,10 +106,16 @@ Epoch당 실행시간 : 약 26초
 
 
 
+
+
+
 # 4.Inference Visualization
 
 
 https://drive.google.com/file/d/13Il4k-H2cvRXv0rgfwfifXtl9RgiAC-z/view?usp=sharing
+
+
+
 
 
 
