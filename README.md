@@ -681,3 +681,10 @@ for epoch in range(max_epoch-already_done_epoch):
 
 
 [https://github.com/demul/PyMO/commit/ced6ae980da7f09c15f1550e454ccd9a2a50d464]
+
+
+# 6.Motion AutoEncoder
+
+
+
+새로운 구조를 적용하면서 실험설계 및 소스코드가 많이 바뀌었으므로 README2.md에 바뀐 구조에 대한 실험을 기록하도록 한다.
