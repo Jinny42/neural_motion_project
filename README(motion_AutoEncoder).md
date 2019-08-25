@@ -44,6 +44,10 @@ Frame, Joint, Axis를 축으로 삼아 순서대로 나열하여 마치 이미�
 
 ## 2.2. Motion Auto Encoder
 모션을 클립화하여 CNN의 Input으로 사용하는 방법을 제안한 논문([https://arxiv.org/abs/1703.03492])
+
+
+
+
 모션을 Clip화한 Image에도 Pattern이 있고 이로부터 특징을 CNN으로 추출해 분류에 사용할 수 있다는 것이 위 논문의 핵심 아이디어이다.
 
 ![img](./motion_AutoEncoder/images/img3.JPG)
