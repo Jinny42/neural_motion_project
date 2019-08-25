@@ -1,0 +1,4366 @@
+
+[1/10000] -  mean of train L2: 117.925 // mean of test L2: 180.169 /// ptime: 37.850
+
+[2/10000] -  mean of train L2: 101.418 // mean of test L2: 103.071 /// ptime: 25.909
+
+[3/10000] -  mean of train L2: 92.881 // mean of test L2: 107.136 /// ptime: 25.937
+
+[4/10000] -  mean of train L2: 86.692 // mean of test L2: 104.651 /// ptime: 25.919
+
+[5/10000] -  mean of train L2: 80.007 // mean of test L2: 99.409 /// ptime: 26.157
+
+[6/10000] -  mean of train L2: 74.866 // mean of test L2: 95.311 /// ptime: 26.270
+
+[7/10000] -  mean of train L2: 69.076 // mean of test L2: 87.803 /// ptime: 25.568
+
+[8/10000] -  mean of train L2: 64.184 // mean of test L2: 80.523 /// ptime: 25.481
+
+[9/10000] -  mean of train L2: 59.386 // mean of test L2: 75.932 /// ptime: 25.565
+
+[10/10000] -  mean of train L2: 54.688 // mean of test L2: 69.101 /// ptime: 25.856
+
+[11/10000] -  mean of train L2: 50.529 // mean of test L2: 64.060 /// ptime: 25.853
+
+[12/10000] -  mean of train L2: 47.259 // mean of test L2: 59.314 /// ptime: 25.863
+
+[13/10000] -  mean of train L2: 43.387 // mean of test L2: 53.995 /// ptime: 25.932
+
+[14/10000] -  mean of train L2: 39.878 // mean of test L2: 51.562 /// ptime: 25.791
+
+[15/10000] -  mean of train L2: 35.996 // mean of test L2: 45.075 /// ptime: 25.829
+
+[16/10000] -  mean of train L2: 33.224 // mean of test L2: 41.653 /// ptime: 25.773
+
+[17/10000] -  mean of train L2: 30.108 // mean of test L2: 39.072 /// ptime: 25.688
+
+[18/10000] -  mean of train L2: 27.395 // mean of test L2: 36.908 /// ptime: 25.463
+
+[19/10000] -  mean of train L2: 24.866 // mean of test L2: 31.389 /// ptime: 25.774
+
+[20/10000] -  mean of train L2: 22.682 // mean of test L2: 31.352 /// ptime: 25.765
+
+[21/10000] -  mean of train L2: 20.523 // mean of test L2: 29.238 /// ptime: 25.778
+
+[22/10000] -  mean of train L2: 18.152 // mean of test L2: 25.597 /// ptime: 25.733
+
+[23/10000] -  mean of train L2: 16.321 // mean of test L2: 23.606 /// ptime: 26.032
+
+[24/10000] -  mean of train L2: 14.601 // mean of test L2: 21.169 /// ptime: 25.829
+
+[25/10000] -  mean of train L2: 13.046 // mean of test L2: 19.761 /// ptime: 25.767
+
+[26/10000] -  mean of train L2: 11.671 // mean of test L2: 17.037 /// ptime: 25.899
+
+[27/10000] -  mean of train L2: 10.382 // mean of test L2: 15.986 /// ptime: 25.677
+
+[28/10000] -  mean of train L2: 9.313 // mean of test L2: 14.983 /// ptime: 25.476
+
+[29/10000] -  mean of train L2: 8.296 // mean of test L2: 14.376 /// ptime: 25.709
+
+[30/10000] -  mean of train L2: 7.600 // mean of test L2: 12.558 /// ptime: 25.285
+
+[31/10000] -  mean of train L2: 6.597 // mean of test L2: 11.830 /// ptime: 26.045
+
+[32/10000] -  mean of train L2: 6.260 // mean of test L2: 12.925 /// ptime: 25.821
+
+[33/10000] -  mean of train L2: 5.627 // mean of test L2: 10.828 /// ptime: 25.720
+
+[34/10000] -  mean of train L2: 5.166 // mean of test L2: 10.336 /// ptime: 25.626
+
+[35/10000] -  mean of train L2: 4.628 // mean of test L2: 11.039 /// ptime: 25.835
+
+[36/10000] -  mean of train L2: 4.340 // mean of test L2: 9.670 /// ptime: 25.922
+
+[37/10000] -  mean of train L2: 3.978 // mean of test L2: 8.928 /// ptime: 25.712
+
+[38/10000] -  mean of train L2: 3.638 // mean of test L2: 9.116 /// ptime: 26.126
+
+[39/10000] -  mean of train L2: 3.434 // mean of test L2: 8.604 /// ptime: 25.789
+
+[40/10000] -  mean of train L2: 3.333 // mean of test L2: 8.003 /// ptime: 25.853
+
+[41/10000] -  mean of train L2: 3.201 // mean of test L2: 8.657 /// ptime: 25.693
+
+[42/10000] -  mean of train L2: 3.066 // mean of test L2: 7.978 /// ptime: 25.857
+
+[43/10000] -  mean of train L2: 2.941 // mean of test L2: 8.306 /// ptime: 25.654
+
+[44/10000] -  mean of train L2: 2.771 // mean of test L2: 7.755 /// ptime: 25.808
+
+[45/10000] -  mean of train L2: 2.706 // mean of test L2: 7.499 /// ptime: 25.898
+
+[46/10000] -  mean of train L2: 2.580 // mean of test L2: 7.701 /// ptime: 25.957
+
+[47/10000] -  mean of train L2: 2.495 // mean of test L2: 6.856 /// ptime: 25.823
+
+[48/10000] -  mean of train L2: 2.424 // mean of test L2: 7.662 /// ptime: 25.940
+
+[49/10000] -  mean of train L2: 2.435 // mean of test L2: 7.275 /// ptime: 25.756
+
+[50/10000] -  mean of train L2: 2.392 // mean of test L2: 8.241 /// ptime: 25.470
+
+[51/10000] -  mean of train L2: 2.366 // mean of test L2: 7.509 /// ptime: 25.792
+
+[52/10000] -  mean of train L2: 2.264 // mean of test L2: 7.367 /// ptime: 26.051
+
+[53/10000] -  mean of train L2: 2.175 // mean of test L2: 7.351 /// ptime: 25.719
+
+[54/10000] -  mean of train L2: 2.216 // mean of test L2: 7.429 /// ptime: 25.806
+
+[55/10000] -  mean of train L2: 2.191 // mean of test L2: 7.112 /// ptime: 25.574
+
+[56/10000] -  mean of train L2: 2.113 // mean of test L2: 6.544 /// ptime: 25.685
+
+[57/10000] -  mean of train L2: 2.103 // mean of test L2: 6.792 /// ptime: 25.569
+
+[58/10000] -  mean of train L2: 2.081 // mean of test L2: 7.117 /// ptime: 25.449
+
+[59/10000] -  mean of train L2: 1.933 // mean of test L2: 6.311 /// ptime: 25.905
+
+[60/10000] -  mean of train L2: 1.972 // mean of test L2: 6.651 /// ptime: 25.831
+
+[61/10000] -  mean of train L2: 1.906 // mean of test L2: 6.684 /// ptime: 25.943
+
+[62/10000] -  mean of train L2: 1.892 // mean of test L2: 6.797 /// ptime: 26.022
+
+[63/10000] -  mean of train L2: 1.907 // mean of test L2: 6.746 /// ptime: 25.877
+
+[64/10000] -  mean of train L2: 1.891 // mean of test L2: 6.792 /// ptime: 25.883
+
+[65/10000] -  mean of train L2: 1.935 // mean of test L2: 6.919 /// ptime: 25.935
+
+[66/10000] -  mean of train L2: 1.818 // mean of test L2: 6.661 /// ptime: 25.885
+
+[67/10000] -  mean of train L2: 1.839 // mean of test L2: 6.704 /// ptime: 25.456
+
+[68/10000] -  mean of train L2: 1.794 // mean of test L2: 7.336 /// ptime: 25.646
+
+[69/10000] -  mean of train L2: 1.876 // mean of test L2: 6.334 /// ptime: 25.721
+
+[70/10000] -  mean of train L2: 1.724 // mean of test L2: 6.346 /// ptime: 25.900
+
+[71/10000] -  mean of train L2: 1.744 // mean of test L2: 6.800 /// ptime: 25.843
+
+[72/10000] -  mean of train L2: 1.729 // mean of test L2: 6.485 /// ptime: 26.058
+
+[73/10000] -  mean of train L2: 1.737 // mean of test L2: 6.656 /// ptime: 25.420
+
+[74/10000] -  mean of train L2: 1.714 // mean of test L2: 6.208 /// ptime: 25.788
+
+[75/10000] -  mean of train L2: 1.655 // mean of test L2: 6.436 /// ptime: 26.002
+
+[76/10000] -  mean of train L2: 1.625 // mean of test L2: 6.581 /// ptime: 25.865
+
+[77/10000] -  mean of train L2: 1.672 // mean of test L2: 6.169 /// ptime: 25.318
+
+[78/10000] -  mean of train L2: 1.597 // mean of test L2: 6.749 /// ptime: 26.087
+
+[79/10000] -  mean of train L2: 1.609 // mean of test L2: 6.197 /// ptime: 25.911
+
+[80/10000] -  mean of train L2: 1.606 // mean of test L2: 5.785 /// ptime: 25.908
+
+[81/10000] -  mean of train L2: 1.652 // mean of test L2: 6.688 /// ptime: 25.791
+
+[82/10000] -  mean of train L2: 1.542 // mean of test L2: 5.895 /// ptime: 25.789
+
+[83/10000] -  mean of train L2: 1.521 // mean of test L2: 6.171 /// ptime: 25.902
+
+[84/10000] -  mean of train L2: 1.513 // mean of test L2: 5.832 /// ptime: 25.533
+
+[85/10000] -  mean of train L2: 1.488 // mean of test L2: 5.609 /// ptime: 25.892
+
+[86/10000] -  mean of train L2: 1.478 // mean of test L2: 5.899 /// ptime: 25.395
+
+[87/10000] -  mean of train L2: 1.493 // mean of test L2: 6.334 /// ptime: 25.771
+
+[88/10000] -  mean of train L2: 1.440 // mean of test L2: 6.144 /// ptime: 25.765
+
+[89/10000] -  mean of train L2: 1.399 // mean of test L2: 5.861 /// ptime: 25.679
+
+[90/10000] -  mean of train L2: 1.456 // mean of test L2: 5.581 /// ptime: 25.519
+
+[91/10000] -  mean of train L2: 1.417 // mean of test L2: 5.658 /// ptime: 25.440
+
+[92/10000] -  mean of train L2: 1.345 // mean of test L2: 5.800 /// ptime: 25.918
+
+[93/10000] -  mean of train L2: 1.359 // mean of test L2: 5.599 /// ptime: 25.919
+
+[94/10000] -  mean of train L2: 1.315 // mean of test L2: 5.480 /// ptime: 25.894
+
+[95/10000] -  mean of train L2: 1.318 // mean of test L2: 5.410 /// ptime: 25.847
+
+[96/10000] -  mean of train L2: 1.334 // mean of test L2: 5.370 /// ptime: 25.702
+
+[97/10000] -  mean of train L2: 1.331 // mean of test L2: 5.887 /// ptime: 25.664
+
+[98/10000] -  mean of train L2: 1.300 // mean of test L2: 5.394 /// ptime: 25.997
+
+[99/10000] -  mean of train L2: 1.289 // mean of test L2: 5.570 /// ptime: 25.735
+
+[100/10000] -  mean of train L2: 1.240 // mean of test L2: 5.561 /// ptime: 25.805
+
+[101/10000] -  mean of train L2: 1.276 // mean of test L2: 5.446 /// ptime: 25.685
+
+[102/10000] -  mean of train L2: 1.164 // mean of test L2: 5.364 /// ptime: 25.938
+
+[103/10000] -  mean of train L2: 1.174 // mean of test L2: 5.462 /// ptime: 25.867
+
+[104/10000] -  mean of train L2: 1.184 // mean of test L2: 5.298 /// ptime: 25.939
+
+[105/10000] -  mean of train L2: 1.180 // mean of test L2: 5.309 /// ptime: 25.935
+
+[106/10000] -  mean of train L2: 1.175 // mean of test L2: 5.293 /// ptime: 25.433
+
+[107/10000] -  mean of train L2: 1.194 // mean of test L2: 5.462 /// ptime: 25.793
+
+[108/10000] -  mean of train L2: 1.233 // mean of test L2: 5.297 /// ptime: 26.041
+
+[109/10000] -  mean of train L2: 1.129 // mean of test L2: 5.304 /// ptime: 25.963
+
+[110/10000] -  mean of train L2: 1.167 // mean of test L2: 5.285 /// ptime: 25.904
+
+[111/10000] -  mean of train L2: 1.108 // mean of test L2: 5.267 /// ptime: 25.375
+
+[112/10000] -  mean of train L2: 1.185 // mean of test L2: 5.270 /// ptime: 25.884
+
+[113/10000] -  mean of train L2: 1.089 // mean of test L2: 5.191 /// ptime: 25.670
+
+[114/10000] -  mean of train L2: 1.090 // mean of test L2: 5.404 /// ptime: 25.552
+
+[115/10000] -  mean of train L2: 1.119 // mean of test L2: 5.297 /// ptime: 25.638
+
+[116/10000] -  mean of train L2: 1.033 // mean of test L2: 5.362 /// ptime: 25.713
+
+[117/10000] -  mean of train L2: 1.046 // mean of test L2: 5.066 /// ptime: 25.650
+
+[118/10000] -  mean of train L2: 1.055 // mean of test L2: 5.102 /// ptime: 25.328
+
+[119/10000] -  mean of train L2: 1.036 // mean of test L2: 5.186 /// ptime: 25.678
+
+[120/10000] -  mean of train L2: 1.037 // mean of test L2: 5.138 /// ptime: 25.677
+
+[121/10000] -  mean of train L2: 1.045 // mean of test L2: 5.030 /// ptime: 25.714
+
+[122/10000] -  mean of train L2: 0.991 // mean of test L2: 5.152 /// ptime: 25.872
+
+[123/10000] -  mean of train L2: 1.008 // mean of test L2: 5.304 /// ptime: 26.005
+
+[124/10000] -  mean of train L2: 1.005 // mean of test L2: 5.214 /// ptime: 25.884
+
+[125/10000] -  mean of train L2: 1.030 // mean of test L2: 5.183 /// ptime: 25.725
+
+[126/10000] -  mean of train L2: 1.007 // mean of test L2: 5.231 /// ptime: 25.773
+
+[127/10000] -  mean of train L2: 1.000 // mean of test L2: 5.118 /// ptime: 25.762
+
+[128/10000] -  mean of train L2: 0.984 // mean of test L2: 5.153 /// ptime: 25.778
+
+[129/10000] -  mean of train L2: 0.964 // mean of test L2: 5.142 /// ptime: 25.608
+
+[130/10000] -  mean of train L2: 0.997 // mean of test L2: 5.429 /// ptime: 25.740
+
+[131/10000] -  mean of train L2: 0.971 // mean of test L2: 5.174 /// ptime: 26.029
+
+[132/10000] -  mean of train L2: 0.924 // mean of test L2: 5.049 /// ptime: 25.586
+
+[133/10000] -  mean of train L2: 0.910 // mean of test L2: 5.080 /// ptime: 25.888
+
+[134/10000] -  mean of train L2: 0.972 // mean of test L2: 5.157 /// ptime: 25.460
+
+[135/10000] -  mean of train L2: 0.926 // mean of test L2: 5.102 /// ptime: 25.887
+
+[136/10000] -  mean of train L2: 0.884 // mean of test L2: 5.196 /// ptime: 25.548
+
+[137/10000] -  mean of train L2: 0.916 // mean of test L2: 5.157 /// ptime: 25.643
+
+[138/10000] -  mean of train L2: 0.899 // mean of test L2: 5.099 /// ptime: 25.595
+
+[139/10000] -  mean of train L2: 0.931 // mean of test L2: 5.041 /// ptime: 25.668
+
+[140/10000] -  mean of train L2: 0.909 // mean of test L2: 5.034 /// ptime: 25.719
+
+[141/10000] -  mean of train L2: 0.901 // mean of test L2: 5.049 /// ptime: 25.761
+
+[142/10000] -  mean of train L2: 0.887 // mean of test L2: 5.102 /// ptime: 25.500
+
+[143/10000] -  mean of train L2: 0.882 // mean of test L2: 5.169 /// ptime: 25.601
+
+[144/10000] -  mean of train L2: 0.916 // mean of test L2: 5.173 /// ptime: 25.529
+
+[145/10000] -  mean of train L2: 0.846 // mean of test L2: 5.112 /// ptime: 25.622
+
+[146/10000] -  mean of train L2: 0.893 // mean of test L2: 5.064 /// ptime: 25.655
+
+[147/10000] -  mean of train L2: 0.884 // mean of test L2: 5.043 /// ptime: 25.927
+
+[148/10000] -  mean of train L2: 0.837 // mean of test L2: 5.041 /// ptime: 25.717
+
+[149/10000] -  mean of train L2: 0.866 // mean of test L2: 5.100 /// ptime: 25.649
+
+[150/10000] -  mean of train L2: 0.795 // mean of test L2: 5.208 /// ptime: 25.528
+
+[151/10000] -  mean of train L2: 0.796 // mean of test L2: 5.008 /// ptime: 25.501
+
+[152/10000] -  mean of train L2: 0.794 // mean of test L2: 5.060 /// ptime: 25.453
+
+[153/10000] -  mean of train L2: 0.841 // mean of test L2: 5.070 /// ptime: 25.559
+
+[154/10000] -  mean of train L2: 0.818 // mean of test L2: 5.214 /// ptime: 25.915
+
+[155/10000] -  mean of train L2: 0.815 // mean of test L2: 4.944 /// ptime: 25.872
+
+[156/10000] -  mean of train L2: 0.757 // mean of test L2: 5.127 /// ptime: 25.528
+
+[157/10000] -  mean of train L2: 0.785 // mean of test L2: 5.113 /// ptime: 25.785
+
+[158/10000] -  mean of train L2: 0.773 // mean of test L2: 5.043 /// ptime: 25.928
+
+[159/10000] -  mean of train L2: 0.761 // mean of test L2: 5.090 /// ptime: 25.779
+
+[160/10000] -  mean of train L2: 0.816 // mean of test L2: 5.048 /// ptime: 25.681
+
+[161/10000] -  mean of train L2: 0.753 // mean of test L2: 5.067 /// ptime: 25.760
+
+[162/10000] -  mean of train L2: 0.766 // mean of test L2: 5.064 /// ptime: 25.667
+
+[163/10000] -  mean of train L2: 0.748 // mean of test L2: 4.998 /// ptime: 25.614
+
+[164/10000] -  mean of train L2: 0.748 // mean of test L2: 5.002 /// ptime: 25.863
+
+[165/10000] -  mean of train L2: 0.770 // mean of test L2: 5.164 /// ptime: 25.779
+
+[166/10000] -  mean of train L2: 0.705 // mean of test L2: 4.957 /// ptime: 25.984
+
+[167/10000] -  mean of train L2: 0.743 // mean of test L2: 4.971 /// ptime: 25.892
+
+[168/10000] -  mean of train L2: 0.741 // mean of test L2: 4.949 /// ptime: 26.054
+
+[169/10000] -  mean of train L2: 0.746 // mean of test L2: 4.987 /// ptime: 25.797
+
+[170/10000] -  mean of train L2: 0.730 // mean of test L2: 4.966 /// ptime: 25.757
+
+[171/10000] -  mean of train L2: 0.767 // mean of test L2: 4.993 /// ptime: 25.835
+
+[172/10000] -  mean of train L2: 0.730 // mean of test L2: 5.165 /// ptime: 25.624
+
+[173/10000] -  mean of train L2: 0.711 // mean of test L2: 5.053 /// ptime: 25.685
+
+[174/10000] -  mean of train L2: 0.712 // mean of test L2: 4.996 /// ptime: 25.940
+
+[175/10000] -  mean of train L2: 0.672 // mean of test L2: 5.044 /// ptime: 25.920
+
+[176/10000] -  mean of train L2: 0.684 // mean of test L2: 5.163 /// ptime: 25.477
+
+[177/10000] -  mean of train L2: 0.704 // mean of test L2: 5.042 /// ptime: 25.968
+
+[178/10000] -  mean of train L2: 0.716 // mean of test L2: 4.972 /// ptime: 25.832
+
+[179/10000] -  mean of train L2: 0.676 // mean of test L2: 4.951 /// ptime: 25.993
+
+[180/10000] -  mean of train L2: 0.688 // mean of test L2: 5.079 /// ptime: 25.730
+
+[181/10000] -  mean of train L2: 0.666 // mean of test L2: 4.916 /// ptime: 25.658
+
+[182/10000] -  mean of train L2: 0.660 // mean of test L2: 5.002 /// ptime: 25.732
+
+[183/10000] -  mean of train L2: 0.648 // mean of test L2: 4.856 /// ptime: 25.614
+
+[184/10000] -  mean of train L2: 0.667 // mean of test L2: 4.925 /// ptime: 25.642
+
+[185/10000] -  mean of train L2: 0.654 // mean of test L2: 4.909 /// ptime: 25.461
+
+[186/10000] -  mean of train L2: 0.672 // mean of test L2: 4.990 /// ptime: 25.714
+
+[187/10000] -  mean of train L2: 0.664 // mean of test L2: 5.041 /// ptime: 25.905
+
+[188/10000] -  mean of train L2: 0.679 // mean of test L2: 4.936 /// ptime: 25.762
+
+[189/10000] -  mean of train L2: 0.664 // mean of test L2: 4.978 /// ptime: 25.571
+
+[190/10000] -  mean of train L2: 0.668 // mean of test L2: 5.010 /// ptime: 25.883
+
+[191/10000] -  mean of train L2: 0.656 // mean of test L2: 4.960 /// ptime: 25.619
+
+[192/10000] -  mean of train L2: 0.633 // mean of test L2: 5.046 /// ptime: 25.960
+
+[193/10000] -  mean of train L2: 0.632 // mean of test L2: 4.913 /// ptime: 25.950
+
+[194/10000] -  mean of train L2: 0.623 // mean of test L2: 4.969 /// ptime: 25.730
+
+[195/10000] -  mean of train L2: 0.632 // mean of test L2: 4.925 /// ptime: 25.895
+
+[196/10000] -  mean of train L2: 0.614 // mean of test L2: 5.045 /// ptime: 25.909
+
+[197/10000] -  mean of train L2: 0.659 // mean of test L2: 4.914 /// ptime: 25.609
+
+[198/10000] -  mean of train L2: 0.636 // mean of test L2: 4.954 /// ptime: 25.969
+
+[199/10000] -  mean of train L2: 0.660 // mean of test L2: 4.923 /// ptime: 25.758
+
+[200/10000] -  mean of train L2: 0.633 // mean of test L2: 4.999 /// ptime: 25.869
+
+[201/10000] -  mean of train L2: 0.608 // mean of test L2: 4.860 /// ptime: 25.739
+
+[202/10000] -  mean of train L2: 0.634 // mean of test L2: 4.930 /// ptime: 25.501
+
+[203/10000] -  mean of train L2: 0.640 // mean of test L2: 4.985 /// ptime: 26.020
+
+[204/10000] -  mean of train L2: 0.594 // mean of test L2: 4.940 /// ptime: 25.951
+
+[205/10000] -  mean of train L2: 0.640 // mean of test L2: 5.006 /// ptime: 25.773
+
+[206/10000] -  mean of train L2: 0.600 // mean of test L2: 4.979 /// ptime: 25.727
+
+[207/10000] -  mean of train L2: 0.593 // mean of test L2: 4.883 /// ptime: 25.816
+
+[208/10000] -  mean of train L2: 0.612 // mean of test L2: 4.918 /// ptime: 25.816
+
+[209/10000] -  mean of train L2: 0.585 // mean of test L2: 4.877 /// ptime: 25.996
+
+[210/10000] -  mean of train L2: 0.620 // mean of test L2: 4.908 /// ptime: 25.371
+
+[211/10000] -  mean of train L2: 0.592 // mean of test L2: 4.947 /// ptime: 25.649
+
+[212/10000] -  mean of train L2: 0.615 // mean of test L2: 4.962 /// ptime: 25.491
+
+[213/10000] -  mean of train L2: 0.600 // mean of test L2: 4.947 /// ptime: 25.708
+
+[214/10000] -  mean of train L2: 0.606 // mean of test L2: 4.869 /// ptime: 25.668
+
+[215/10000] -  mean of train L2: 0.586 // mean of test L2: 4.866 /// ptime: 25.774
+
+[216/10000] -  mean of train L2: 0.591 // mean of test L2: 4.865 /// ptime: 25.737
+
+[217/10000] -  mean of train L2: 0.564 // mean of test L2: 4.860 /// ptime: 26.208
+
+[218/10000] -  mean of train L2: 0.606 // mean of test L2: 4.954 /// ptime: 25.763
+
+[219/10000] -  mean of train L2: 0.574 // mean of test L2: 4.931 /// ptime: 25.989
+
+[220/10000] -  mean of train L2: 0.571 // mean of test L2: 5.086 /// ptime: 25.744
+
+[221/10000] -  mean of train L2: 0.616 // mean of test L2: 4.961 /// ptime: 25.568
+
+[222/10000] -  mean of train L2: 0.544 // mean of test L2: 4.921 /// ptime: 25.714
+
+[223/10000] -  mean of train L2: 0.569 // mean of test L2: 4.866 /// ptime: 25.704
+
+[224/10000] -  mean of train L2: 0.583 // mean of test L2: 5.016 /// ptime: 25.915
+
+[225/10000] -  mean of train L2: 0.551 // mean of test L2: 4.921 /// ptime: 25.859
+
+[226/10000] -  mean of train L2: 0.560 // mean of test L2: 4.849 /// ptime: 25.634
+
+[227/10000] -  mean of train L2: 0.540 // mean of test L2: 4.993 /// ptime: 25.704
+
+[228/10000] -  mean of train L2: 0.569 // mean of test L2: 4.921 /// ptime: 25.940
+
+[229/10000] -  mean of train L2: 0.550 // mean of test L2: 4.879 /// ptime: 25.953
+
+[230/10000] -  mean of train L2: 0.545 // mean of test L2: 4.967 /// ptime: 25.555
+
+[231/10000] -  mean of train L2: 0.514 // mean of test L2: 4.871 /// ptime: 25.740
+
+[232/10000] -  mean of train L2: 0.535 // mean of test L2: 4.887 /// ptime: 25.467
+
+[233/10000] -  mean of train L2: 0.537 // mean of test L2: 4.807 /// ptime: 25.696
+
+[234/10000] -  mean of train L2: 0.540 // mean of test L2: 4.824 /// ptime: 25.839
+
+[235/10000] -  mean of train L2: 0.554 // mean of test L2: 4.925 /// ptime: 26.133
+
+[236/10000] -  mean of train L2: 0.542 // mean of test L2: 4.839 /// ptime: 25.611
+
+[237/10000] -  mean of train L2: 0.538 // mean of test L2: 4.883 /// ptime: 25.930
+
+[238/10000] -  mean of train L2: 0.541 // mean of test L2: 4.994 /// ptime: 25.475
+
+[239/10000] -  mean of train L2: 0.524 // mean of test L2: 4.945 /// ptime: 25.870
+
+[240/10000] -  mean of train L2: 0.529 // mean of test L2: 4.873 /// ptime: 25.585
+
+[241/10000] -  mean of train L2: 0.543 // mean of test L2: 4.839 /// ptime: 25.671
+
+[242/10000] -  mean of train L2: 0.519 // mean of test L2: 4.815 /// ptime: 25.875
+
+[243/10000] -  mean of train L2: 0.519 // mean of test L2: 4.902 /// ptime: 25.535
+
+[244/10000] -  mean of train L2: 0.545 // mean of test L2: 4.845 /// ptime: 25.704
+
+[245/10000] -  mean of train L2: 0.515 // mean of test L2: 4.953 /// ptime: 25.692
+
+[246/10000] -  mean of train L2: 0.527 // mean of test L2: 4.925 /// ptime: 25.942
+
+[247/10000] -  mean of train L2: 0.513 // mean of test L2: 4.886 /// ptime: 25.823
+
+[248/10000] -  mean of train L2: 0.537 // mean of test L2: 4.833 /// ptime: 25.655
+
+[249/10000] -  mean of train L2: 0.499 // mean of test L2: 4.819 /// ptime: 25.739
+
+[250/10000] -  mean of train L2: 0.530 // mean of test L2: 4.832 /// ptime: 25.751
+
+[251/10000] -  mean of train L2: 0.503 // mean of test L2: 4.856 /// ptime: 25.438
+
+[252/10000] -  mean of train L2: 0.517 // mean of test L2: 4.888 /// ptime: 25.785
+
+[253/10000] -  mean of train L2: 0.504 // mean of test L2: 4.838 /// ptime: 25.524
+
+[254/10000] -  mean of train L2: 0.512 // mean of test L2: 4.771 /// ptime: 25.674
+
+[255/10000] -  mean of train L2: 0.510 // mean of test L2: 4.906 /// ptime: 25.831
+
+[256/10000] -  mean of train L2: 0.516 // mean of test L2: 4.832 /// ptime: 25.651
+
+[257/10000] -  mean of train L2: 0.497 // mean of test L2: 4.933 /// ptime: 25.870
+
+[258/10000] -  mean of train L2: 0.479 // mean of test L2: 4.777 /// ptime: 25.725
+
+[259/10000] -  mean of train L2: 0.495 // mean of test L2: 4.837 /// ptime: 25.849
+
+[260/10000] -  mean of train L2: 0.491 // mean of test L2: 4.862 /// ptime: 25.741
+
+[261/10000] -  mean of train L2: 0.502 // mean of test L2: 4.845 /// ptime: 25.666
+
+[262/10000] -  mean of train L2: 0.487 // mean of test L2: 4.853 /// ptime: 25.773
+
+[263/10000] -  mean of train L2: 0.484 // mean of test L2: 4.851 /// ptime: 26.047
+
+[264/10000] -  mean of train L2: 0.479 // mean of test L2: 4.831 /// ptime: 25.666
+
+[265/10000] -  mean of train L2: 0.486 // mean of test L2: 4.774 /// ptime: 25.643
+
+[266/10000] -  mean of train L2: 0.502 // mean of test L2: 4.767 /// ptime: 25.741
+
+[267/10000] -  mean of train L2: 0.493 // mean of test L2: 4.852 /// ptime: 25.645
+
+[268/10000] -  mean of train L2: 0.482 // mean of test L2: 4.779 /// ptime: 25.962
+
+[269/10000] -  mean of train L2: 0.473 // mean of test L2: 4.739 /// ptime: 25.452
+
+[270/10000] -  mean of train L2: 0.497 // mean of test L2: 4.811 /// ptime: 25.891
+
+[271/10000] -  mean of train L2: 0.474 // mean of test L2: 4.841 /// ptime: 25.770
+
+[272/10000] -  mean of train L2: 0.505 // mean of test L2: 4.836 /// ptime: 25.904
+
+[273/10000] -  mean of train L2: 0.493 // mean of test L2: 4.866 /// ptime: 25.860
+
+[274/10000] -  mean of train L2: 0.472 // mean of test L2: 4.853 /// ptime: 25.719
+
+[275/10000] -  mean of train L2: 0.472 // mean of test L2: 4.763 /// ptime: 25.569
+
+[276/10000] -  mean of train L2: 0.471 // mean of test L2: 4.781 /// ptime: 25.897
+
+[277/10000] -  mean of train L2: 0.475 // mean of test L2: 4.800 /// ptime: 25.886
+
+[278/10000] -  mean of train L2: 0.476 // mean of test L2: 4.737 /// ptime: 25.613
+
+[279/10000] -  mean of train L2: 0.463 // mean of test L2: 4.805 /// ptime: 25.863
+
+[280/10000] -  mean of train L2: 0.473 // mean of test L2: 4.872 /// ptime: 25.874
+
+[281/10000] -  mean of train L2: 0.476 // mean of test L2: 4.876 /// ptime: 25.788
+
+[282/10000] -  mean of train L2: 0.473 // mean of test L2: 4.816 /// ptime: 25.576
+
+[283/10000] -  mean of train L2: 0.474 // mean of test L2: 4.828 /// ptime: 26.097
+
+[284/10000] -  mean of train L2: 0.467 // mean of test L2: 4.815 /// ptime: 25.723
+
+[285/10000] -  mean of train L2: 0.462 // mean of test L2: 4.772 /// ptime: 25.699
+
+[286/10000] -  mean of train L2: 0.442 // mean of test L2: 4.803 /// ptime: 25.613
+
+[287/10000] -  mean of train L2: 0.453 // mean of test L2: 4.857 /// ptime: 25.849
+
+[288/10000] -  mean of train L2: 0.431 // mean of test L2: 4.809 /// ptime: 25.618
+
+[289/10000] -  mean of train L2: 0.451 // mean of test L2: 4.902 /// ptime: 25.740
+
+[290/10000] -  mean of train L2: 0.463 // mean of test L2: 4.762 /// ptime: 25.537
+
+[291/10000] -  mean of train L2: 0.458 // mean of test L2: 4.868 /// ptime: 25.752
+
+[292/10000] -  mean of train L2: 0.443 // mean of test L2: 4.845 /// ptime: 26.249
+
+[293/10000] -  mean of train L2: 0.448 // mean of test L2: 4.753 /// ptime: 25.911
+
+[294/10000] -  mean of train L2: 0.437 // mean of test L2: 4.795 /// ptime: 25.802
+
+[295/10000] -  mean of train L2: 0.427 // mean of test L2: 4.791 /// ptime: 25.871
+
+[296/10000] -  mean of train L2: 0.452 // mean of test L2: 4.802 /// ptime: 26.035
+
+[297/10000] -  mean of train L2: 0.464 // mean of test L2: 4.969 /// ptime: 25.822
+
+[298/10000] -  mean of train L2: 0.423 // mean of test L2: 4.809 /// ptime: 25.974
+
+[299/10000] -  mean of train L2: 0.425 // mean of test L2: 4.826 /// ptime: 25.699
+
+[300/10000] -  mean of train L2: 0.455 // mean of test L2: 4.791 /// ptime: 25.499
+
+[301/10000] -  mean of train L2: 0.437 // mean of test L2: 4.827 /// ptime: 25.540
+
+[302/10000] -  mean of train L2: 0.439 // mean of test L2: 4.899 /// ptime: 26.078
+
+[303/10000] -  mean of train L2: 0.452 // mean of test L2: 4.842 /// ptime: 25.646
+
+[304/10000] -  mean of train L2: 0.442 // mean of test L2: 4.771 /// ptime: 25.717
+
+[305/10000] -  mean of train L2: 0.438 // mean of test L2: 4.769 /// ptime: 25.894
+
+[306/10000] -  mean of train L2: 0.410 // mean of test L2: 4.735 /// ptime: 25.638
+
+[307/10000] -  mean of train L2: 0.428 // mean of test L2: 4.729 /// ptime: 25.639
+
+[308/10000] -  mean of train L2: 0.442 // mean of test L2: 4.782 /// ptime: 25.621
+
+[309/10000] -  mean of train L2: 0.433 // mean of test L2: 4.762 /// ptime: 25.623
+
+[310/10000] -  mean of train L2: 0.433 // mean of test L2: 4.764 /// ptime: 25.975
+
+[311/10000] -  mean of train L2: 0.425 // mean of test L2: 4.729 /// ptime: 25.740
+
+[312/10000] -  mean of train L2: 0.402 // mean of test L2: 4.739 /// ptime: 25.699
+
+[313/10000] -  mean of train L2: 0.423 // mean of test L2: 4.717 /// ptime: 25.742
+
+[314/10000] -  mean of train L2: 0.429 // mean of test L2: 4.740 /// ptime: 25.708
+
+[315/10000] -  mean of train L2: 0.419 // mean of test L2: 4.700 /// ptime: 25.808
+
+[316/10000] -  mean of train L2: 0.406 // mean of test L2: 4.709 /// ptime: 25.823
+
+[317/10000] -  mean of train L2: 0.410 // mean of test L2: 4.722 /// ptime: 25.776
+
+[318/10000] -  mean of train L2: 0.427 // mean of test L2: 4.737 /// ptime: 25.743
+
+[319/10000] -  mean of train L2: 0.418 // mean of test L2: 4.826 /// ptime: 25.516
+
+[320/10000] -  mean of train L2: 0.419 // mean of test L2: 4.730 /// ptime: 25.666
+
+[321/10000] -  mean of train L2: 0.409 // mean of test L2: 4.719 /// ptime: 25.730
+
+[322/10000] -  mean of train L2: 0.395 // mean of test L2: 4.697 /// ptime: 25.888
+
+[323/10000] -  mean of train L2: 0.411 // mean of test L2: 4.793 /// ptime: 25.766
+
+[324/10000] -  mean of train L2: 0.394 // mean of test L2: 4.721 /// ptime: 25.857
+
+[325/10000] -  mean of train L2: 0.425 // mean of test L2: 4.833 /// ptime: 25.505
+
+[326/10000] -  mean of train L2: 0.429 // mean of test L2: 4.784 /// ptime: 25.994
+
+[327/10000] -  mean of train L2: 0.406 // mean of test L2: 4.729 /// ptime: 25.850
+
+[328/10000] -  mean of train L2: 0.393 // mean of test L2: 4.724 /// ptime: 25.919
+
+[329/10000] -  mean of train L2: 0.392 // mean of test L2: 4.737 /// ptime: 25.893
+
+[330/10000] -  mean of train L2: 0.404 // mean of test L2: 4.719 /// ptime: 25.848
+
+[331/10000] -  mean of train L2: 0.402 // mean of test L2: 4.709 /// ptime: 25.598
+
+[332/10000] -  mean of train L2: 0.421 // mean of test L2: 4.802 /// ptime: 25.613
+
+[333/10000] -  mean of train L2: 0.407 // mean of test L2: 4.708 /// ptime: 25.846
+
+[334/10000] -  mean of train L2: 0.399 // mean of test L2: 4.735 /// ptime: 26.070
+
+[335/10000] -  mean of train L2: 0.415 // mean of test L2: 4.761 /// ptime: 25.806
+
+[336/10000] -  mean of train L2: 0.384 // mean of test L2: 4.712 /// ptime: 25.786
+
+[337/10000] -  mean of train L2: 0.412 // mean of test L2: 4.702 /// ptime: 25.947
+
+[338/10000] -  mean of train L2: 0.390 // mean of test L2: 4.762 /// ptime: 25.639
+
+[339/10000] -  mean of train L2: 0.397 // mean of test L2: 4.710 /// ptime: 25.799
+
+[340/10000] -  mean of train L2: 0.387 // mean of test L2: 4.758 /// ptime: 25.927
+
+[341/10000] -  mean of train L2: 0.382 // mean of test L2: 4.820 /// ptime: 26.085
+
+[342/10000] -  mean of train L2: 0.395 // mean of test L2: 4.691 /// ptime: 25.780
+
+[343/10000] -  mean of train L2: 0.395 // mean of test L2: 4.717 /// ptime: 25.784
+
+[344/10000] -  mean of train L2: 0.391 // mean of test L2: 4.719 /// ptime: 25.564
+
+[345/10000] -  mean of train L2: 0.372 // mean of test L2: 4.720 /// ptime: 25.918
+
+[346/10000] -  mean of train L2: 0.371 // mean of test L2: 4.677 /// ptime: 25.813
+
+[347/10000] -  mean of train L2: 0.384 // mean of test L2: 4.773 /// ptime: 25.889
+
+[348/10000] -  mean of train L2: 0.385 // mean of test L2: 4.698 /// ptime: 25.661
+
+[349/10000] -  mean of train L2: 0.389 // mean of test L2: 4.709 /// ptime: 25.813
+
+[350/10000] -  mean of train L2: 0.418 // mean of test L2: 4.775 /// ptime: 25.804
+
+[351/10000] -  mean of train L2: 0.378 // mean of test L2: 4.659 /// ptime: 25.799
+
+[352/10000] -  mean of train L2: 0.372 // mean of test L2: 4.653 /// ptime: 25.633
+
+[353/10000] -  mean of train L2: 0.387 // mean of test L2: 4.663 /// ptime: 25.637
+
+[354/10000] -  mean of train L2: 0.369 // mean of test L2: 4.702 /// ptime: 26.108
+
+[355/10000] -  mean of train L2: 0.369 // mean of test L2: 4.697 /// ptime: 25.646
+
+[356/10000] -  mean of train L2: 0.399 // mean of test L2: 4.818 /// ptime: 25.734
+
+[357/10000] -  mean of train L2: 0.372 // mean of test L2: 4.713 /// ptime: 25.760
+
+[358/10000] -  mean of train L2: 0.368 // mean of test L2: 4.733 /// ptime: 25.835
+
+[359/10000] -  mean of train L2: 0.371 // mean of test L2: 4.715 /// ptime: 25.553
+
+[360/10000] -  mean of train L2: 0.384 // mean of test L2: 4.675 /// ptime: 25.864
+
+[361/10000] -  mean of train L2: 0.363 // mean of test L2: 4.691 /// ptime: 26.012
+
+[362/10000] -  mean of train L2: 0.363 // mean of test L2: 4.723 /// ptime: 25.913
+
+[363/10000] -  mean of train L2: 0.365 // mean of test L2: 4.784 /// ptime: 25.741
+
+[364/10000] -  mean of train L2: 0.373 // mean of test L2: 4.655 /// ptime: 25.748
+
+[365/10000] -  mean of train L2: 0.368 // mean of test L2: 4.761 /// ptime: 25.627
+
+[366/10000] -  mean of train L2: 0.362 // mean of test L2: 4.719 /// ptime: 25.900
+
+[367/10000] -  mean of train L2: 0.368 // mean of test L2: 4.690 /// ptime: 25.945
+
+[368/10000] -  mean of train L2: 0.374 // mean of test L2: 4.664 /// ptime: 25.935
+
+[369/10000] -  mean of train L2: 0.364 // mean of test L2: 4.690 /// ptime: 25.412
+
+[370/10000] -  mean of train L2: 0.354 // mean of test L2: 4.662 /// ptime: 25.766
+
+[371/10000] -  mean of train L2: 0.357 // mean of test L2: 4.748 /// ptime: 25.763
+
+[372/10000] -  mean of train L2: 0.356 // mean of test L2: 4.711 /// ptime: 25.559
+
+[373/10000] -  mean of train L2: 0.371 // mean of test L2: 4.697 /// ptime: 25.915
+
+[374/10000] -  mean of train L2: 0.366 // mean of test L2: 4.695 /// ptime: 25.390
+
+[375/10000] -  mean of train L2: 0.366 // mean of test L2: 4.754 /// ptime: 25.851
+
+[376/10000] -  mean of train L2: 0.373 // mean of test L2: 4.673 /// ptime: 25.645
+
+[377/10000] -  mean of train L2: 0.384 // mean of test L2: 4.810 /// ptime: 25.623
+
+[378/10000] -  mean of train L2: 0.360 // mean of test L2: 4.712 /// ptime: 25.608
+
+[379/10000] -  mean of train L2: 0.353 // mean of test L2: 4.630 /// ptime: 25.863
+
+[380/10000] -  mean of train L2: 0.386 // mean of test L2: 4.682 /// ptime: 25.783
+
+[381/10000] -  mean of train L2: 0.371 // mean of test L2: 4.622 /// ptime: 25.565
+
+[382/10000] -  mean of train L2: 0.350 // mean of test L2: 4.638 /// ptime: 25.766
+
+[383/10000] -  mean of train L2: 0.350 // mean of test L2: 4.746 /// ptime: 25.688
+
+[384/10000] -  mean of train L2: 0.352 // mean of test L2: 4.726 /// ptime: 25.733
+
+[385/10000] -  mean of train L2: 0.347 // mean of test L2: 4.687 /// ptime: 25.902
+
+[386/10000] -  mean of train L2: 0.351 // mean of test L2: 4.625 /// ptime: 25.503
+
+[387/10000] -  mean of train L2: 0.353 // mean of test L2: 4.688 /// ptime: 26.210
+
+[388/10000] -  mean of train L2: 0.355 // mean of test L2: 4.709 /// ptime: 25.782
+
+[389/10000] -  mean of train L2: 0.352 // mean of test L2: 4.659 /// ptime: 25.900
+
+[390/10000] -  mean of train L2: 0.357 // mean of test L2: 4.627 /// ptime: 25.901
+
+[391/10000] -  mean of train L2: 0.337 // mean of test L2: 4.711 /// ptime: 25.681
+
+[392/10000] -  mean of train L2: 0.359 // mean of test L2: 4.653 /// ptime: 25.807
+
+[393/10000] -  mean of train L2: 0.348 // mean of test L2: 4.671 /// ptime: 26.122
+
+[394/10000] -  mean of train L2: 0.348 // mean of test L2: 4.673 /// ptime: 25.789
+
+[395/10000] -  mean of train L2: 0.348 // mean of test L2: 4.688 /// ptime: 25.620
+
+[396/10000] -  mean of train L2: 0.356 // mean of test L2: 4.777 /// ptime: 25.902
+
+[397/10000] -  mean of train L2: 0.365 // mean of test L2: 4.704 /// ptime: 25.765
+
+[398/10000] -  mean of train L2: 0.345 // mean of test L2: 4.664 /// ptime: 25.501
+
+[399/10000] -  mean of train L2: 0.362 // mean of test L2: 4.713 /// ptime: 25.951
+
+[400/10000] -  mean of train L2: 0.359 // mean of test L2: 4.706 /// ptime: 25.755
+
+[401/10000] -  mean of train L2: 0.370 // mean of test L2: 4.708 /// ptime: 25.818
+
+[402/10000] -  mean of train L2: 0.352 // mean of test L2: 4.714 /// ptime: 25.555
+
+[403/10000] -  mean of train L2: 0.340 // mean of test L2: 4.666 /// ptime: 25.708
+
+[404/10000] -  mean of train L2: 0.332 // mean of test L2: 4.702 /// ptime: 25.932
+
+[405/10000] -  mean of train L2: 0.331 // mean of test L2: 4.659 /// ptime: 25.822
+
+[406/10000] -  mean of train L2: 0.329 // mean of test L2: 4.648 /// ptime: 25.842
+
+[407/10000] -  mean of train L2: 0.333 // mean of test L2: 4.716 /// ptime: 25.696
+
+[408/10000] -  mean of train L2: 0.340 // mean of test L2: 4.624 /// ptime: 25.676
+
+[409/10000] -  mean of train L2: 0.339 // mean of test L2: 4.658 /// ptime: 25.631
+
+[410/10000] -  mean of train L2: 0.347 // mean of test L2: 4.663 /// ptime: 25.324
+
+[411/10000] -  mean of train L2: 0.336 // mean of test L2: 4.636 /// ptime: 25.908
+
+[412/10000] -  mean of train L2: 0.339 // mean of test L2: 4.623 /// ptime: 25.741
+
+[413/10000] -  mean of train L2: 0.329 // mean of test L2: 4.687 /// ptime: 25.794
+
+[414/10000] -  mean of train L2: 0.332 // mean of test L2: 4.639 /// ptime: 25.738
+
+[415/10000] -  mean of train L2: 0.315 // mean of test L2: 4.677 /// ptime: 25.700
+
+[416/10000] -  mean of train L2: 0.333 // mean of test L2: 4.643 /// ptime: 25.536
+
+[417/10000] -  mean of train L2: 0.359 // mean of test L2: 4.623 /// ptime: 25.462
+
+[418/10000] -  mean of train L2: 0.348 // mean of test L2: 4.618 /// ptime: 25.830
+
+[419/10000] -  mean of train L2: 0.326 // mean of test L2: 4.641 /// ptime: 25.803
+
+[420/10000] -  mean of train L2: 0.339 // mean of test L2: 4.649 /// ptime: 25.767
+
+[421/10000] -  mean of train L2: 0.335 // mean of test L2: 4.659 /// ptime: 25.650
+
+[422/10000] -  mean of train L2: 0.329 // mean of test L2: 4.665 /// ptime: 25.836
+
+[423/10000] -  mean of train L2: 0.331 // mean of test L2: 4.671 /// ptime: 25.586
+
+[424/10000] -  mean of train L2: 0.344 // mean of test L2: 4.669 /// ptime: 25.894
+
+[425/10000] -  mean of train L2: 0.330 // mean of test L2: 4.629 /// ptime: 25.568
+
+[426/10000] -  mean of train L2: 0.324 // mean of test L2: 4.603 /// ptime: 25.681
+
+[427/10000] -  mean of train L2: 0.333 // mean of test L2: 4.691 /// ptime: 25.948
+
+[428/10000] -  mean of train L2: 0.320 // mean of test L2: 4.667 /// ptime: 25.917
+
+[429/10000] -  mean of train L2: 0.312 // mean of test L2: 4.638 /// ptime: 25.930
+
+[430/10000] -  mean of train L2: 0.321 // mean of test L2: 4.605 /// ptime: 25.834
+
+[431/10000] -  mean of train L2: 0.321 // mean of test L2: 4.682 /// ptime: 25.665
+
+[432/10000] -  mean of train L2: 0.319 // mean of test L2: 4.628 /// ptime: 25.866
+
+[433/10000] -  mean of train L2: 0.321 // mean of test L2: 4.642 /// ptime: 25.882
+
+[434/10000] -  mean of train L2: 0.320 // mean of test L2: 4.593 /// ptime: 25.875
+
+[435/10000] -  mean of train L2: 0.332 // mean of test L2: 4.619 /// ptime: 26.101
+
+[436/10000] -  mean of train L2: 0.328 // mean of test L2: 4.637 /// ptime: 25.640
+
+[437/10000] -  mean of train L2: 0.323 // mean of test L2: 4.654 /// ptime: 25.662
+
+[438/10000] -  mean of train L2: 0.337 // mean of test L2: 4.638 /// ptime: 25.859
+
+[439/10000] -  mean of train L2: 0.326 // mean of test L2: 4.629 /// ptime: 25.908
+
+[440/10000] -  mean of train L2: 0.331 // mean of test L2: 4.633 /// ptime: 25.720
+
+[441/10000] -  mean of train L2: 0.326 // mean of test L2: 4.622 /// ptime: 25.793
+
+[442/10000] -  mean of train L2: 0.317 // mean of test L2: 4.619 /// ptime: 25.825
+
+[443/10000] -  mean of train L2: 0.328 // mean of test L2: 4.626 /// ptime: 25.817
+
+[444/10000] -  mean of train L2: 0.311 // mean of test L2: 4.647 /// ptime: 25.526
+
+[445/10000] -  mean of train L2: 0.312 // mean of test L2: 4.646 /// ptime: 25.820
+
+[446/10000] -  mean of train L2: 0.313 // mean of test L2: 4.639 /// ptime: 25.787
+
+[447/10000] -  mean of train L2: 0.319 // mean of test L2: 4.656 /// ptime: 25.733
+
+[448/10000] -  mean of train L2: 0.324 // mean of test L2: 4.575 /// ptime: 25.943
+
+[449/10000] -  mean of train L2: 0.307 // mean of test L2: 4.606 /// ptime: 25.955
+
+[450/10000] -  mean of train L2: 0.314 // mean of test L2: 4.647 /// ptime: 25.647
+
+[451/10000] -  mean of train L2: 0.324 // mean of test L2: 4.691 /// ptime: 25.755
+
+[452/10000] -  mean of train L2: 0.317 // mean of test L2: 4.582 /// ptime: 25.969
+
+[453/10000] -  mean of train L2: 0.305 // mean of test L2: 4.599 /// ptime: 25.818
+
+[454/10000] -  mean of train L2: 0.306 // mean of test L2: 4.601 /// ptime: 25.588
+
+[455/10000] -  mean of train L2: 0.315 // mean of test L2: 4.631 /// ptime: 25.803
+
+[456/10000] -  mean of train L2: 0.313 // mean of test L2: 4.613 /// ptime: 25.969
+
+[457/10000] -  mean of train L2: 0.313 // mean of test L2: 4.579 /// ptime: 25.512
+
+[458/10000] -  mean of train L2: 0.311 // mean of test L2: 4.672 /// ptime: 25.525
+
+[459/10000] -  mean of train L2: 0.306 // mean of test L2: 4.608 /// ptime: 25.635
+
+[460/10000] -  mean of train L2: 0.307 // mean of test L2: 4.675 /// ptime: 25.984
+
+[461/10000] -  mean of train L2: 0.314 // mean of test L2: 4.611 /// ptime: 25.813
+
+[462/10000] -  mean of train L2: 0.305 // mean of test L2: 4.588 /// ptime: 25.954
+
+[463/10000] -  mean of train L2: 0.308 // mean of test L2: 4.619 /// ptime: 25.749
+
+[464/10000] -  mean of train L2: 0.300 // mean of test L2: 4.582 /// ptime: 25.915
+
+[465/10000] -  mean of train L2: 0.294 // mean of test L2: 4.632 /// ptime: 25.921
+
+[466/10000] -  mean of train L2: 0.315 // mean of test L2: 4.615 /// ptime: 25.793
+
+[467/10000] -  mean of train L2: 0.300 // mean of test L2: 4.640 /// ptime: 25.797
+
+[468/10000] -  mean of train L2: 0.290 // mean of test L2: 4.590 /// ptime: 25.692
+
+[469/10000] -  mean of train L2: 0.307 // mean of test L2: 4.637 /// ptime: 25.937
+
+[470/10000] -  mean of train L2: 0.309 // mean of test L2: 4.599 /// ptime: 25.819
+
+[471/10000] -  mean of train L2: 0.314 // mean of test L2: 4.613 /// ptime: 25.800
+
+[472/10000] -  mean of train L2: 0.314 // mean of test L2: 4.647 /// ptime: 25.673
+
+[473/10000] -  mean of train L2: 0.296 // mean of test L2: 4.597 /// ptime: 25.767
+
+[474/10000] -  mean of train L2: 0.299 // mean of test L2: 4.610 /// ptime: 25.711
+
+[475/10000] -  mean of train L2: 0.310 // mean of test L2: 4.589 /// ptime: 25.589
+
+[476/10000] -  mean of train L2: 0.315 // mean of test L2: 4.671 /// ptime: 25.810
+
+[477/10000] -  mean of train L2: 0.297 // mean of test L2: 4.645 /// ptime: 25.748
+
+[478/10000] -  mean of train L2: 0.309 // mean of test L2: 4.698 /// ptime: 25.591
+
+[479/10000] -  mean of train L2: 0.303 // mean of test L2: 4.601 /// ptime: 25.768
+
+[480/10000] -  mean of train L2: 0.301 // mean of test L2: 4.659 /// ptime: 25.696
+
+[481/10000] -  mean of train L2: 0.286 // mean of test L2: 4.606 /// ptime: 25.927
+
+[482/10000] -  mean of train L2: 0.303 // mean of test L2: 4.622 /// ptime: 26.015
+
+[483/10000] -  mean of train L2: 0.309 // mean of test L2: 4.676 /// ptime: 25.885
+
+[484/10000] -  mean of train L2: 0.298 // mean of test L2: 4.564 /// ptime: 26.074
+
+[485/10000] -  mean of train L2: 0.294 // mean of test L2: 4.645 /// ptime: 25.606
+
+[486/10000] -  mean of train L2: 0.297 // mean of test L2: 4.649 /// ptime: 25.813
+
+[487/10000] -  mean of train L2: 0.306 // mean of test L2: 4.577 /// ptime: 26.117
+
+[488/10000] -  mean of train L2: 0.303 // mean of test L2: 4.630 /// ptime: 25.894
+
+[489/10000] -  mean of train L2: 0.290 // mean of test L2: 4.564 /// ptime: 25.931
+
+[490/10000] -  mean of train L2: 0.313 // mean of test L2: 4.692 /// ptime: 25.893
+
+[491/10000] -  mean of train L2: 0.296 // mean of test L2: 4.594 /// ptime: 25.970
+
+[492/10000] -  mean of train L2: 0.286 // mean of test L2: 4.606 /// ptime: 26.050
+
+[493/10000] -  mean of train L2: 0.287 // mean of test L2: 4.569 /// ptime: 25.930
+
+[494/10000] -  mean of train L2: 0.303 // mean of test L2: 4.538 /// ptime: 25.663
+
+[495/10000] -  mean of train L2: 0.298 // mean of test L2: 4.656 /// ptime: 25.743
+
+[496/10000] -  mean of train L2: 0.283 // mean of test L2: 4.653 /// ptime: 25.703
+
+[497/10000] -  mean of train L2: 0.297 // mean of test L2: 4.635 /// ptime: 25.489
+
+[498/10000] -  mean of train L2: 0.308 // mean of test L2: 4.622 /// ptime: 25.914
+
+[499/10000] -  mean of train L2: 0.288 // mean of test L2: 4.598 /// ptime: 25.768
+
+[500/10000] -  mean of train L2: 0.291 // mean of test L2: 4.617 /// ptime: 25.990
+
+[501/10000] -  mean of train L2: 0.299 // mean of test L2: 4.607 /// ptime: 25.848
+
+[502/10000] -  mean of train L2: 0.294 // mean of test L2: 4.622 /// ptime: 25.714
+
+[503/10000] -  mean of train L2: 0.291 // mean of test L2: 4.583 /// ptime: 25.745
+
+[504/10000] -  mean of train L2: 0.320 // mean of test L2: 4.621 /// ptime: 25.837
+
+[505/10000] -  mean of train L2: 0.302 // mean of test L2: 4.658 /// ptime: 25.693
+
+[506/10000] -  mean of train L2: 0.293 // mean of test L2: 4.596 /// ptime: 25.796
+
+[507/10000] -  mean of train L2: 0.286 // mean of test L2: 4.611 /// ptime: 25.610
+
+[508/10000] -  mean of train L2: 0.286 // mean of test L2: 4.640 /// ptime: 25.842
+
+[509/10000] -  mean of train L2: 0.292 // mean of test L2: 4.596 /// ptime: 25.877
+
+[510/10000] -  mean of train L2: 0.272 // mean of test L2: 4.557 /// ptime: 25.586
+
+[511/10000] -  mean of train L2: 0.297 // mean of test L2: 4.581 /// ptime: 25.680
+
+[512/10000] -  mean of train L2: 0.281 // mean of test L2: 4.592 /// ptime: 25.948
+
+[513/10000] -  mean of train L2: 0.287 // mean of test L2: 4.624 /// ptime: 25.911
+
+[514/10000] -  mean of train L2: 0.289 // mean of test L2: 4.571 /// ptime: 25.824
+
+[515/10000] -  mean of train L2: 0.285 // mean of test L2: 4.591 /// ptime: 25.501
+
+[516/10000] -  mean of train L2: 0.275 // mean of test L2: 4.588 /// ptime: 25.597
+
+[517/10000] -  mean of train L2: 0.295 // mean of test L2: 4.656 /// ptime: 25.898
+
+[518/10000] -  mean of train L2: 0.293 // mean of test L2: 4.549 /// ptime: 25.955
+
+[519/10000] -  mean of train L2: 0.279 // mean of test L2: 4.613 /// ptime: 25.835
+
+[520/10000] -  mean of train L2: 0.283 // mean of test L2: 4.605 /// ptime: 25.860
+
+[521/10000] -  mean of train L2: 0.273 // mean of test L2: 4.565 /// ptime: 25.994
+
+[522/10000] -  mean of train L2: 0.292 // mean of test L2: 4.557 /// ptime: 25.879
+
+[523/10000] -  mean of train L2: 0.289 // mean of test L2: 4.584 /// ptime: 25.572
+
+[524/10000] -  mean of train L2: 0.291 // mean of test L2: 4.602 /// ptime: 25.844
+
+[525/10000] -  mean of train L2: 0.292 // mean of test L2: 4.649 /// ptime: 25.648
+
+[526/10000] -  mean of train L2: 0.280 // mean of test L2: 4.585 /// ptime: 25.581
+
+[527/10000] -  mean of train L2: 0.274 // mean of test L2: 4.652 /// ptime: 25.724
+
+[528/10000] -  mean of train L2: 0.312 // mean of test L2: 4.553 /// ptime: 25.739
+
+[529/10000] -  mean of train L2: 0.286 // mean of test L2: 4.525 /// ptime: 25.818
+
+[530/10000] -  mean of train L2: 0.274 // mean of test L2: 4.584 /// ptime: 25.658
+
+[531/10000] -  mean of train L2: 0.266 // mean of test L2: 4.588 /// ptime: 25.817
+
+[532/10000] -  mean of train L2: 0.280 // mean of test L2: 4.578 /// ptime: 25.694
+
+[533/10000] -  mean of train L2: 0.273 // mean of test L2: 4.522 /// ptime: 25.471
+
+[534/10000] -  mean of train L2: 0.275 // mean of test L2: 4.597 /// ptime: 25.698
+
+[535/10000] -  mean of train L2: 0.270 // mean of test L2: 4.556 /// ptime: 25.972
+
+[536/10000] -  mean of train L2: 0.279 // mean of test L2: 4.652 /// ptime: 25.673
+
+[537/10000] -  mean of train L2: 0.281 // mean of test L2: 4.568 /// ptime: 25.734
+
+[538/10000] -  mean of train L2: 0.269 // mean of test L2: 4.611 /// ptime: 25.817
+
+[539/10000] -  mean of train L2: 0.282 // mean of test L2: 4.576 /// ptime: 25.653
+
+[540/10000] -  mean of train L2: 0.297 // mean of test L2: 4.579 /// ptime: 25.854
+
+[541/10000] -  mean of train L2: 0.271 // mean of test L2: 4.573 /// ptime: 25.675
+
+[542/10000] -  mean of train L2: 0.284 // mean of test L2: 4.623 /// ptime: 25.636
+
+[543/10000] -  mean of train L2: 0.291 // mean of test L2: 4.550 /// ptime: 25.956
+
+[544/10000] -  mean of train L2: 0.270 // mean of test L2: 4.583 /// ptime: 25.758
+
+[545/10000] -  mean of train L2: 0.271 // mean of test L2: 4.563 /// ptime: 25.726
+
+[546/10000] -  mean of train L2: 0.279 // mean of test L2: 4.597 /// ptime: 25.731
+
+[547/10000] -  mean of train L2: 0.278 // mean of test L2: 4.579 /// ptime: 25.544
+
+[548/10000] -  mean of train L2: 0.272 // mean of test L2: 4.598 /// ptime: 25.850
+
+[549/10000] -  mean of train L2: 0.280 // mean of test L2: 4.600 /// ptime: 25.528
+
+[550/10000] -  mean of train L2: 0.298 // mean of test L2: 4.606 /// ptime: 25.899
+
+[551/10000] -  mean of train L2: 0.264 // mean of test L2: 4.532 /// ptime: 25.684
+
+[552/10000] -  mean of train L2: 0.272 // mean of test L2: 4.559 /// ptime: 25.503
+
+[553/10000] -  mean of train L2: 0.266 // mean of test L2: 4.554 /// ptime: 25.686
+
+[554/10000] -  mean of train L2: 0.264 // mean of test L2: 4.603 /// ptime: 25.887
+
+[555/10000] -  mean of train L2: 0.272 // mean of test L2: 4.556 /// ptime: 25.660
+
+[556/10000] -  mean of train L2: 0.263 // mean of test L2: 4.569 /// ptime: 25.887
+
+[557/10000] -  mean of train L2: 0.258 // mean of test L2: 4.550 /// ptime: 25.403
+
+[558/10000] -  mean of train L2: 0.266 // mean of test L2: 4.559 /// ptime: 25.457
+
+[559/10000] -  mean of train L2: 0.277 // mean of test L2: 4.597 /// ptime: 25.677
+
+[560/10000] -  mean of train L2: 0.263 // mean of test L2: 4.560 /// ptime: 25.641
+
+[561/10000] -  mean of train L2: 0.259 // mean of test L2: 4.540 /// ptime: 25.905
+
+[562/10000] -  mean of train L2: 0.265 // mean of test L2: 4.591 /// ptime: 25.688
+
+[563/10000] -  mean of train L2: 0.270 // mean of test L2: 4.586 /// ptime: 25.361
+
+[564/10000] -  mean of train L2: 0.263 // mean of test L2: 4.593 /// ptime: 25.478
+
+[565/10000] -  mean of train L2: 0.274 // mean of test L2: 4.571 /// ptime: 25.605
+
+[566/10000] -  mean of train L2: 0.266 // mean of test L2: 4.555 /// ptime: 25.708
+
+[567/10000] -  mean of train L2: 0.252 // mean of test L2: 4.598 /// ptime: 25.865
+
+[568/10000] -  mean of train L2: 0.260 // mean of test L2: 4.544 /// ptime: 25.745
+
+[569/10000] -  mean of train L2: 0.260 // mean of test L2: 4.653 /// ptime: 25.480
+
+[570/10000] -  mean of train L2: 0.267 // mean of test L2: 4.557 /// ptime: 25.955
+
+[571/10000] -  mean of train L2: 0.269 // mean of test L2: 4.573 /// ptime: 25.762
+
+[572/10000] -  mean of train L2: 0.273 // mean of test L2: 4.546 /// ptime: 25.797
+
+[573/10000] -  mean of train L2: 0.269 // mean of test L2: 4.577 /// ptime: 25.959
+
+[574/10000] -  mean of train L2: 0.260 // mean of test L2: 4.598 /// ptime: 25.971
+
+[575/10000] -  mean of train L2: 0.257 // mean of test L2: 4.597 /// ptime: 25.775
+
+[576/10000] -  mean of train L2: 0.259 // mean of test L2: 4.553 /// ptime: 25.863
+
+[577/10000] -  mean of train L2: 0.262 // mean of test L2: 4.554 /// ptime: 25.974
+
+[578/10000] -  mean of train L2: 0.261 // mean of test L2: 4.602 /// ptime: 25.959
+
+[579/10000] -  mean of train L2: 0.270 // mean of test L2: 4.570 /// ptime: 25.395
+
+[580/10000] -  mean of train L2: 0.258 // mean of test L2: 4.543 /// ptime: 25.922
+
+[581/10000] -  mean of train L2: 0.273 // mean of test L2: 4.587 /// ptime: 25.679
+
+[582/10000] -  mean of train L2: 0.261 // mean of test L2: 4.591 /// ptime: 25.816
+
+[583/10000] -  mean of train L2: 0.262 // mean of test L2: 4.549 /// ptime: 25.766
+
+[584/10000] -  mean of train L2: 0.268 // mean of test L2: 4.552 /// ptime: 25.499
+
+[585/10000] -  mean of train L2: 0.256 // mean of test L2: 4.574 /// ptime: 25.609
+
+[586/10000] -  mean of train L2: 0.250 // mean of test L2: 4.519 /// ptime: 25.727
+
+[587/10000] -  mean of train L2: 0.254 // mean of test L2: 4.583 /// ptime: 25.484
+
+[588/10000] -  mean of train L2: 0.260 // mean of test L2: 4.582 /// ptime: 25.898
+
+[589/10000] -  mean of train L2: 0.261 // mean of test L2: 4.548 /// ptime: 25.357
+
+[590/10000] -  mean of train L2: 0.255 // mean of test L2: 4.533 /// ptime: 25.646
+
+[591/10000] -  mean of train L2: 0.262 // mean of test L2: 4.589 /// ptime: 25.670
+
+[592/10000] -  mean of train L2: 0.262 // mean of test L2: 4.506 /// ptime: 25.761
+
+[593/10000] -  mean of train L2: 0.250 // mean of test L2: 4.533 /// ptime: 25.562
+
+[594/10000] -  mean of train L2: 0.263 // mean of test L2: 4.534 /// ptime: 25.890
+
+[595/10000] -  mean of train L2: 0.297 // mean of test L2: 4.607 /// ptime: 25.955
+
+[596/10000] -  mean of train L2: 0.262 // mean of test L2: 4.595 /// ptime: 25.566
+
+[597/10000] -  mean of train L2: 0.266 // mean of test L2: 4.556 /// ptime: 25.611
+
+[598/10000] -  mean of train L2: 0.259 // mean of test L2: 4.546 /// ptime: 25.829
+
+[599/10000] -  mean of train L2: 0.247 // mean of test L2: 4.535 /// ptime: 25.713
+
+[600/10000] -  mean of train L2: 0.259 // mean of test L2: 4.588 /// ptime: 25.883
+
+[601/10000] -  mean of train L2: 0.264 // mean of test L2: 4.513 /// ptime: 25.547
+
+[602/10000] -  mean of train L2: 0.247 // mean of test L2: 4.523 /// ptime: 25.880
+
+[603/10000] -  mean of train L2: 0.258 // mean of test L2: 4.562 /// ptime: 25.952
+
+[604/10000] -  mean of train L2: 0.258 // mean of test L2: 4.568 /// ptime: 25.541
+
+[605/10000] -  mean of train L2: 0.242 // mean of test L2: 4.551 /// ptime: 25.785
+
+[606/10000] -  mean of train L2: 0.246 // mean of test L2: 4.526 /// ptime: 25.741
+
+[607/10000] -  mean of train L2: 0.254 // mean of test L2: 4.525 /// ptime: 25.665
+
+[608/10000] -  mean of train L2: 0.243 // mean of test L2: 4.548 /// ptime: 25.816
+
+[609/10000] -  mean of train L2: 0.261 // mean of test L2: 4.579 /// ptime: 25.614
+
+[610/10000] -  mean of train L2: 0.251 // mean of test L2: 4.584 /// ptime: 25.557
+
+[611/10000] -  mean of train L2: 0.254 // mean of test L2: 4.523 /// ptime: 25.729
+
+[612/10000] -  mean of train L2: 0.253 // mean of test L2: 4.541 /// ptime: 25.917
+
+[613/10000] -  mean of train L2: 0.249 // mean of test L2: 4.531 /// ptime: 25.733
+
+[614/10000] -  mean of train L2: 0.251 // mean of test L2: 4.578 /// ptime: 25.626
+
+[615/10000] -  mean of train L2: 0.259 // mean of test L2: 4.528 /// ptime: 25.617
+
+[616/10000] -  mean of train L2: 0.250 // mean of test L2: 4.512 /// ptime: 25.577
+
+[617/10000] -  mean of train L2: 0.239 // mean of test L2: 4.523 /// ptime: 25.819
+
+[618/10000] -  mean of train L2: 0.238 // mean of test L2: 4.537 /// ptime: 25.874
+
+[619/10000] -  mean of train L2: 0.245 // mean of test L2: 4.522 /// ptime: 25.584
+
+[620/10000] -  mean of train L2: 0.258 // mean of test L2: 4.548 /// ptime: 25.640
+
+[621/10000] -  mean of train L2: 0.245 // mean of test L2: 4.547 /// ptime: 25.551
+
+[622/10000] -  mean of train L2: 0.241 // mean of test L2: 4.572 /// ptime: 25.765
+
+[623/10000] -  mean of train L2: 0.251 // mean of test L2: 4.583 /// ptime: 25.818
+
+[624/10000] -  mean of train L2: 0.270 // mean of test L2: 4.493 /// ptime: 25.387
+
+[625/10000] -  mean of train L2: 0.268 // mean of test L2: 4.531 /// ptime: 25.392
+
+[626/10000] -  mean of train L2: 0.238 // mean of test L2: 4.575 /// ptime: 25.722
+
+[627/10000] -  mean of train L2: 0.252 // mean of test L2: 4.572 /// ptime: 25.468
+
+[628/10000] -  mean of train L2: 0.245 // mean of test L2: 4.551 /// ptime: 25.857
+
+[629/10000] -  mean of train L2: 0.242 // mean of test L2: 4.534 /// ptime: 25.740
+
+[630/10000] -  mean of train L2: 0.242 // mean of test L2: 4.522 /// ptime: 25.659
+
+[631/10000] -  mean of train L2: 0.238 // mean of test L2: 4.494 /// ptime: 25.856
+
+[632/10000] -  mean of train L2: 0.232 // mean of test L2: 4.529 /// ptime: 25.670
+
+[633/10000] -  mean of train L2: 0.242 // mean of test L2: 4.535 /// ptime: 25.541
+
+[634/10000] -  mean of train L2: 0.241 // mean of test L2: 4.539 /// ptime: 25.589
+
+[635/10000] -  mean of train L2: 0.242 // mean of test L2: 4.538 /// ptime: 26.044
+
+[636/10000] -  mean of train L2: 0.258 // mean of test L2: 4.508 /// ptime: 25.734
+
+[637/10000] -  mean of train L2: 0.244 // mean of test L2: 4.546 /// ptime: 25.627
+
+[638/10000] -  mean of train L2: 0.252 // mean of test L2: 4.531 /// ptime: 25.747
+
+[639/10000] -  mean of train L2: 0.243 // mean of test L2: 4.543 /// ptime: 26.028
+
+[640/10000] -  mean of train L2: 0.247 // mean of test L2: 4.537 /// ptime: 25.663
+
+[641/10000] -  mean of train L2: 0.257 // mean of test L2: 4.530 /// ptime: 25.810
+
+[642/10000] -  mean of train L2: 0.244 // mean of test L2: 4.527 /// ptime: 25.973
+
+[643/10000] -  mean of train L2: 0.245 // mean of test L2: 4.527 /// ptime: 25.931
+
+[644/10000] -  mean of train L2: 0.238 // mean of test L2: 4.542 /// ptime: 25.507
+
+[645/10000] -  mean of train L2: 0.238 // mean of test L2: 4.514 /// ptime: 25.554
+
+[646/10000] -  mean of train L2: 0.244 // mean of test L2: 4.532 /// ptime: 25.530
+
+[647/10000] -  mean of train L2: 0.235 // mean of test L2: 4.508 /// ptime: 25.853
+
+[648/10000] -  mean of train L2: 0.242 // mean of test L2: 4.552 /// ptime: 25.810
+
+[649/10000] -  mean of train L2: 0.248 // mean of test L2: 4.569 /// ptime: 25.443
+
+[650/10000] -  mean of train L2: 0.239 // mean of test L2: 4.515 /// ptime: 25.589
+
+[651/10000] -  mean of train L2: 0.250 // mean of test L2: 4.524 /// ptime: 25.601
+
+[652/10000] -  mean of train L2: 0.238 // mean of test L2: 4.510 /// ptime: 25.640
+
+[653/10000] -  mean of train L2: 0.233 // mean of test L2: 4.495 /// ptime: 25.952
+
+[654/10000] -  mean of train L2: 0.244 // mean of test L2: 4.528 /// ptime: 25.635
+
+[655/10000] -  mean of train L2: 0.241 // mean of test L2: 4.532 /// ptime: 25.732
+
+[656/10000] -  mean of train L2: 0.246 // mean of test L2: 4.523 /// ptime: 25.621
+
+[657/10000] -  mean of train L2: 0.241 // mean of test L2: 4.528 /// ptime: 26.030
+
+[658/10000] -  mean of train L2: 0.233 // mean of test L2: 4.523 /// ptime: 25.541
+
+[659/10000] -  mean of train L2: 0.241 // mean of test L2: 4.517 /// ptime: 25.769
+
+[660/10000] -  mean of train L2: 0.231 // mean of test L2: 4.511 /// ptime: 25.747
+
+[661/10000] -  mean of train L2: 0.235 // mean of test L2: 4.525 /// ptime: 25.573
+
+[662/10000] -  mean of train L2: 0.243 // mean of test L2: 4.536 /// ptime: 25.950
+
+[663/10000] -  mean of train L2: 0.242 // mean of test L2: 4.495 /// ptime: 25.573
+
+[664/10000] -  mean of train L2: 0.241 // mean of test L2: 4.479 /// ptime: 25.848
+
+[665/10000] -  mean of train L2: 0.235 // mean of test L2: 4.538 /// ptime: 25.809
+
+[666/10000] -  mean of train L2: 0.236 // mean of test L2: 4.498 /// ptime: 25.812
+
+[667/10000] -  mean of train L2: 0.233 // mean of test L2: 4.533 /// ptime: 25.561
+
+[668/10000] -  mean of train L2: 0.227 // mean of test L2: 4.513 /// ptime: 25.891
+
+[669/10000] -  mean of train L2: 0.240 // mean of test L2: 4.522 /// ptime: 25.646
+
+[670/10000] -  mean of train L2: 0.240 // mean of test L2: 4.535 /// ptime: 25.710
+
+[671/10000] -  mean of train L2: 0.242 // mean of test L2: 4.500 /// ptime: 25.511
+
+[672/10000] -  mean of train L2: 0.233 // mean of test L2: 4.496 /// ptime: 25.590
+
+[673/10000] -  mean of train L2: 0.232 // mean of test L2: 4.582 /// ptime: 25.576
+
+[674/10000] -  mean of train L2: 0.246 // mean of test L2: 4.520 /// ptime: 25.721
+
+[675/10000] -  mean of train L2: 0.236 // mean of test L2: 4.525 /// ptime: 25.897
+
+[676/10000] -  mean of train L2: 0.240 // mean of test L2: 4.518 /// ptime: 25.916
+
+[677/10000] -  mean of train L2: 0.230 // mean of test L2: 4.535 /// ptime: 25.709
+
+[678/10000] -  mean of train L2: 0.233 // mean of test L2: 4.485 /// ptime: 25.698
+
+[679/10000] -  mean of train L2: 0.237 // mean of test L2: 4.509 /// ptime: 26.085
+
+[680/10000] -  mean of train L2: 0.233 // mean of test L2: 4.525 /// ptime: 25.786
+
+[681/10000] -  mean of train L2: 0.237 // mean of test L2: 4.499 /// ptime: 26.034
+
+[682/10000] -  mean of train L2: 0.228 // mean of test L2: 4.505 /// ptime: 25.441
+
+[683/10000] -  mean of train L2: 0.229 // mean of test L2: 4.503 /// ptime: 26.024
+
+[684/10000] -  mean of train L2: 0.222 // mean of test L2: 4.494 /// ptime: 25.700
+
+[685/10000] -  mean of train L2: 0.234 // mean of test L2: 4.504 /// ptime: 25.933
+
+[686/10000] -  mean of train L2: 0.223 // mean of test L2: 4.514 /// ptime: 25.822
+
+[687/10000] -  mean of train L2: 0.229 // mean of test L2: 4.513 /// ptime: 25.708
+
+[688/10000] -  mean of train L2: 0.233 // mean of test L2: 4.507 /// ptime: 25.919
+
+[689/10000] -  mean of train L2: 0.221 // mean of test L2: 4.556 /// ptime: 25.698
+
+[690/10000] -  mean of train L2: 0.230 // mean of test L2: 4.509 /// ptime: 25.552
+
+[691/10000] -  mean of train L2: 0.231 // mean of test L2: 4.518 /// ptime: 25.888
+
+[692/10000] -  mean of train L2: 0.220 // mean of test L2: 4.493 /// ptime: 25.931
+
+[693/10000] -  mean of train L2: 0.223 // mean of test L2: 4.494 /// ptime: 25.533
+
+[694/10000] -  mean of train L2: 0.227 // mean of test L2: 4.513 /// ptime: 25.648
+
+[695/10000] -  mean of train L2: 0.227 // mean of test L2: 4.485 /// ptime: 25.935
+
+[696/10000] -  mean of train L2: 0.234 // mean of test L2: 4.485 /// ptime: 26.018
+
+[697/10000] -  mean of train L2: 0.242 // mean of test L2: 4.521 /// ptime: 25.796
+
+[698/10000] -  mean of train L2: 0.231 // mean of test L2: 4.506 /// ptime: 25.849
+
+[699/10000] -  mean of train L2: 0.223 // mean of test L2: 4.471 /// ptime: 25.801
+
+[700/10000] -  mean of train L2: 0.223 // mean of test L2: 4.512 /// ptime: 25.986
+
+[701/10000] -  mean of train L2: 0.228 // mean of test L2: 4.508 /// ptime: 26.213
+
+[702/10000] -  mean of train L2: 0.224 // mean of test L2: 4.516 /// ptime: 25.697
+
+[703/10000] -  mean of train L2: 0.225 // mean of test L2: 4.482 /// ptime: 25.679
+
+[704/10000] -  mean of train L2: 0.227 // mean of test L2: 4.506 /// ptime: 25.538
+
+[705/10000] -  mean of train L2: 0.237 // mean of test L2: 4.511 /// ptime: 25.236
+
+[706/10000] -  mean of train L2: 0.235 // mean of test L2: 4.492 /// ptime: 25.811
+
+[707/10000] -  mean of train L2: 0.225 // mean of test L2: 4.525 /// ptime: 25.626
+
+[708/10000] -  mean of train L2: 0.231 // mean of test L2: 4.522 /// ptime: 25.734
+
+[709/10000] -  mean of train L2: 0.231 // mean of test L2: 4.461 /// ptime: 25.879
+
+[710/10000] -  mean of train L2: 0.223 // mean of test L2: 4.521 /// ptime: 26.029
+
+[711/10000] -  mean of train L2: 0.234 // mean of test L2: 4.575 /// ptime: 25.834
+
+[712/10000] -  mean of train L2: 0.231 // mean of test L2: 4.558 /// ptime: 25.928
+
+[713/10000] -  mean of train L2: 0.235 // mean of test L2: 4.538 /// ptime: 25.553
+
+[714/10000] -  mean of train L2: 0.222 // mean of test L2: 4.518 /// ptime: 25.761
+
+[715/10000] -  mean of train L2: 0.225 // mean of test L2: 4.511 /// ptime: 25.603
+
+[716/10000] -  mean of train L2: 0.218 // mean of test L2: 4.501 /// ptime: 25.581
+
+[717/10000] -  mean of train L2: 0.219 // mean of test L2: 4.544 /// ptime: 25.730
+
+[718/10000] -  mean of train L2: 0.227 // mean of test L2: 4.530 /// ptime: 25.442
+
+[719/10000] -  mean of train L2: 0.218 // mean of test L2: 4.455 /// ptime: 25.865
+
+[720/10000] -  mean of train L2: 0.214 // mean of test L2: 4.493 /// ptime: 25.685
+
+[721/10000] -  mean of train L2: 0.213 // mean of test L2: 4.501 /// ptime: 25.613
+
+[722/10000] -  mean of train L2: 0.223 // mean of test L2: 4.500 /// ptime: 25.903
+
+[723/10000] -  mean of train L2: 0.221 // mean of test L2: 4.492 /// ptime: 25.653
+
+[724/10000] -  mean of train L2: 0.214 // mean of test L2: 4.475 /// ptime: 25.427
+
+[725/10000] -  mean of train L2: 0.217 // mean of test L2: 4.505 /// ptime: 25.768
+
+[726/10000] -  mean of train L2: 0.221 // mean of test L2: 4.492 /// ptime: 25.425
+
+[727/10000] -  mean of train L2: 0.217 // mean of test L2: 4.492 /// ptime: 25.726
+
+[728/10000] -  mean of train L2: 0.226 // mean of test L2: 4.500 /// ptime: 25.820
+
+[729/10000] -  mean of train L2: 0.225 // mean of test L2: 4.478 /// ptime: 25.680
+
+[730/10000] -  mean of train L2: 0.228 // mean of test L2: 4.543 /// ptime: 25.979
+
+[731/10000] -  mean of train L2: 0.215 // mean of test L2: 4.488 /// ptime: 25.541
+
+[732/10000] -  mean of train L2: 0.225 // mean of test L2: 4.469 /// ptime: 25.394
+
+[733/10000] -  mean of train L2: 0.213 // mean of test L2: 4.497 /// ptime: 25.967
+
+[734/10000] -  mean of train L2: 0.215 // mean of test L2: 4.479 /// ptime: 25.881
+
+[735/10000] -  mean of train L2: 0.212 // mean of test L2: 4.486 /// ptime: 25.460
+
+[736/10000] -  mean of train L2: 0.216 // mean of test L2: 4.508 /// ptime: 25.590
+
+[737/10000] -  mean of train L2: 0.221 // mean of test L2: 4.515 /// ptime: 25.869
+
+[738/10000] -  mean of train L2: 0.224 // mean of test L2: 4.484 /// ptime: 25.554
+
+[739/10000] -  mean of train L2: 0.216 // mean of test L2: 4.449 /// ptime: 25.783
+
+[740/10000] -  mean of train L2: 0.214 // mean of test L2: 4.529 /// ptime: 25.562
+
+[741/10000] -  mean of train L2: 0.223 // mean of test L2: 4.521 /// ptime: 25.698
+
+[742/10000] -  mean of train L2: 0.218 // mean of test L2: 4.469 /// ptime: 25.749
+
+[743/10000] -  mean of train L2: 0.230 // mean of test L2: 4.541 /// ptime: 25.690
+
+[744/10000] -  mean of train L2: 0.213 // mean of test L2: 4.498 /// ptime: 25.653
+
+[745/10000] -  mean of train L2: 0.225 // mean of test L2: 4.536 /// ptime: 25.490
+
+[746/10000] -  mean of train L2: 0.219 // mean of test L2: 4.515 /// ptime: 25.842
+
+[747/10000] -  mean of train L2: 0.217 // mean of test L2: 4.489 /// ptime: 25.766
+
+[748/10000] -  mean of train L2: 0.220 // mean of test L2: 4.571 /// ptime: 25.585
+
+[749/10000] -  mean of train L2: 0.216 // mean of test L2: 4.462 /// ptime: 25.556
+
+[750/10000] -  mean of train L2: 0.216 // mean of test L2: 4.525 /// ptime: 25.804
+
+[751/10000] -  mean of train L2: 0.212 // mean of test L2: 4.493 /// ptime: 25.768
+
+[752/10000] -  mean of train L2: 0.211 // mean of test L2: 4.533 /// ptime: 25.668
+
+[753/10000] -  mean of train L2: 0.209 // mean of test L2: 4.502 /// ptime: 25.787
+
+[754/10000] -  mean of train L2: 0.211 // mean of test L2: 4.492 /// ptime: 25.620
+
+[755/10000] -  mean of train L2: 0.219 // mean of test L2: 4.485 /// ptime: 25.563
+
+[756/10000] -  mean of train L2: 0.210 // mean of test L2: 4.531 /// ptime: 25.782
+
+[757/10000] -  mean of train L2: 0.217 // mean of test L2: 4.504 /// ptime: 25.911
+
+[758/10000] -  mean of train L2: 0.219 // mean of test L2: 4.503 /// ptime: 25.571
+
+[759/10000] -  mean of train L2: 0.213 // mean of test L2: 4.447 /// ptime: 25.796
+
+[760/10000] -  mean of train L2: 0.223 // mean of test L2: 4.536 /// ptime: 25.852
+
+[761/10000] -  mean of train L2: 0.216 // mean of test L2: 4.478 /// ptime: 25.923
+
+[762/10000] -  mean of train L2: 0.217 // mean of test L2: 4.491 /// ptime: 25.876
+
+[763/10000] -  mean of train L2: 0.218 // mean of test L2: 4.490 /// ptime: 25.653
+
+[764/10000] -  mean of train L2: 0.211 // mean of test L2: 4.479 /// ptime: 25.837
+
+[765/10000] -  mean of train L2: 0.210 // mean of test L2: 4.465 /// ptime: 25.717
+
+[766/10000] -  mean of train L2: 0.206 // mean of test L2: 4.502 /// ptime: 26.013
+
+[767/10000] -  mean of train L2: 0.234 // mean of test L2: 4.486 /// ptime: 25.957
+
+[768/10000] -  mean of train L2: 0.226 // mean of test L2: 4.527 /// ptime: 25.839
+
+[769/10000] -  mean of train L2: 0.214 // mean of test L2: 4.479 /// ptime: 25.885
+
+[770/10000] -  mean of train L2: 0.210 // mean of test L2: 4.500 /// ptime: 25.939
+
+[771/10000] -  mean of train L2: 0.203 // mean of test L2: 4.491 /// ptime: 25.899
+
+[772/10000] -  mean of train L2: 0.211 // mean of test L2: 4.492 /// ptime: 25.760
+
+[773/10000] -  mean of train L2: 0.200 // mean of test L2: 4.476 /// ptime: 25.232
+
+[774/10000] -  mean of train L2: 0.214 // mean of test L2: 4.530 /// ptime: 25.639
+
+[775/10000] -  mean of train L2: 0.233 // mean of test L2: 4.479 /// ptime: 25.765
+
+[776/10000] -  mean of train L2: 0.214 // mean of test L2: 4.517 /// ptime: 25.965
+
+[777/10000] -  mean of train L2: 0.208 // mean of test L2: 4.496 /// ptime: 26.143
+
+[778/10000] -  mean of train L2: 0.206 // mean of test L2: 4.478 /// ptime: 25.561
+
+[779/10000] -  mean of train L2: 0.212 // mean of test L2: 4.435 /// ptime: 25.606
+
+[780/10000] -  mean of train L2: 0.203 // mean of test L2: 4.440 /// ptime: 25.804
+
+[781/10000] -  mean of train L2: 0.211 // mean of test L2: 4.509 /// ptime: 25.754
+
+[782/10000] -  mean of train L2: 0.213 // mean of test L2: 4.477 /// ptime: 25.591
+
+[783/10000] -  mean of train L2: 0.205 // mean of test L2: 4.483 /// ptime: 25.814
+
+[784/10000] -  mean of train L2: 0.201 // mean of test L2: 4.491 /// ptime: 26.045
+
+[785/10000] -  mean of train L2: 0.210 // mean of test L2: 4.455 /// ptime: 25.766
+
+[786/10000] -  mean of train L2: 0.210 // mean of test L2: 4.502 /// ptime: 26.005
+
+[787/10000] -  mean of train L2: 0.200 // mean of test L2: 4.514 /// ptime: 25.497
+
+[788/10000] -  mean of train L2: 0.205 // mean of test L2: 4.498 /// ptime: 25.707
+
+[789/10000] -  mean of train L2: 0.205 // mean of test L2: 4.486 /// ptime: 25.858
+
+[790/10000] -  mean of train L2: 0.212 // mean of test L2: 4.514 /// ptime: 25.997
+
+[791/10000] -  mean of train L2: 0.221 // mean of test L2: 4.492 /// ptime: 25.865
+
+[792/10000] -  mean of train L2: 0.208 // mean of test L2: 4.529 /// ptime: 26.080
+
+[793/10000] -  mean of train L2: 0.207 // mean of test L2: 4.492 /// ptime: 25.927
+
+[794/10000] -  mean of train L2: 0.210 // mean of test L2: 4.504 /// ptime: 25.668
+
+[795/10000] -  mean of train L2: 0.207 // mean of test L2: 4.477 /// ptime: 26.061
+
+[796/10000] -  mean of train L2: 0.213 // mean of test L2: 4.454 /// ptime: 25.513
+
+[797/10000] -  mean of train L2: 0.205 // mean of test L2: 4.491 /// ptime: 25.824
+
+[798/10000] -  mean of train L2: 0.202 // mean of test L2: 4.485 /// ptime: 25.916
+
+[799/10000] -  mean of train L2: 0.217 // mean of test L2: 4.498 /// ptime: 25.715
+
+[800/10000] -  mean of train L2: 0.209 // mean of test L2: 4.537 /// ptime: 26.104
+
+[801/10000] -  mean of train L2: 0.217 // mean of test L2: 4.492 /// ptime: 26.408
+
+[802/10000] -  mean of train L2: 0.207 // mean of test L2: 4.489 /// ptime: 26.041
+
+[803/10000] -  mean of train L2: 0.222 // mean of test L2: 4.479 /// ptime: 26.129
+
+[804/10000] -  mean of train L2: 0.204 // mean of test L2: 4.473 /// ptime: 26.132
+
+[805/10000] -  mean of train L2: 0.196 // mean of test L2: 4.466 /// ptime: 26.358
+
+[806/10000] -  mean of train L2: 0.200 // mean of test L2: 4.495 /// ptime: 26.256
+
+[807/10000] -  mean of train L2: 0.203 // mean of test L2: 4.482 /// ptime: 26.080
+
+[808/10000] -  mean of train L2: 0.215 // mean of test L2: 4.495 /// ptime: 26.365
+
+[809/10000] -  mean of train L2: 0.210 // mean of test L2: 4.461 /// ptime: 26.240
+
+[810/10000] -  mean of train L2: 0.210 // mean of test L2: 4.499 /// ptime: 26.129
+
+[811/10000] -  mean of train L2: 0.203 // mean of test L2: 4.478 /// ptime: 26.085
+
+[812/10000] -  mean of train L2: 0.206 // mean of test L2: 4.497 /// ptime: 26.442
+
+[813/10000] -  mean of train L2: 0.202 // mean of test L2: 4.450 /// ptime: 26.346
+
+[814/10000] -  mean of train L2: 0.199 // mean of test L2: 4.492 /// ptime: 26.346
+
+[815/10000] -  mean of train L2: 0.203 // mean of test L2: 4.459 /// ptime: 25.943
+
+[816/10000] -  mean of train L2: 0.209 // mean of test L2: 4.523 /// ptime: 26.148
+
+[817/10000] -  mean of train L2: 0.210 // mean of test L2: 4.469 /// ptime: 26.020
+
+[818/10000] -  mean of train L2: 0.200 // mean of test L2: 4.490 /// ptime: 25.843
+
+[819/10000] -  mean of train L2: 0.211 // mean of test L2: 4.463 /// ptime: 26.282
+
+[820/10000] -  mean of train L2: 0.202 // mean of test L2: 4.482 /// ptime: 26.296
+
+[821/10000] -  mean of train L2: 0.205 // mean of test L2: 4.473 /// ptime: 26.760
+
+[822/10000] -  mean of train L2: 0.209 // mean of test L2: 4.468 /// ptime: 26.071
+
+[823/10000] -  mean of train L2: 0.205 // mean of test L2: 4.475 /// ptime: 25.903
+
+[824/10000] -  mean of train L2: 0.203 // mean of test L2: 4.469 /// ptime: 26.186
+
+[825/10000] -  mean of train L2: 0.193 // mean of test L2: 4.467 /// ptime: 26.235
+
+[826/10000] -  mean of train L2: 0.213 // mean of test L2: 4.489 /// ptime: 25.927
+
+[827/10000] -  mean of train L2: 0.213 // mean of test L2: 4.445 /// ptime: 26.118
+
+[828/10000] -  mean of train L2: 0.208 // mean of test L2: 4.464 /// ptime: 26.303
+
+[829/10000] -  mean of train L2: 0.208 // mean of test L2: 4.488 /// ptime: 25.923
+
+[830/10000] -  mean of train L2: 0.201 // mean of test L2: 4.470 /// ptime: 26.034
+
+[831/10000] -  mean of train L2: 0.202 // mean of test L2: 4.482 /// ptime: 25.819
+
+[832/10000] -  mean of train L2: 0.192 // mean of test L2: 4.477 /// ptime: 26.361
+
+[833/10000] -  mean of train L2: 0.202 // mean of test L2: 4.453 /// ptime: 26.173
+
+[834/10000] -  mean of train L2: 0.204 // mean of test L2: 4.499 /// ptime: 25.797
+
+[835/10000] -  mean of train L2: 0.196 // mean of test L2: 4.430 /// ptime: 25.872
+
+[836/10000] -  mean of train L2: 0.197 // mean of test L2: 4.467 /// ptime: 26.389
+
+[837/10000] -  mean of train L2: 0.208 // mean of test L2: 4.442 /// ptime: 26.288
+
+[838/10000] -  mean of train L2: 0.201 // mean of test L2: 4.467 /// ptime: 25.951
+
+[839/10000] -  mean of train L2: 0.198 // mean of test L2: 4.472 /// ptime: 25.911
+
+[840/10000] -  mean of train L2: 0.200 // mean of test L2: 4.480 /// ptime: 25.964
+
+[841/10000] -  mean of train L2: 0.195 // mean of test L2: 4.473 /// ptime: 26.087
+
+[842/10000] -  mean of train L2: 0.200 // mean of test L2: 4.474 /// ptime: 26.309
+
+[843/10000] -  mean of train L2: 0.200 // mean of test L2: 4.460 /// ptime: 26.203
+
+[844/10000] -  mean of train L2: 0.195 // mean of test L2: 4.478 /// ptime: 26.255
+
+[845/10000] -  mean of train L2: 0.206 // mean of test L2: 4.489 /// ptime: 26.289
+
+[846/10000] -  mean of train L2: 0.198 // mean of test L2: 4.441 /// ptime: 26.611
+
+[847/10000] -  mean of train L2: 0.196 // mean of test L2: 4.445 /// ptime: 26.292
+
+[848/10000] -  mean of train L2: 0.194 // mean of test L2: 4.419 /// ptime: 26.030
+
+[849/10000] -  mean of train L2: 0.197 // mean of test L2: 4.488 /// ptime: 26.289
+
+[850/10000] -  mean of train L2: 0.195 // mean of test L2: 4.461 /// ptime: 26.188
+
+[851/10000] -  mean of train L2: 0.186 // mean of test L2: 4.459 /// ptime: 26.056
+
+[852/10000] -  mean of train L2: 0.204 // mean of test L2: 4.476 /// ptime: 26.039
+
+[853/10000] -  mean of train L2: 0.210 // mean of test L2: 4.458 /// ptime: 26.316
+
+[854/10000] -  mean of train L2: 0.203 // mean of test L2: 4.459 /// ptime: 26.192
+
+[855/10000] -  mean of train L2: 0.202 // mean of test L2: 4.451 /// ptime: 26.159
+
+[856/10000] -  mean of train L2: 0.204 // mean of test L2: 4.459 /// ptime: 26.305
+
+[857/10000] -  mean of train L2: 0.194 // mean of test L2: 4.471 /// ptime: 25.770
+
+[858/10000] -  mean of train L2: 0.192 // mean of test L2: 4.435 /// ptime: 25.985
+
+[859/10000] -  mean of train L2: 0.196 // mean of test L2: 4.456 /// ptime: 26.499
+
+[860/10000] -  mean of train L2: 0.188 // mean of test L2: 4.454 /// ptime: 25.947
+
+[861/10000] -  mean of train L2: 0.195 // mean of test L2: 4.427 /// ptime: 26.544
+
+[862/10000] -  mean of train L2: 0.202 // mean of test L2: 4.453 /// ptime: 26.205
+
+[863/10000] -  mean of train L2: 0.201 // mean of test L2: 4.496 /// ptime: 25.895
+
+[864/10000] -  mean of train L2: 0.202 // mean of test L2: 4.474 /// ptime: 26.220
+
+[865/10000] -  mean of train L2: 0.195 // mean of test L2: 4.457 /// ptime: 26.002
+
+[866/10000] -  mean of train L2: 0.195 // mean of test L2: 4.508 /// ptime: 26.112
+
+[867/10000] -  mean of train L2: 0.196 // mean of test L2: 4.513 /// ptime: 26.193
+
+[868/10000] -  mean of train L2: 0.191 // mean of test L2: 4.438 /// ptime: 26.047
+
+[869/10000] -  mean of train L2: 0.190 // mean of test L2: 4.454 /// ptime: 26.356
+
+[870/10000] -  mean of train L2: 0.191 // mean of test L2: 4.446 /// ptime: 26.344
+
+[871/10000] -  mean of train L2: 0.189 // mean of test L2: 4.447 /// ptime: 26.269
+
+[872/10000] -  mean of train L2: 0.199 // mean of test L2: 4.506 /// ptime: 26.173
+
+[873/10000] -  mean of train L2: 0.191 // mean of test L2: 4.450 /// ptime: 26.451
+
+[874/10000] -  mean of train L2: 0.193 // mean of test L2: 4.489 /// ptime: 26.405
+
+[875/10000] -  mean of train L2: 0.189 // mean of test L2: 4.498 /// ptime: 26.120
+
+[876/10000] -  mean of train L2: 0.190 // mean of test L2: 4.441 /// ptime: 26.048
+
+[877/10000] -  mean of train L2: 0.189 // mean of test L2: 4.452 /// ptime: 26.199
+
+[878/10000] -  mean of train L2: 0.186 // mean of test L2: 4.458 /// ptime: 26.135
+
+[879/10000] -  mean of train L2: 0.198 // mean of test L2: 4.505 /// ptime: 26.299
+
+[880/10000] -  mean of train L2: 0.197 // mean of test L2: 4.445 /// ptime: 25.846
+
+[881/10000] -  mean of train L2: 0.202 // mean of test L2: 4.402 /// ptime: 26.206
+
+[882/10000] -  mean of train L2: 0.197 // mean of test L2: 4.469 /// ptime: 26.164
+
+[883/10000] -  mean of train L2: 0.189 // mean of test L2: 4.453 /// ptime: 26.459
+
+[884/10000] -  mean of train L2: 0.188 // mean of test L2: 4.457 /// ptime: 26.234
+
+[885/10000] -  mean of train L2: 0.188 // mean of test L2: 4.442 /// ptime: 26.075
+
+[886/10000] -  mean of train L2: 0.182 // mean of test L2: 4.485 /// ptime: 26.049
+
+[887/10000] -  mean of train L2: 0.186 // mean of test L2: 4.447 /// ptime: 26.188
+
+[888/10000] -  mean of train L2: 0.194 // mean of test L2: 4.445 /// ptime: 25.771
+
+[889/10000] -  mean of train L2: 0.192 // mean of test L2: 4.484 /// ptime: 26.032
+
+[890/10000] -  mean of train L2: 0.192 // mean of test L2: 4.480 /// ptime: 26.288
+
+[891/10000] -  mean of train L2: 0.184 // mean of test L2: 4.464 /// ptime: 26.265
+
+[892/10000] -  mean of train L2: 0.182 // mean of test L2: 4.466 /// ptime: 26.188
+
+[893/10000] -  mean of train L2: 0.193 // mean of test L2: 4.465 /// ptime: 26.233
+
+[894/10000] -  mean of train L2: 0.198 // mean of test L2: 4.470 /// ptime: 25.894
+
+[895/10000] -  mean of train L2: 0.183 // mean of test L2: 4.470 /// ptime: 25.932
+
+[896/10000] -  mean of train L2: 0.183 // mean of test L2: 4.450 /// ptime: 25.822
+
+[897/10000] -  mean of train L2: 0.194 // mean of test L2: 4.469 /// ptime: 25.930
+
+[898/10000] -  mean of train L2: 0.184 // mean of test L2: 4.471 /// ptime: 25.861
+
+[899/10000] -  mean of train L2: 0.192 // mean of test L2: 4.433 /// ptime: 25.937
+
+[900/10000] -  mean of train L2: 0.185 // mean of test L2: 4.463 /// ptime: 26.163
+
+[901/10000] -  mean of train L2: 0.188 // mean of test L2: 4.475 /// ptime: 25.468
+
+[902/10000] -  mean of train L2: 0.190 // mean of test L2: 4.475 /// ptime: 25.811
+
+[903/10000] -  mean of train L2: 0.187 // mean of test L2: 4.459 /// ptime: 25.293
+
+[904/10000] -  mean of train L2: 0.189 // mean of test L2: 4.480 /// ptime: 25.908
+
+[905/10000] -  mean of train L2: 0.185 // mean of test L2: 4.470 /// ptime: 26.009
+
+[906/10000] -  mean of train L2: 0.189 // mean of test L2: 4.490 /// ptime: 25.578
+
+[907/10000] -  mean of train L2: 0.186 // mean of test L2: 4.463 /// ptime: 25.689
+
+[908/10000] -  mean of train L2: 0.191 // mean of test L2: 4.440 /// ptime: 25.798
+
+[909/10000] -  mean of train L2: 0.183 // mean of test L2: 4.462 /// ptime: 25.577
+
+[910/10000] -  mean of train L2: 0.194 // mean of test L2: 4.437 /// ptime: 25.648
+
+[911/10000] -  mean of train L2: 0.181 // mean of test L2: 4.436 /// ptime: 26.024
+
+[912/10000] -  mean of train L2: 0.188 // mean of test L2: 4.479 /// ptime: 25.711
+
+[913/10000] -  mean of train L2: 0.195 // mean of test L2: 4.435 /// ptime: 25.701
+
+[914/10000] -  mean of train L2: 0.200 // mean of test L2: 4.471 /// ptime: 25.672
+
+[915/10000] -  mean of train L2: 0.191 // mean of test L2: 4.450 /// ptime: 25.629
+
+[916/10000] -  mean of train L2: 0.183 // mean of test L2: 4.465 /// ptime: 25.599
+
+[917/10000] -  mean of train L2: 0.184 // mean of test L2: 4.451 /// ptime: 25.754
+
+[918/10000] -  mean of train L2: 0.189 // mean of test L2: 4.476 /// ptime: 25.845
+
+[919/10000] -  mean of train L2: 0.194 // mean of test L2: 4.475 /// ptime: 25.993
+
+[920/10000] -  mean of train L2: 0.201 // mean of test L2: 4.462 /// ptime: 25.638
+
+[921/10000] -  mean of train L2: 0.191 // mean of test L2: 4.461 /// ptime: 25.819
+
+[922/10000] -  mean of train L2: 0.190 // mean of test L2: 4.441 /// ptime: 25.460
+
+[923/10000] -  mean of train L2: 0.198 // mean of test L2: 4.437 /// ptime: 25.710
+
+[924/10000] -  mean of train L2: 0.188 // mean of test L2: 4.451 /// ptime: 25.820
+
+[925/10000] -  mean of train L2: 0.188 // mean of test L2: 4.452 /// ptime: 25.901
+
+[926/10000] -  mean of train L2: 0.190 // mean of test L2: 4.450 /// ptime: 25.846
+
+[927/10000] -  mean of train L2: 0.186 // mean of test L2: 4.453 /// ptime: 25.698
+
+[928/10000] -  mean of train L2: 0.187 // mean of test L2: 4.427 /// ptime: 25.740
+
+[929/10000] -  mean of train L2: 0.188 // mean of test L2: 4.479 /// ptime: 25.882
+
+[930/10000] -  mean of train L2: 0.190 // mean of test L2: 4.473 /// ptime: 25.885
+
+[931/10000] -  mean of train L2: 0.183 // mean of test L2: 4.463 /// ptime: 25.800
+
+[932/10000] -  mean of train L2: 0.185 // mean of test L2: 4.467 /// ptime: 26.019
+
+[933/10000] -  mean of train L2: 0.184 // mean of test L2: 4.465 /// ptime: 25.856
+
+[934/10000] -  mean of train L2: 0.180 // mean of test L2: 4.430 /// ptime: 25.804
+
+[935/10000] -  mean of train L2: 0.178 // mean of test L2: 4.441 /// ptime: 25.938
+
+[936/10000] -  mean of train L2: 0.188 // mean of test L2: 4.455 /// ptime: 25.948
+
+[937/10000] -  mean of train L2: 0.182 // mean of test L2: 4.454 /// ptime: 25.828
+
+[938/10000] -  mean of train L2: 0.188 // mean of test L2: 4.442 /// ptime: 25.734
+
+[939/10000] -  mean of train L2: 0.191 // mean of test L2: 4.455 /// ptime: 25.996
+
+[940/10000] -  mean of train L2: 0.186 // mean of test L2: 4.439 /// ptime: 25.832
+
+[941/10000] -  mean of train L2: 0.185 // mean of test L2: 4.448 /// ptime: 25.635
+
+[942/10000] -  mean of train L2: 0.187 // mean of test L2: 4.458 /// ptime: 25.834
+
+[943/10000] -  mean of train L2: 0.179 // mean of test L2: 4.454 /// ptime: 25.728
+
+[944/10000] -  mean of train L2: 0.185 // mean of test L2: 4.456 /// ptime: 26.070
+
+[945/10000] -  mean of train L2: 0.182 // mean of test L2: 4.438 /// ptime: 26.010
+
+[946/10000] -  mean of train L2: 0.183 // mean of test L2: 4.433 /// ptime: 25.539
+
+[947/10000] -  mean of train L2: 0.181 // mean of test L2: 4.437 /// ptime: 25.824
+
+[948/10000] -  mean of train L2: 0.183 // mean of test L2: 4.497 /// ptime: 25.845
+
+[949/10000] -  mean of train L2: 0.183 // mean of test L2: 4.425 /// ptime: 25.402
+
+[950/10000] -  mean of train L2: 0.187 // mean of test L2: 4.464 /// ptime: 25.806
+
+[951/10000] -  mean of train L2: 0.190 // mean of test L2: 4.491 /// ptime: 25.981
+
+[952/10000] -  mean of train L2: 0.186 // mean of test L2: 4.459 /// ptime: 25.900
+
+[953/10000] -  mean of train L2: 0.184 // mean of test L2: 4.468 /// ptime: 25.866
+
+[954/10000] -  mean of train L2: 0.183 // mean of test L2: 4.455 /// ptime: 26.003
+
+[955/10000] -  mean of train L2: 0.190 // mean of test L2: 4.437 /// ptime: 25.793
+
+[956/10000] -  mean of train L2: 0.186 // mean of test L2: 4.473 /// ptime: 26.033
+
+[957/10000] -  mean of train L2: 0.186 // mean of test L2: 4.419 /// ptime: 25.727
+
+[958/10000] -  mean of train L2: 0.180 // mean of test L2: 4.436 /// ptime: 26.027
+
+[959/10000] -  mean of train L2: 0.186 // mean of test L2: 4.422 /// ptime: 25.798
+
+[960/10000] -  mean of train L2: 0.182 // mean of test L2: 4.451 /// ptime: 25.925
+
+[961/10000] -  mean of train L2: 0.176 // mean of test L2: 4.441 /// ptime: 25.839
+
+[962/10000] -  mean of train L2: 0.177 // mean of test L2: 4.478 /// ptime: 25.710
+
+[963/10000] -  mean of train L2: 0.198 // mean of test L2: 4.467 /// ptime: 25.957
+
+[964/10000] -  mean of train L2: 0.185 // mean of test L2: 4.445 /// ptime: 25.527
+
+[965/10000] -  mean of train L2: 0.185 // mean of test L2: 4.427 /// ptime: 25.856
+
+[966/10000] -  mean of train L2: 0.179 // mean of test L2: 4.432 /// ptime: 25.890
+
+[967/10000] -  mean of train L2: 0.181 // mean of test L2: 4.467 /// ptime: 26.129
+
+[968/10000] -  mean of train L2: 0.178 // mean of test L2: 4.418 /// ptime: 25.714
+
+[969/10000] -  mean of train L2: 0.181 // mean of test L2: 4.415 /// ptime: 25.663
+
+[970/10000] -  mean of train L2: 0.192 // mean of test L2: 4.444 /// ptime: 25.451
+
+[971/10000] -  mean of train L2: 0.187 // mean of test L2: 4.431 /// ptime: 25.819
+
+[972/10000] -  mean of train L2: 0.187 // mean of test L2: 4.453 /// ptime: 25.910
+
+[973/10000] -  mean of train L2: 0.172 // mean of test L2: 4.458 /// ptime: 25.997
+
+[974/10000] -  mean of train L2: 0.182 // mean of test L2: 4.415 /// ptime: 25.673
+
+[975/10000] -  mean of train L2: 0.181 // mean of test L2: 4.451 /// ptime: 25.533
+
+[976/10000] -  mean of train L2: 0.176 // mean of test L2: 4.429 /// ptime: 25.554
+
+[977/10000] -  mean of train L2: 0.174 // mean of test L2: 4.406 /// ptime: 25.633
+
+[978/10000] -  mean of train L2: 0.174 // mean of test L2: 4.418 /// ptime: 25.986
+
+[979/10000] -  mean of train L2: 0.179 // mean of test L2: 4.414 /// ptime: 25.939
+
+[980/10000] -  mean of train L2: 0.194 // mean of test L2: 4.464 /// ptime: 25.546
+
+[981/10000] -  mean of train L2: 0.183 // mean of test L2: 4.473 /// ptime: 25.354
+
+[982/10000] -  mean of train L2: 0.180 // mean of test L2: 4.443 /// ptime: 25.749
+
+[983/10000] -  mean of train L2: 0.181 // mean of test L2: 4.434 /// ptime: 25.776
+
+[984/10000] -  mean of train L2: 0.180 // mean of test L2: 4.453 /// ptime: 25.497
+
+[985/10000] -  mean of train L2: 0.191 // mean of test L2: 4.421 /// ptime: 25.964
+
+[986/10000] -  mean of train L2: 0.182 // mean of test L2: 4.435 /// ptime: 25.875
+
+[987/10000] -  mean of train L2: 0.186 // mean of test L2: 4.468 /// ptime: 25.915
+
+[988/10000] -  mean of train L2: 0.180 // mean of test L2: 4.444 /// ptime: 25.867
+
+[989/10000] -  mean of train L2: 0.187 // mean of test L2: 4.470 /// ptime: 25.436
+
+[990/10000] -  mean of train L2: 0.179 // mean of test L2: 4.435 /// ptime: 25.618
+
+[991/10000] -  mean of train L2: 0.178 // mean of test L2: 4.446 /// ptime: 25.769
+
+[992/10000] -  mean of train L2: 0.174 // mean of test L2: 4.463 /// ptime: 25.750
+
+[993/10000] -  mean of train L2: 0.176 // mean of test L2: 4.456 /// ptime: 25.589
+
+[994/10000] -  mean of train L2: 0.185 // mean of test L2: 4.440 /// ptime: 25.523
+
+[995/10000] -  mean of train L2: 0.176 // mean of test L2: 4.449 /// ptime: 25.787
+
+[996/10000] -  mean of train L2: 0.184 // mean of test L2: 4.449 /// ptime: 25.681
+
+[997/10000] -  mean of train L2: 0.183 // mean of test L2: 4.431 /// ptime: 25.628
+
+[998/10000] -  mean of train L2: 0.178 // mean of test L2: 4.457 /// ptime: 25.802
+
+[999/10000] -  mean of train L2: 0.180 // mean of test L2: 4.456 /// ptime: 25.887
+
+[1000/10000] -  mean of train L2: 0.184 // mean of test L2: 4.442 /// ptime: 25.625
+
+[1001/10000] -  mean of train L2: 0.187 // mean of test L2: 4.439 /// ptime: 25.761
+
+[1002/10000] -  mean of train L2: 0.184 // mean of test L2: 4.415 /// ptime: 25.674
+
+[1003/10000] -  mean of train L2: 0.180 // mean of test L2: 4.439 /// ptime: 25.526
+
+[1004/10000] -  mean of train L2: 0.177 // mean of test L2: 4.429 /// ptime: 25.502
+
+[1005/10000] -  mean of train L2: 0.176 // mean of test L2: 4.438 /// ptime: 25.762
+
+[1006/10000] -  mean of train L2: 0.178 // mean of test L2: 4.453 /// ptime: 25.630
+
+[1007/10000] -  mean of train L2: 0.173 // mean of test L2: 4.464 /// ptime: 25.993
+
+[1008/10000] -  mean of train L2: 0.180 // mean of test L2: 4.467 /// ptime: 25.888
+
+[1009/10000] -  mean of train L2: 0.178 // mean of test L2: 4.404 /// ptime: 25.822
+
+[1010/10000] -  mean of train L2: 0.167 // mean of test L2: 4.435 /// ptime: 25.742
+
+[1011/10000] -  mean of train L2: 0.177 // mean of test L2: 4.482 /// ptime: 25.682
+
+[1012/10000] -  mean of train L2: 0.184 // mean of test L2: 4.438 /// ptime: 25.671
+
+[1013/10000] -  mean of train L2: 0.168 // mean of test L2: 4.426 /// ptime: 25.730
+
+[1014/10000] -  mean of train L2: 0.175 // mean of test L2: 4.416 /// ptime: 25.882
+
+[1015/10000] -  mean of train L2: 0.170 // mean of test L2: 4.454 /// ptime: 25.575
+
+[1016/10000] -  mean of train L2: 0.176 // mean of test L2: 4.403 /// ptime: 26.025
+
+[1017/10000] -  mean of train L2: 0.173 // mean of test L2: 4.482 /// ptime: 25.835
+
+[1018/10000] -  mean of train L2: 0.171 // mean of test L2: 4.409 /// ptime: 25.951
+
+[1019/10000] -  mean of train L2: 0.175 // mean of test L2: 4.451 /// ptime: 25.678
+
+[1020/10000] -  mean of train L2: 0.191 // mean of test L2: 4.490 /// ptime: 26.049
+
+[1021/10000] -  mean of train L2: 0.189 // mean of test L2: 4.437 /// ptime: 25.538
+
+[1022/10000] -  mean of train L2: 0.175 // mean of test L2: 4.464 /// ptime: 25.851
+
+[1023/10000] -  mean of train L2: 0.175 // mean of test L2: 4.434 /// ptime: 26.148
+
+[1024/10000] -  mean of train L2: 0.177 // mean of test L2: 4.451 /// ptime: 25.723
+
+[1025/10000] -  mean of train L2: 0.184 // mean of test L2: 4.459 /// ptime: 25.838
+
+[1026/10000] -  mean of train L2: 0.184 // mean of test L2: 4.445 /// ptime: 25.962
+
+[1027/10000] -  mean of train L2: 0.174 // mean of test L2: 4.453 /// ptime: 26.002
+
+[1028/10000] -  mean of train L2: 0.170 // mean of test L2: 4.412 /// ptime: 25.795
+
+[1029/10000] -  mean of train L2: 0.171 // mean of test L2: 4.452 /// ptime: 25.922
+
+[1030/10000] -  mean of train L2: 0.175 // mean of test L2: 4.416 /// ptime: 25.962
+
+[1031/10000] -  mean of train L2: 0.170 // mean of test L2: 4.409 /// ptime: 25.796
+
+[1032/10000] -  mean of train L2: 0.171 // mean of test L2: 4.436 /// ptime: 25.840
+
+[1033/10000] -  mean of train L2: 0.177 // mean of test L2: 4.454 /// ptime: 25.791
+
+[1034/10000] -  mean of train L2: 0.170 // mean of test L2: 4.415 /// ptime: 25.475
+
+[1035/10000] -  mean of train L2: 0.169 // mean of test L2: 4.442 /// ptime: 25.638
+
+[1036/10000] -  mean of train L2: 0.179 // mean of test L2: 4.490 /// ptime: 25.576
+
+[1037/10000] -  mean of train L2: 0.189 // mean of test L2: 4.419 /// ptime: 25.854
+
+[1038/10000] -  mean of train L2: 0.174 // mean of test L2: 4.433 /// ptime: 25.964
+
+[1039/10000] -  mean of train L2: 0.167 // mean of test L2: 4.432 /// ptime: 25.640
+
+[1040/10000] -  mean of train L2: 0.170 // mean of test L2: 4.475 /// ptime: 25.819
+
+[1041/10000] -  mean of train L2: 0.172 // mean of test L2: 4.464 /// ptime: 25.481
+
+[1042/10000] -  mean of train L2: 0.174 // mean of test L2: 4.403 /// ptime: 25.941
+
+[1043/10000] -  mean of train L2: 0.170 // mean of test L2: 4.451 /// ptime: 25.698
+
+[1044/10000] -  mean of train L2: 0.173 // mean of test L2: 4.446 /// ptime: 25.587
+
+[1045/10000] -  mean of train L2: 0.177 // mean of test L2: 4.420 /// ptime: 25.980
+
+[1046/10000] -  mean of train L2: 0.175 // mean of test L2: 4.449 /// ptime: 25.810
+
+[1047/10000] -  mean of train L2: 0.181 // mean of test L2: 4.473 /// ptime: 25.623
+
+[1048/10000] -  mean of train L2: 0.170 // mean of test L2: 4.437 /// ptime: 25.705
+
+[1049/10000] -  mean of train L2: 0.169 // mean of test L2: 4.436 /// ptime: 25.678
+
+[1050/10000] -  mean of train L2: 0.175 // mean of test L2: 4.447 /// ptime: 25.623
+
+[1051/10000] -  mean of train L2: 0.168 // mean of test L2: 4.465 /// ptime: 25.579
+
+[1052/10000] -  mean of train L2: 0.168 // mean of test L2: 4.431 /// ptime: 26.096
+
+[1053/10000] -  mean of train L2: 0.169 // mean of test L2: 4.476 /// ptime: 25.740
+
+[1054/10000] -  mean of train L2: 0.173 // mean of test L2: 4.425 /// ptime: 25.827
+
+[1055/10000] -  mean of train L2: 0.170 // mean of test L2: 4.438 /// ptime: 25.545
+
+[1056/10000] -  mean of train L2: 0.170 // mean of test L2: 4.423 /// ptime: 25.858
+
+[1057/10000] -  mean of train L2: 0.173 // mean of test L2: 4.437 /// ptime: 25.912
+
+[1058/10000] -  mean of train L2: 0.177 // mean of test L2: 4.453 /// ptime: 25.904
+
+[1059/10000] -  mean of train L2: 0.178 // mean of test L2: 4.466 /// ptime: 25.951
+
+[1060/10000] -  mean of train L2: 0.171 // mean of test L2: 4.442 /// ptime: 25.773
+
+[1061/10000] -  mean of train L2: 0.167 // mean of test L2: 4.420 /// ptime: 25.743
+
+[1062/10000] -  mean of train L2: 0.170 // mean of test L2: 4.452 /// ptime: 25.823
+
+[1063/10000] -  mean of train L2: 0.184 // mean of test L2: 4.428 /// ptime: 26.018
+
+[1064/10000] -  mean of train L2: 0.176 // mean of test L2: 4.463 /// ptime: 25.771
+
+[1065/10000] -  mean of train L2: 0.168 // mean of test L2: 4.418 /// ptime: 25.816
+
+[1066/10000] -  mean of train L2: 0.171 // mean of test L2: 4.456 /// ptime: 25.972
+
+[1067/10000] -  mean of train L2: 0.169 // mean of test L2: 4.442 /// ptime: 25.961
+
+[1068/10000] -  mean of train L2: 0.169 // mean of test L2: 4.408 /// ptime: 25.832
+
+[1069/10000] -  mean of train L2: 0.172 // mean of test L2: 4.440 /// ptime: 25.816
+
+[1070/10000] -  mean of train L2: 0.175 // mean of test L2: 4.452 /// ptime: 26.053
+
+[1071/10000] -  mean of train L2: 0.172 // mean of test L2: 4.415 /// ptime: 25.649
+
+[1072/10000] -  mean of train L2: 0.166 // mean of test L2: 4.463 /// ptime: 25.857
+
+[1073/10000] -  mean of train L2: 0.164 // mean of test L2: 4.434 /// ptime: 26.016
+
+[1074/10000] -  mean of train L2: 0.165 // mean of test L2: 4.427 /// ptime: 25.412
+
+[1075/10000] -  mean of train L2: 0.165 // mean of test L2: 4.443 /// ptime: 25.619
+
+[1076/10000] -  mean of train L2: 0.164 // mean of test L2: 4.456 /// ptime: 25.765
+
+[1077/10000] -  mean of train L2: 0.167 // mean of test L2: 4.414 /// ptime: 25.774
+
+[1078/10000] -  mean of train L2: 0.170 // mean of test L2: 4.432 /// ptime: 26.049
+
+[1079/10000] -  mean of train L2: 0.170 // mean of test L2: 4.409 /// ptime: 25.691
+
+[1080/10000] -  mean of train L2: 0.174 // mean of test L2: 4.419 /// ptime: 25.648
+
+[1081/10000] -  mean of train L2: 0.169 // mean of test L2: 4.460 /// ptime: 25.710
+
+[1082/10000] -  mean of train L2: 0.177 // mean of test L2: 4.416 /// ptime: 25.706
+
+[1083/10000] -  mean of train L2: 0.169 // mean of test L2: 4.417 /// ptime: 25.671
+
+[1084/10000] -  mean of train L2: 0.166 // mean of test L2: 4.423 /// ptime: 25.761
+
+[1085/10000] -  mean of train L2: 0.160 // mean of test L2: 4.445 /// ptime: 25.935
+
+[1086/10000] -  mean of train L2: 0.168 // mean of test L2: 4.423 /// ptime: 25.596
+
+[1087/10000] -  mean of train L2: 0.164 // mean of test L2: 4.420 /// ptime: 25.734
+
+[1088/10000] -  mean of train L2: 0.168 // mean of test L2: 4.440 /// ptime: 25.787
+
+[1089/10000] -  mean of train L2: 0.174 // mean of test L2: 4.415 /// ptime: 25.614
+
+[1090/10000] -  mean of train L2: 0.176 // mean of test L2: 4.470 /// ptime: 25.930
+
+[1091/10000] -  mean of train L2: 0.171 // mean of test L2: 4.445 /// ptime: 25.919
+
+[1092/10000] -  mean of train L2: 0.164 // mean of test L2: 4.395 /// ptime: 25.541
+
+[1093/10000] -  mean of train L2: 0.160 // mean of test L2: 4.431 /// ptime: 25.734
+
+[1094/10000] -  mean of train L2: 0.163 // mean of test L2: 4.471 /// ptime: 25.617
+
+[1095/10000] -  mean of train L2: 0.163 // mean of test L2: 4.469 /// ptime: 25.590
+
+[1096/10000] -  mean of train L2: 0.161 // mean of test L2: 4.422 /// ptime: 25.741
+
+[1097/10000] -  mean of train L2: 0.165 // mean of test L2: 4.411 /// ptime: 25.638
+
+[1098/10000] -  mean of train L2: 0.168 // mean of test L2: 4.419 /// ptime: 25.734
+
+[1099/10000] -  mean of train L2: 0.171 // mean of test L2: 4.447 /// ptime: 25.727
+
+[1100/10000] -  mean of train L2: 0.162 // mean of test L2: 4.440 /// ptime: 25.803
+
+[1101/10000] -  mean of train L2: 0.163 // mean of test L2: 4.419 /// ptime: 25.570
+
+[1102/10000] -  mean of train L2: 0.172 // mean of test L2: 4.489 /// ptime: 25.944
+
+[1103/10000] -  mean of train L2: 0.176 // mean of test L2: 4.475 /// ptime: 25.791
+
+[1104/10000] -  mean of train L2: 0.172 // mean of test L2: 4.468 /// ptime: 25.835
+
+[1105/10000] -  mean of train L2: 0.174 // mean of test L2: 4.467 /// ptime: 25.715
+
+[1106/10000] -  mean of train L2: 0.169 // mean of test L2: 4.460 /// ptime: 25.838
+
+[1107/10000] -  mean of train L2: 0.165 // mean of test L2: 4.458 /// ptime: 25.776
+
+[1108/10000] -  mean of train L2: 0.162 // mean of test L2: 4.452 /// ptime: 25.954
+
+[1109/10000] -  mean of train L2: 0.166 // mean of test L2: 4.463 /// ptime: 25.845
+
+[1110/10000] -  mean of train L2: 0.169 // mean of test L2: 4.417 /// ptime: 26.043
+
+[1111/10000] -  mean of train L2: 0.175 // mean of test L2: 4.458 /// ptime: 25.784
+
+[1112/10000] -  mean of train L2: 0.162 // mean of test L2: 4.442 /// ptime: 25.769
+
+[1113/10000] -  mean of train L2: 0.163 // mean of test L2: 4.407 /// ptime: 25.651
+
+[1114/10000] -  mean of train L2: 0.167 // mean of test L2: 4.450 /// ptime: 25.687
+
+[1115/10000] -  mean of train L2: 0.173 // mean of test L2: 4.460 /// ptime: 25.453
+
+[1116/10000] -  mean of train L2: 0.165 // mean of test L2: 4.450 /// ptime: 25.914
+
+[1117/10000] -  mean of train L2: 0.159 // mean of test L2: 4.435 /// ptime: 25.889
+
+[1118/10000] -  mean of train L2: 0.166 // mean of test L2: 4.448 /// ptime: 25.624
+
+[1119/10000] -  mean of train L2: 0.162 // mean of test L2: 4.445 /// ptime: 25.929
+
+[1120/10000] -  mean of train L2: 0.162 // mean of test L2: 4.435 /// ptime: 25.751
+
+[1121/10000] -  mean of train L2: 0.171 // mean of test L2: 4.414 /// ptime: 25.623
+
+[1122/10000] -  mean of train L2: 0.159 // mean of test L2: 4.429 /// ptime: 26.149
+
+[1123/10000] -  mean of train L2: 0.167 // mean of test L2: 4.450 /// ptime: 25.653
+
+[1124/10000] -  mean of train L2: 0.163 // mean of test L2: 4.433 /// ptime: 25.553
+
+[1125/10000] -  mean of train L2: 0.159 // mean of test L2: 4.460 /// ptime: 25.888
+
+[1126/10000] -  mean of train L2: 0.163 // mean of test L2: 4.438 /// ptime: 25.877
+
+[1127/10000] -  mean of train L2: 0.161 // mean of test L2: 4.438 /// ptime: 25.902
+
+[1128/10000] -  mean of train L2: 0.165 // mean of test L2: 4.449 /// ptime: 25.734
+
+[1129/10000] -  mean of train L2: 0.170 // mean of test L2: 4.423 /// ptime: 25.909
+
+[1130/10000] -  mean of train L2: 0.175 // mean of test L2: 4.423 /// ptime: 25.579
+
+[1131/10000] -  mean of train L2: 0.162 // mean of test L2: 4.424 /// ptime: 25.605
+
+[1132/10000] -  mean of train L2: 0.165 // mean of test L2: 4.441 /// ptime: 25.739
+
+[1133/10000] -  mean of train L2: 0.160 // mean of test L2: 4.440 /// ptime: 26.015
+
+[1134/10000] -  mean of train L2: 0.164 // mean of test L2: 4.460 /// ptime: 25.889
+
+[1135/10000] -  mean of train L2: 0.161 // mean of test L2: 4.423 /// ptime: 25.931
+
+[1136/10000] -  mean of train L2: 0.166 // mean of test L2: 4.486 /// ptime: 25.773
+
+[1137/10000] -  mean of train L2: 0.163 // mean of test L2: 4.394 /// ptime: 25.460
+
+[1138/10000] -  mean of train L2: 0.164 // mean of test L2: 4.417 /// ptime: 25.530
+
+[1139/10000] -  mean of train L2: 0.159 // mean of test L2: 4.448 /// ptime: 25.810
+
+[1140/10000] -  mean of train L2: 0.165 // mean of test L2: 4.424 /// ptime: 25.499
+
+[1141/10000] -  mean of train L2: 0.158 // mean of test L2: 4.404 /// ptime: 25.676
+
+[1142/10000] -  mean of train L2: 0.155 // mean of test L2: 4.455 /// ptime: 25.864
+
+[1143/10000] -  mean of train L2: 0.160 // mean of test L2: 4.446 /// ptime: 26.503
+
+[1144/10000] -  mean of train L2: 0.164 // mean of test L2: 4.433 /// ptime: 25.679
+
+[1145/10000] -  mean of train L2: 0.166 // mean of test L2: 4.444 /// ptime: 25.410
+
+[1146/10000] -  mean of train L2: 0.164 // mean of test L2: 4.433 /// ptime: 26.111
+
+[1147/10000] -  mean of train L2: 0.165 // mean of test L2: 4.416 /// ptime: 25.951
+
+[1148/10000] -  mean of train L2: 0.163 // mean of test L2: 4.427 /// ptime: 25.734
+
+[1149/10000] -  mean of train L2: 0.168 // mean of test L2: 4.396 /// ptime: 25.972
+
+[1150/10000] -  mean of train L2: 0.163 // mean of test L2: 4.452 /// ptime: 25.886
+
+[1151/10000] -  mean of train L2: 0.166 // mean of test L2: 4.402 /// ptime: 25.976
+
+[1152/10000] -  mean of train L2: 0.154 // mean of test L2: 4.410 /// ptime: 25.759
+
+[1153/10000] -  mean of train L2: 0.157 // mean of test L2: 4.418 /// ptime: 25.423
+
+[1154/10000] -  mean of train L2: 0.168 // mean of test L2: 4.409 /// ptime: 26.066
+
+[1155/10000] -  mean of train L2: 0.167 // mean of test L2: 4.448 /// ptime: 25.790
+
+[1156/10000] -  mean of train L2: 0.157 // mean of test L2: 4.422 /// ptime: 25.956
+
+[1157/10000] -  mean of train L2: 0.169 // mean of test L2: 4.414 /// ptime: 25.847
+
+[1158/10000] -  mean of train L2: 0.163 // mean of test L2: 4.409 /// ptime: 25.831
+
+[1159/10000] -  mean of train L2: 0.161 // mean of test L2: 4.411 /// ptime: 25.950
+
+[1160/10000] -  mean of train L2: 0.158 // mean of test L2: 4.422 /// ptime: 25.623
+
+[1161/10000] -  mean of train L2: 0.163 // mean of test L2: 4.439 /// ptime: 25.827
+
+[1162/10000] -  mean of train L2: 0.171 // mean of test L2: 4.433 /// ptime: 25.799
+
+[1163/10000] -  mean of train L2: 0.163 // mean of test L2: 4.397 /// ptime: 25.924
+
+[1164/10000] -  mean of train L2: 0.159 // mean of test L2: 4.412 /// ptime: 25.696
+
+[1165/10000] -  mean of train L2: 0.163 // mean of test L2: 4.424 /// ptime: 25.641
+
+[1166/10000] -  mean of train L2: 0.160 // mean of test L2: 4.413 /// ptime: 25.887
+
+[1167/10000] -  mean of train L2: 0.156 // mean of test L2: 4.429 /// ptime: 25.902
+
+[1168/10000] -  mean of train L2: 0.166 // mean of test L2: 4.438 /// ptime: 25.805
+
+[1169/10000] -  mean of train L2: 0.162 // mean of test L2: 4.404 /// ptime: 25.978
+
+[1170/10000] -  mean of train L2: 0.156 // mean of test L2: 4.415 /// ptime: 25.805
+
+[1171/10000] -  mean of train L2: 0.159 // mean of test L2: 4.434 /// ptime: 25.628
+
+[1172/10000] -  mean of train L2: 0.161 // mean of test L2: 4.409 /// ptime: 25.813
+
+[1173/10000] -  mean of train L2: 0.161 // mean of test L2: 4.426 /// ptime: 25.927
+
+[1174/10000] -  mean of train L2: 0.162 // mean of test L2: 4.431 /// ptime: 25.863
+
+[1175/10000] -  mean of train L2: 0.163 // mean of test L2: 4.391 /// ptime: 25.548
+
+[1176/10000] -  mean of train L2: 0.153 // mean of test L2: 4.418 /// ptime: 25.781
+
+[1177/10000] -  mean of train L2: 0.156 // mean of test L2: 4.399 /// ptime: 25.356
+
+[1178/10000] -  mean of train L2: 0.159 // mean of test L2: 4.432 /// ptime: 25.764
+
+[1179/10000] -  mean of train L2: 0.157 // mean of test L2: 4.393 /// ptime: 25.765
+
+[1180/10000] -  mean of train L2: 0.170 // mean of test L2: 4.423 /// ptime: 25.673
+
+[1181/10000] -  mean of train L2: 0.162 // mean of test L2: 4.429 /// ptime: 26.027
+
+[1182/10000] -  mean of train L2: 0.160 // mean of test L2: 4.478 /// ptime: 25.634
+
+[1183/10000] -  mean of train L2: 0.158 // mean of test L2: 4.394 /// ptime: 25.960
+
+[1184/10000] -  mean of train L2: 0.151 // mean of test L2: 4.415 /// ptime: 25.985
+
+[1185/10000] -  mean of train L2: 0.154 // mean of test L2: 4.431 /// ptime: 25.848
+
+[1186/10000] -  mean of train L2: 0.160 // mean of test L2: 4.429 /// ptime: 25.871
+
+[1187/10000] -  mean of train L2: 0.159 // mean of test L2: 4.436 /// ptime: 25.633
+
+[1188/10000] -  mean of train L2: 0.155 // mean of test L2: 4.423 /// ptime: 25.674
+
+[1189/10000] -  mean of train L2: 0.151 // mean of test L2: 4.432 /// ptime: 25.708
+
+[1190/10000] -  mean of train L2: 0.158 // mean of test L2: 4.428 /// ptime: 25.595
+
+[1191/10000] -  mean of train L2: 0.163 // mean of test L2: 4.380 /// ptime: 25.663
+
+[1192/10000] -  mean of train L2: 0.184 // mean of test L2: 4.397 /// ptime: 26.105
+
+[1193/10000] -  mean of train L2: 0.166 // mean of test L2: 4.442 /// ptime: 25.778
+
+[1194/10000] -  mean of train L2: 0.160 // mean of test L2: 4.427 /// ptime: 26.057
+
+[1195/10000] -  mean of train L2: 0.157 // mean of test L2: 4.426 /// ptime: 25.759
+
+[1196/10000] -  mean of train L2: 0.155 // mean of test L2: 4.408 /// ptime: 25.810
+
+[1197/10000] -  mean of train L2: 0.157 // mean of test L2: 4.400 /// ptime: 25.518
+
+[1198/10000] -  mean of train L2: 0.159 // mean of test L2: 4.420 /// ptime: 26.092
+
+[1199/10000] -  mean of train L2: 0.156 // mean of test L2: 4.416 /// ptime: 25.621
+
+[1200/10000] -  mean of train L2: 0.156 // mean of test L2: 4.429 /// ptime: 25.652
+
+[1201/10000] -  mean of train L2: 0.153 // mean of test L2: 4.383 /// ptime: 25.960
+
+[1202/10000] -  mean of train L2: 0.156 // mean of test L2: 4.394 /// ptime: 25.796
+
+[1203/10000] -  mean of train L2: 0.157 // mean of test L2: 4.453 /// ptime: 25.812
+
+[1204/10000] -  mean of train L2: 0.152 // mean of test L2: 4.450 /// ptime: 26.011
+
+[1205/10000] -  mean of train L2: 0.159 // mean of test L2: 4.405 /// ptime: 25.849
+
+[1206/10000] -  mean of train L2: 0.154 // mean of test L2: 4.399 /// ptime: 25.730
+
+[1207/10000] -  mean of train L2: 0.158 // mean of test L2: 4.377 /// ptime: 25.876
+
+[1208/10000] -  mean of train L2: 0.157 // mean of test L2: 4.415 /// ptime: 25.784
+
+[1209/10000] -  mean of train L2: 0.173 // mean of test L2: 4.452 /// ptime: 25.828
+
+[1210/10000] -  mean of train L2: 0.163 // mean of test L2: 4.414 /// ptime: 25.777
+
+[1211/10000] -  mean of train L2: 0.153 // mean of test L2: 4.401 /// ptime: 25.941
+
+[1212/10000] -  mean of train L2: 0.150 // mean of test L2: 4.475 /// ptime: 25.553
+
+[1213/10000] -  mean of train L2: 0.145 // mean of test L2: 4.425 /// ptime: 25.488
+
+[1214/10000] -  mean of train L2: 0.154 // mean of test L2: 4.414 /// ptime: 25.741
+
+[1215/10000] -  mean of train L2: 0.155 // mean of test L2: 4.393 /// ptime: 25.441
+
+[1216/10000] -  mean of train L2: 0.152 // mean of test L2: 4.418 /// ptime: 25.771
+
+[1217/10000] -  mean of train L2: 0.165 // mean of test L2: 4.431 /// ptime: 25.889
+
+[1218/10000] -  mean of train L2: 0.167 // mean of test L2: 4.401 /// ptime: 26.033
+
+[1219/10000] -  mean of train L2: 0.162 // mean of test L2: 4.445 /// ptime: 25.902
+
+[1220/10000] -  mean of train L2: 0.151 // mean of test L2: 4.401 /// ptime: 25.562
+
+[1221/10000] -  mean of train L2: 0.156 // mean of test L2: 4.444 /// ptime: 25.944
+
+[1222/10000] -  mean of train L2: 0.153 // mean of test L2: 4.442 /// ptime: 25.668
+
+[1223/10000] -  mean of train L2: 0.152 // mean of test L2: 4.381 /// ptime: 25.811
+
+[1224/10000] -  mean of train L2: 0.158 // mean of test L2: 4.439 /// ptime: 25.800
+
+[1225/10000] -  mean of train L2: 0.155 // mean of test L2: 4.402 /// ptime: 25.722
+
+[1226/10000] -  mean of train L2: 0.151 // mean of test L2: 4.396 /// ptime: 25.741
+
+[1227/10000] -  mean of train L2: 0.158 // mean of test L2: 4.437 /// ptime: 25.527
+
+[1228/10000] -  mean of train L2: 0.151 // mean of test L2: 4.395 /// ptime: 25.795
+
+[1229/10000] -  mean of train L2: 0.149 // mean of test L2: 4.437 /// ptime: 25.788
+
+[1230/10000] -  mean of train L2: 0.152 // mean of test L2: 4.397 /// ptime: 25.646
+
+[1231/10000] -  mean of train L2: 0.151 // mean of test L2: 4.402 /// ptime: 26.071
+
+[1232/10000] -  mean of train L2: 0.156 // mean of test L2: 4.423 /// ptime: 25.711
+
+[1233/10000] -  mean of train L2: 0.161 // mean of test L2: 4.414 /// ptime: 26.069
+
+[1234/10000] -  mean of train L2: 0.170 // mean of test L2: 4.419 /// ptime: 25.888
+
+[1235/10000] -  mean of train L2: 0.159 // mean of test L2: 4.473 /// ptime: 25.787
+
+[1236/10000] -  mean of train L2: 0.152 // mean of test L2: 4.413 /// ptime: 25.810
+
+[1237/10000] -  mean of train L2: 0.151 // mean of test L2: 4.398 /// ptime: 25.577
+
+[1238/10000] -  mean of train L2: 0.158 // mean of test L2: 4.403 /// ptime: 25.510
+
+[1239/10000] -  mean of train L2: 0.157 // mean of test L2: 4.422 /// ptime: 25.874
+
+[1240/10000] -  mean of train L2: 0.166 // mean of test L2: 4.421 /// ptime: 26.018
+
+[1241/10000] -  mean of train L2: 0.155 // mean of test L2: 4.461 /// ptime: 26.010
+
+[1242/10000] -  mean of train L2: 0.153 // mean of test L2: 4.388 /// ptime: 25.726
+
+[1243/10000] -  mean of train L2: 0.148 // mean of test L2: 4.404 /// ptime: 26.043
+
+[1244/10000] -  mean of train L2: 0.153 // mean of test L2: 4.414 /// ptime: 25.826
+
+[1245/10000] -  mean of train L2: 0.153 // mean of test L2: 4.394 /// ptime: 25.725
+
+[1246/10000] -  mean of train L2: 0.150 // mean of test L2: 4.431 /// ptime: 26.001
+
+[1247/10000] -  mean of train L2: 0.160 // mean of test L2: 4.382 /// ptime: 25.939
+
+[1248/10000] -  mean of train L2: 0.157 // mean of test L2: 4.439 /// ptime: 25.855
+
+[1249/10000] -  mean of train L2: 0.149 // mean of test L2: 4.357 /// ptime: 25.707
+
+[1250/10000] -  mean of train L2: 0.152 // mean of test L2: 4.434 /// ptime: 25.700
+
+[1251/10000] -  mean of train L2: 0.153 // mean of test L2: 4.410 /// ptime: 25.811
+
+[1252/10000] -  mean of train L2: 0.164 // mean of test L2: 4.391 /// ptime: 25.841
+
+[1253/10000] -  mean of train L2: 0.147 // mean of test L2: 4.405 /// ptime: 25.909
+
+[1254/10000] -  mean of train L2: 0.144 // mean of test L2: 4.391 /// ptime: 25.783
+
+[1255/10000] -  mean of train L2: 0.153 // mean of test L2: 4.375 /// ptime: 25.553
+
+[1256/10000] -  mean of train L2: 0.154 // mean of test L2: 4.370 /// ptime: 25.564
+
+[1257/10000] -  mean of train L2: 0.144 // mean of test L2: 4.378 /// ptime: 26.064
+
+[1258/10000] -  mean of train L2: 0.155 // mean of test L2: 4.347 /// ptime: 25.937
+
+[1259/10000] -  mean of train L2: 0.148 // mean of test L2: 4.386 /// ptime: 25.854
+
+[1260/10000] -  mean of train L2: 0.167 // mean of test L2: 4.398 /// ptime: 25.824
+
+[1261/10000] -  mean of train L2: 0.158 // mean of test L2: 4.411 /// ptime: 25.939
+
+[1262/10000] -  mean of train L2: 0.162 // mean of test L2: 4.407 /// ptime: 25.812
+
+[1263/10000] -  mean of train L2: 0.160 // mean of test L2: 4.415 /// ptime: 25.865
+
+[1264/10000] -  mean of train L2: 0.167 // mean of test L2: 4.439 /// ptime: 25.871
+
+[1265/10000] -  mean of train L2: 0.153 // mean of test L2: 4.394 /// ptime: 25.866
+
+[1266/10000] -  mean of train L2: 0.174 // mean of test L2: 4.397 /// ptime: 25.466
+
+[1267/10000] -  mean of train L2: 0.150 // mean of test L2: 4.408 /// ptime: 25.538
+
+[1268/10000] -  mean of train L2: 0.154 // mean of test L2: 4.438 /// ptime: 25.489
+
+[1269/10000] -  mean of train L2: 0.154 // mean of test L2: 4.425 /// ptime: 25.779
+
+[1270/10000] -  mean of train L2: 0.152 // mean of test L2: 4.419 /// ptime: 25.576
+
+[1271/10000] -  mean of train L2: 0.146 // mean of test L2: 4.414 /// ptime: 25.839
+
+[1272/10000] -  mean of train L2: 0.143 // mean of test L2: 4.385 /// ptime: 25.512
+
+[1273/10000] -  mean of train L2: 0.150 // mean of test L2: 4.424 /// ptime: 25.557
+
+[1274/10000] -  mean of train L2: 0.154 // mean of test L2: 4.416 /// ptime: 25.748
+
+[1275/10000] -  mean of train L2: 0.146 // mean of test L2: 4.425 /// ptime: 25.892
+
+[1276/10000] -  mean of train L2: 0.144 // mean of test L2: 4.392 /// ptime: 25.545
+
+[1277/10000] -  mean of train L2: 0.148 // mean of test L2: 4.420 /// ptime: 25.966
+
+[1278/10000] -  mean of train L2: 0.145 // mean of test L2: 4.385 /// ptime: 25.445
+
+[1279/10000] -  mean of train L2: 0.145 // mean of test L2: 4.406 /// ptime: 25.766
+
+[1280/10000] -  mean of train L2: 0.148 // mean of test L2: 4.415 /// ptime: 25.716
+
+[1281/10000] -  mean of train L2: 0.160 // mean of test L2: 4.410 /// ptime: 25.639
+
+[1282/10000] -  mean of train L2: 0.158 // mean of test L2: 4.415 /// ptime: 25.347
+
+[1283/10000] -  mean of train L2: 0.157 // mean of test L2: 4.393 /// ptime: 25.952
+
+[1284/10000] -  mean of train L2: 0.151 // mean of test L2: 4.413 /// ptime: 25.776
+
+[1285/10000] -  mean of train L2: 0.148 // mean of test L2: 4.414 /// ptime: 25.852
+
+[1286/10000] -  mean of train L2: 0.162 // mean of test L2: 4.453 /// ptime: 25.584
+
+[1287/10000] -  mean of train L2: 0.150 // mean of test L2: 4.394 /// ptime: 25.744
+
+[1288/10000] -  mean of train L2: 0.149 // mean of test L2: 4.406 /// ptime: 25.589
+
+[1289/10000] -  mean of train L2: 0.146 // mean of test L2: 4.424 /// ptime: 25.903
+
+[1290/10000] -  mean of train L2: 0.151 // mean of test L2: 4.424 /// ptime: 25.738
+
+[1291/10000] -  mean of train L2: 0.146 // mean of test L2: 4.422 /// ptime: 25.712
+
+[1292/10000] -  mean of train L2: 0.149 // mean of test L2: 4.407 /// ptime: 25.842
+
+[1293/10000] -  mean of train L2: 0.148 // mean of test L2: 4.426 /// ptime: 25.874
+
+[1294/10000] -  mean of train L2: 0.153 // mean of test L2: 4.419 /// ptime: 25.541
+
+[1295/10000] -  mean of train L2: 0.158 // mean of test L2: 4.431 /// ptime: 25.892
+
+[1296/10000] -  mean of train L2: 0.158 // mean of test L2: 4.414 /// ptime: 25.448
+
+[1297/10000] -  mean of train L2: 0.153 // mean of test L2: 4.422 /// ptime: 25.778
+
+[1298/10000] -  mean of train L2: 0.150 // mean of test L2: 4.425 /// ptime: 25.763
+
+[1299/10000] -  mean of train L2: 0.147 // mean of test L2: 4.406 /// ptime: 25.612
+
+[1300/10000] -  mean of train L2: 0.151 // mean of test L2: 4.434 /// ptime: 25.817
+
+[1301/10000] -  mean of train L2: 0.155 // mean of test L2: 4.419 /// ptime: 25.895
+
+[1302/10000] -  mean of train L2: 0.147 // mean of test L2: 4.406 /// ptime: 25.846
+
+[1303/10000] -  mean of train L2: 0.149 // mean of test L2: 4.430 /// ptime: 25.698
+
+[1304/10000] -  mean of train L2: 0.153 // mean of test L2: 4.409 /// ptime: 25.750
+
+[1305/10000] -  mean of train L2: 0.152 // mean of test L2: 4.427 /// ptime: 25.981
+
+[1306/10000] -  mean of train L2: 0.152 // mean of test L2: 4.414 /// ptime: 25.757
+
+[1307/10000] -  mean of train L2: 0.152 // mean of test L2: 4.430 /// ptime: 25.866
+
+[1308/10000] -  mean of train L2: 0.147 // mean of test L2: 4.474 /// ptime: 25.618
+
+[1309/10000] -  mean of train L2: 0.159 // mean of test L2: 4.417 /// ptime: 25.782
+
+[1310/10000] -  mean of train L2: 0.142 // mean of test L2: 4.394 /// ptime: 25.915
+
+[1311/10000] -  mean of train L2: 0.146 // mean of test L2: 4.418 /// ptime: 25.474
+
+[1312/10000] -  mean of train L2: 0.150 // mean of test L2: 4.395 /// ptime: 25.673
+
+[1313/10000] -  mean of train L2: 0.146 // mean of test L2: 4.374 /// ptime: 25.693
+
+[1314/10000] -  mean of train L2: 0.145 // mean of test L2: 4.393 /// ptime: 25.946
+
+[1315/10000] -  mean of train L2: 0.150 // mean of test L2: 4.425 /// ptime: 25.878
+
+[1316/10000] -  mean of train L2: 0.146 // mean of test L2: 4.403 /// ptime: 25.526
+
+[1317/10000] -  mean of train L2: 0.152 // mean of test L2: 4.402 /// ptime: 25.487
+
+[1318/10000] -  mean of train L2: 0.160 // mean of test L2: 4.406 /// ptime: 25.807
+
+[1319/10000] -  mean of train L2: 0.149 // mean of test L2: 4.405 /// ptime: 25.858
+
+[1320/10000] -  mean of train L2: 0.147 // mean of test L2: 4.431 /// ptime: 26.016
+
+[1321/10000] -  mean of train L2: 0.145 // mean of test L2: 4.433 /// ptime: 25.974
+
+[1322/10000] -  mean of train L2: 0.150 // mean of test L2: 4.428 /// ptime: 25.587
+
+[1323/10000] -  mean of train L2: 0.151 // mean of test L2: 4.400 /// ptime: 25.940
+
+[1324/10000] -  mean of train L2: 0.146 // mean of test L2: 4.428 /// ptime: 25.819
+
+[1325/10000] -  mean of train L2: 0.148 // mean of test L2: 4.430 /// ptime: 25.341
+
+[1326/10000] -  mean of train L2: 0.142 // mean of test L2: 4.454 /// ptime: 25.615
+
+[1327/10000] -  mean of train L2: 0.146 // mean of test L2: 4.402 /// ptime: 25.787
+
+[1328/10000] -  mean of train L2: 0.143 // mean of test L2: 4.391 /// ptime: 25.796
+
+[1329/10000] -  mean of train L2: 0.145 // mean of test L2: 4.409 /// ptime: 25.719
+
+[1330/10000] -  mean of train L2: 0.150 // mean of test L2: 4.440 /// ptime: 25.548
+
+[1331/10000] -  mean of train L2: 0.148 // mean of test L2: 4.391 /// ptime: 25.750
+
+[1332/10000] -  mean of train L2: 0.145 // mean of test L2: 4.407 /// ptime: 25.771
+
+[1333/10000] -  mean of train L2: 0.148 // mean of test L2: 4.414 /// ptime: 25.655
+
+[1334/10000] -  mean of train L2: 0.141 // mean of test L2: 4.390 /// ptime: 25.773
+
+[1335/10000] -  mean of train L2: 0.144 // mean of test L2: 4.443 /// ptime: 26.036
+
+[1336/10000] -  mean of train L2: 0.145 // mean of test L2: 4.409 /// ptime: 25.746
+
+[1337/10000] -  mean of train L2: 0.145 // mean of test L2: 4.404 /// ptime: 25.733
+
+[1338/10000] -  mean of train L2: 0.150 // mean of test L2: 4.384 /// ptime: 25.837
+
+[1339/10000] -  mean of train L2: 0.150 // mean of test L2: 4.479 /// ptime: 25.770
+
+[1340/10000] -  mean of train L2: 0.148 // mean of test L2: 4.394 /// ptime: 25.945
+
+[1341/10000] -  mean of train L2: 0.143 // mean of test L2: 4.447 /// ptime: 25.958
+
+[1342/10000] -  mean of train L2: 0.153 // mean of test L2: 4.403 /// ptime: 25.619
+
+[1343/10000] -  mean of train L2: 0.159 // mean of test L2: 4.436 /// ptime: 26.047
+
+[1344/10000] -  mean of train L2: 0.149 // mean of test L2: 4.415 /// ptime: 25.715
+
+[1345/10000] -  mean of train L2: 0.149 // mean of test L2: 4.426 /// ptime: 25.609
+
+[1346/10000] -  mean of train L2: 0.153 // mean of test L2: 4.391 /// ptime: 25.490
+
+[1347/10000] -  mean of train L2: 0.144 // mean of test L2: 4.403 /// ptime: 25.518
+
+[1348/10000] -  mean of train L2: 0.148 // mean of test L2: 4.426 /// ptime: 25.690
+
+[1349/10000] -  mean of train L2: 0.149 // mean of test L2: 4.393 /// ptime: 25.982
+
+[1350/10000] -  mean of train L2: 0.140 // mean of test L2: 4.391 /// ptime: 25.986
+
+[1351/10000] -  mean of train L2: 0.144 // mean of test L2: 4.376 /// ptime: 25.628
+
+[1352/10000] -  mean of train L2: 0.155 // mean of test L2: 4.373 /// ptime: 25.629
+
+[1353/10000] -  mean of train L2: 0.147 // mean of test L2: 4.410 /// ptime: 25.549
+
+[1354/10000] -  mean of train L2: 0.144 // mean of test L2: 4.406 /// ptime: 25.633
+
+[1355/10000] -  mean of train L2: 0.151 // mean of test L2: 4.399 /// ptime: 25.655
+
+[1356/10000] -  mean of train L2: 0.143 // mean of test L2: 4.407 /// ptime: 25.680
+
+[1357/10000] -  mean of train L2: 0.141 // mean of test L2: 4.404 /// ptime: 25.380
+
+[1358/10000] -  mean of train L2: 0.144 // mean of test L2: 4.399 /// ptime: 25.731
+
+[1359/10000] -  mean of train L2: 0.146 // mean of test L2: 4.409 /// ptime: 25.512
+
+[1360/10000] -  mean of train L2: 0.146 // mean of test L2: 4.395 /// ptime: 25.585
+
+[1361/10000] -  mean of train L2: 0.147 // mean of test L2: 4.417 /// ptime: 25.886
+
+[1362/10000] -  mean of train L2: 0.151 // mean of test L2: 4.383 /// ptime: 25.835
+
+[1363/10000] -  mean of train L2: 0.142 // mean of test L2: 4.369 /// ptime: 25.663
+
+[1364/10000] -  mean of train L2: 0.146 // mean of test L2: 4.392 /// ptime: 25.681
+
+[1365/10000] -  mean of train L2: 0.149 // mean of test L2: 4.399 /// ptime: 25.856
+
+[1366/10000] -  mean of train L2: 0.142 // mean of test L2: 4.406 /// ptime: 25.797
+
+[1367/10000] -  mean of train L2: 0.140 // mean of test L2: 4.430 /// ptime: 25.367
+
+[1368/10000] -  mean of train L2: 0.150 // mean of test L2: 4.416 /// ptime: 25.719
+
+[1369/10000] -  mean of train L2: 0.148 // mean of test L2: 4.372 /// ptime: 25.758
+
+[1370/10000] -  mean of train L2: 0.151 // mean of test L2: 4.438 /// ptime: 26.011
+
+[1371/10000] -  mean of train L2: 0.143 // mean of test L2: 4.410 /// ptime: 25.640
+
+[1372/10000] -  mean of train L2: 0.161 // mean of test L2: 4.456 /// ptime: 25.657
+
+[1373/10000] -  mean of train L2: 0.152 // mean of test L2: 4.399 /// ptime: 25.649
+
+[1374/10000] -  mean of train L2: 0.146 // mean of test L2: 4.414 /// ptime: 25.490
+
+[1375/10000] -  mean of train L2: 0.151 // mean of test L2: 4.417 /// ptime: 25.927
+
+[1376/10000] -  mean of train L2: 0.150 // mean of test L2: 4.462 /// ptime: 25.335
+
+[1377/10000] -  mean of train L2: 0.142 // mean of test L2: 4.400 /// ptime: 25.658
+
+[1378/10000] -  mean of train L2: 0.140 // mean of test L2: 4.449 /// ptime: 25.486
+
+[1379/10000] -  mean of train L2: 0.151 // mean of test L2: 4.419 /// ptime: 25.879
+
+[1380/10000] -  mean of train L2: 0.142 // mean of test L2: 4.372 /// ptime: 25.419
+
+[1381/10000] -  mean of train L2: 0.144 // mean of test L2: 4.349 /// ptime: 25.608
+
+[1382/10000] -  mean of train L2: 0.146 // mean of test L2: 4.444 /// ptime: 25.793
+
+[1383/10000] -  mean of train L2: 0.150 // mean of test L2: 4.423 /// ptime: 25.855
+
+[1384/10000] -  mean of train L2: 0.140 // mean of test L2: 4.402 /// ptime: 25.917
+
+[1385/10000] -  mean of train L2: 0.141 // mean of test L2: 4.428 /// ptime: 25.919
+
+[1386/10000] -  mean of train L2: 0.141 // mean of test L2: 4.409 /// ptime: 25.811
+
+[1387/10000] -  mean of train L2: 0.155 // mean of test L2: 4.400 /// ptime: 25.669
+
+[1388/10000] -  mean of train L2: 0.143 // mean of test L2: 4.384 /// ptime: 25.720
+
+[1389/10000] -  mean of train L2: 0.139 // mean of test L2: 4.412 /// ptime: 25.835
+
+[1390/10000] -  mean of train L2: 0.150 // mean of test L2: 4.386 /// ptime: 25.800
+
+[1391/10000] -  mean of train L2: 0.147 // mean of test L2: 4.419 /// ptime: 25.713
+
+[1392/10000] -  mean of train L2: 0.148 // mean of test L2: 4.415 /// ptime: 25.532
+
+[1393/10000] -  mean of train L2: 0.151 // mean of test L2: 4.418 /// ptime: 25.709
+
+[1394/10000] -  mean of train L2: 0.145 // mean of test L2: 4.422 /// ptime: 25.669
+
+[1395/10000] -  mean of train L2: 0.148 // mean of test L2: 4.368 /// ptime: 25.605
+
+[1396/10000] -  mean of train L2: 0.141 // mean of test L2: 4.393 /// ptime: 25.914
+
+[1397/10000] -  mean of train L2: 0.143 // mean of test L2: 4.398 /// ptime: 25.823
+
+[1398/10000] -  mean of train L2: 0.143 // mean of test L2: 4.397 /// ptime: 25.655
+
+[1399/10000] -  mean of train L2: 0.141 // mean of test L2: 4.416 /// ptime: 25.490
+
+[1400/10000] -  mean of train L2: 0.141 // mean of test L2: 4.383 /// ptime: 25.646
+
+[1401/10000] -  mean of train L2: 0.142 // mean of test L2: 4.380 /// ptime: 25.629
+
+[1402/10000] -  mean of train L2: 0.142 // mean of test L2: 4.412 /// ptime: 25.701
+
+[1403/10000] -  mean of train L2: 0.139 // mean of test L2: 4.391 /// ptime: 25.683
+
+[1404/10000] -  mean of train L2: 0.141 // mean of test L2: 4.398 /// ptime: 25.681
+
+[1405/10000] -  mean of train L2: 0.142 // mean of test L2: 4.403 /// ptime: 25.795
+
+[1406/10000] -  mean of train L2: 0.140 // mean of test L2: 4.365 /// ptime: 25.057
+
+[1407/10000] -  mean of train L2: 0.141 // mean of test L2: 4.394 /// ptime: 25.675
+
+[1408/10000] -  mean of train L2: 0.149 // mean of test L2: 4.376 /// ptime: 25.837
+
+[1409/10000] -  mean of train L2: 0.138 // mean of test L2: 4.399 /// ptime: 25.676
+
+[1410/10000] -  mean of train L2: 0.149 // mean of test L2: 4.398 /// ptime: 25.958
+
+[1411/10000] -  mean of train L2: 0.137 // mean of test L2: 4.394 /// ptime: 25.817
+
+[1412/10000] -  mean of train L2: 0.155 // mean of test L2: 4.395 /// ptime: 25.503
+
+[1413/10000] -  mean of train L2: 0.146 // mean of test L2: 4.391 /// ptime: 25.605
+
+[1414/10000] -  mean of train L2: 0.146 // mean of test L2: 4.373 /// ptime: 25.673
+
+[1415/10000] -  mean of train L2: 0.143 // mean of test L2: 4.376 /// ptime: 25.878
+
+[1416/10000] -  mean of train L2: 0.141 // mean of test L2: 4.394 /// ptime: 25.520
+
+[1417/10000] -  mean of train L2: 0.139 // mean of test L2: 4.398 /// ptime: 25.943
+
+[1418/10000] -  mean of train L2: 0.142 // mean of test L2: 4.430 /// ptime: 25.871
+
+[1419/10000] -  mean of train L2: 0.145 // mean of test L2: 4.415 /// ptime: 25.667
+
+[1420/10000] -  mean of train L2: 0.143 // mean of test L2: 4.416 /// ptime: 25.628
+
+[1421/10000] -  mean of train L2: 0.139 // mean of test L2: 4.381 /// ptime: 25.636
+
+[1422/10000] -  mean of train L2: 0.140 // mean of test L2: 4.407 /// ptime: 25.909
+
+[1423/10000] -  mean of train L2: 0.137 // mean of test L2: 4.375 /// ptime: 25.728
+
+[1424/10000] -  mean of train L2: 0.140 // mean of test L2: 4.388 /// ptime: 25.749
+
+[1425/10000] -  mean of train L2: 0.137 // mean of test L2: 4.396 /// ptime: 25.906
+
+[1426/10000] -  mean of train L2: 0.149 // mean of test L2: 4.376 /// ptime: 25.737
+
+[1427/10000] -  mean of train L2: 0.148 // mean of test L2: 4.409 /// ptime: 25.315
+
+[1428/10000] -  mean of train L2: 0.147 // mean of test L2: 4.385 /// ptime: 26.007
+
+[1429/10000] -  mean of train L2: 0.136 // mean of test L2: 4.398 /// ptime: 25.919
+
+[1430/10000] -  mean of train L2: 0.142 // mean of test L2: 4.371 /// ptime: 25.871
+
+[1431/10000] -  mean of train L2: 0.160 // mean of test L2: 4.401 /// ptime: 25.709
+
+[1432/10000] -  mean of train L2: 0.150 // mean of test L2: 4.395 /// ptime: 25.511
+
+[1433/10000] -  mean of train L2: 0.147 // mean of test L2: 4.372 /// ptime: 25.885
+
+[1434/10000] -  mean of train L2: 0.147 // mean of test L2: 4.359 /// ptime: 25.454
+
+[1435/10000] -  mean of train L2: 0.139 // mean of test L2: 4.390 /// ptime: 25.755
+
+[1436/10000] -  mean of train L2: 0.140 // mean of test L2: 4.397 /// ptime: 25.758
+
+[1437/10000] -  mean of train L2: 0.140 // mean of test L2: 4.386 /// ptime: 25.807
+
+[1438/10000] -  mean of train L2: 0.140 // mean of test L2: 4.398 /// ptime: 25.907
+
+[1439/10000] -  mean of train L2: 0.135 // mean of test L2: 4.418 /// ptime: 25.831
+
+[1440/10000] -  mean of train L2: 0.140 // mean of test L2: 4.370 /// ptime: 25.856
+
+[1441/10000] -  mean of train L2: 0.139 // mean of test L2: 4.418 /// ptime: 25.684
+
+[1442/10000] -  mean of train L2: 0.147 // mean of test L2: 4.374 /// ptime: 25.499
+
+[1443/10000] -  mean of train L2: 0.140 // mean of test L2: 4.389 /// ptime: 25.534
+
+[1444/10000] -  mean of train L2: 0.142 // mean of test L2: 4.409 /// ptime: 25.730
+
+[1445/10000] -  mean of train L2: 0.142 // mean of test L2: 4.402 /// ptime: 25.552
+
+[1446/10000] -  mean of train L2: 0.135 // mean of test L2: 4.418 /// ptime: 25.501
+
+[1447/10000] -  mean of train L2: 0.137 // mean of test L2: 4.407 /// ptime: 25.833
+
+[1448/10000] -  mean of train L2: 0.139 // mean of test L2: 4.406 /// ptime: 25.460
+
+[1449/10000] -  mean of train L2: 0.142 // mean of test L2: 4.394 /// ptime: 25.890
+
+[1450/10000] -  mean of train L2: 0.136 // mean of test L2: 4.404 /// ptime: 25.581
+
+[1451/10000] -  mean of train L2: 0.137 // mean of test L2: 4.395 /// ptime: 25.959
+
+[1452/10000] -  mean of train L2: 0.134 // mean of test L2: 4.399 /// ptime: 25.752
+
+[1453/10000] -  mean of train L2: 0.135 // mean of test L2: 4.380 /// ptime: 25.687
+
+[1454/10000] -  mean of train L2: 0.144 // mean of test L2: 4.428 /// ptime: 25.830
+
+[1455/10000] -  mean of train L2: 0.144 // mean of test L2: 4.423 /// ptime: 25.469
+
+[1456/10000] -  mean of train L2: 0.141 // mean of test L2: 4.405 /// ptime: 25.951
+
+[1457/10000] -  mean of train L2: 0.142 // mean of test L2: 4.438 /// ptime: 25.729
+
+[1458/10000] -  mean of train L2: 0.139 // mean of test L2: 4.399 /// ptime: 25.647
+
+[1459/10000] -  mean of train L2: 0.138 // mean of test L2: 4.450 /// ptime: 25.681
+
+[1460/10000] -  mean of train L2: 0.144 // mean of test L2: 4.388 /// ptime: 25.925
+
+[1461/10000] -  mean of train L2: 0.154 // mean of test L2: 4.412 /// ptime: 25.748
+
+[1462/10000] -  mean of train L2: 0.145 // mean of test L2: 4.395 /// ptime: 25.713
+
+[1463/10000] -  mean of train L2: 0.145 // mean of test L2: 4.393 /// ptime: 25.933
+
+[1464/10000] -  mean of train L2: 0.139 // mean of test L2: 4.405 /// ptime: 25.763
+
+[1465/10000] -  mean of train L2: 0.137 // mean of test L2: 4.410 /// ptime: 25.419
+
+[1466/10000] -  mean of train L2: 0.148 // mean of test L2: 4.386 /// ptime: 25.648
+
+[1467/10000] -  mean of train L2: 0.139 // mean of test L2: 4.420 /// ptime: 25.716
+
+[1468/10000] -  mean of train L2: 0.134 // mean of test L2: 4.406 /// ptime: 25.754
+
+[1469/10000] -  mean of train L2: 0.134 // mean of test L2: 4.390 /// ptime: 25.564
+
+[1470/10000] -  mean of train L2: 0.133 // mean of test L2: 4.398 /// ptime: 25.663
+
+[1471/10000] -  mean of train L2: 0.134 // mean of test L2: 4.403 /// ptime: 25.731
+
+[1472/10000] -  mean of train L2: 0.139 // mean of test L2: 4.414 /// ptime: 25.845
+
+[1473/10000] -  mean of train L2: 0.139 // mean of test L2: 4.374 /// ptime: 25.660
+
+[1474/10000] -  mean of train L2: 0.138 // mean of test L2: 4.410 /// ptime: 25.357
+
+[1475/10000] -  mean of train L2: 0.134 // mean of test L2: 4.409 /// ptime: 25.561
+
+[1476/10000] -  mean of train L2: 0.135 // mean of test L2: 4.391 /// ptime: 25.716
+
+[1477/10000] -  mean of train L2: 0.136 // mean of test L2: 4.399 /// ptime: 25.620
+
+[1478/10000] -  mean of train L2: 0.134 // mean of test L2: 4.366 /// ptime: 25.544
+
+[1479/10000] -  mean of train L2: 0.141 // mean of test L2: 4.382 /// ptime: 25.683
+
+[1480/10000] -  mean of train L2: 0.145 // mean of test L2: 4.385 /// ptime: 25.757
+
+[1481/10000] -  mean of train L2: 0.141 // mean of test L2: 4.400 /// ptime: 25.968
+
+[1482/10000] -  mean of train L2: 0.137 // mean of test L2: 4.382 /// ptime: 25.879
+
+[1483/10000] -  mean of train L2: 0.139 // mean of test L2: 4.384 /// ptime: 25.779
+
+[1484/10000] -  mean of train L2: 0.137 // mean of test L2: 4.401 /// ptime: 25.809
+
+[1485/10000] -  mean of train L2: 0.140 // mean of test L2: 4.376 /// ptime: 25.611
+
+[1486/10000] -  mean of train L2: 0.139 // mean of test L2: 4.380 /// ptime: 25.644
+
+[1487/10000] -  mean of train L2: 0.141 // mean of test L2: 4.430 /// ptime: 25.676
+
+[1488/10000] -  mean of train L2: 0.142 // mean of test L2: 4.404 /// ptime: 25.995
+
+[1489/10000] -  mean of train L2: 0.138 // mean of test L2: 4.401 /// ptime: 25.902
+
+[1490/10000] -  mean of train L2: 0.137 // mean of test L2: 4.406 /// ptime: 25.715
+
+[1491/10000] -  mean of train L2: 0.138 // mean of test L2: 4.372 /// ptime: 25.870
+
+[1492/10000] -  mean of train L2: 0.139 // mean of test L2: 4.417 /// ptime: 26.001
+
+[1493/10000] -  mean of train L2: 0.143 // mean of test L2: 4.363 /// ptime: 25.840
+
+[1494/10000] -  mean of train L2: 0.134 // mean of test L2: 4.404 /// ptime: 25.595
+
+[1495/10000] -  mean of train L2: 0.143 // mean of test L2: 4.434 /// ptime: 25.668
+
+[1496/10000] -  mean of train L2: 0.138 // mean of test L2: 4.388 /// ptime: 25.549
+
+[1497/10000] -  mean of train L2: 0.143 // mean of test L2: 4.397 /// ptime: 25.918
+
+[1498/10000] -  mean of train L2: 0.148 // mean of test L2: 4.367 /// ptime: 25.687
+
+[1499/10000] -  mean of train L2: 0.136 // mean of test L2: 4.385 /// ptime: 25.787
+
+[1500/10000] -  mean of train L2: 0.141 // mean of test L2: 4.370 /// ptime: 25.713
+
+[1501/10000] -  mean of train L2: 0.136 // mean of test L2: 4.402 /// ptime: 25.655
+
+[1502/10000] -  mean of train L2: 0.138 // mean of test L2: 4.394 /// ptime: 25.620
+
+[1503/10000] -  mean of train L2: 0.130 // mean of test L2: 4.397 /// ptime: 25.651
+
+[1504/10000] -  mean of train L2: 0.140 // mean of test L2: 4.388 /// ptime: 25.637
+
+[1505/10000] -  mean of train L2: 0.135 // mean of test L2: 4.382 /// ptime: 25.833
+
+[1506/10000] -  mean of train L2: 0.137 // mean of test L2: 4.385 /// ptime: 25.739
+
+[1507/10000] -  mean of train L2: 0.139 // mean of test L2: 4.386 /// ptime: 25.792
+
+[1508/10000] -  mean of train L2: 0.136 // mean of test L2: 4.397 /// ptime: 25.739
+
+[1509/10000] -  mean of train L2: 0.136 // mean of test L2: 4.399 /// ptime: 25.952
+
+[1510/10000] -  mean of train L2: 0.138 // mean of test L2: 4.408 /// ptime: 25.739
+
+[1511/10000] -  mean of train L2: 0.135 // mean of test L2: 4.392 /// ptime: 25.902
+
+[1512/10000] -  mean of train L2: 0.133 // mean of test L2: 4.376 /// ptime: 25.496
+
+[1513/10000] -  mean of train L2: 0.130 // mean of test L2: 4.395 /// ptime: 25.916
+
+[1514/10000] -  mean of train L2: 0.133 // mean of test L2: 4.365 /// ptime: 25.894
+
+[1515/10000] -  mean of train L2: 0.133 // mean of test L2: 4.380 /// ptime: 25.408
+
+[1516/10000] -  mean of train L2: 0.140 // mean of test L2: 4.385 /// ptime: 25.610
+
+[1517/10000] -  mean of train L2: 0.134 // mean of test L2: 4.407 /// ptime: 25.823
+
+[1518/10000] -  mean of train L2: 0.132 // mean of test L2: 4.389 /// ptime: 25.884
+
+[1519/10000] -  mean of train L2: 0.131 // mean of test L2: 4.391 /// ptime: 25.481
+
+[1520/10000] -  mean of train L2: 0.140 // mean of test L2: 4.409 /// ptime: 25.686
+
+[1521/10000] -  mean of train L2: 0.141 // mean of test L2: 4.392 /// ptime: 25.737
+
+[1522/10000] -  mean of train L2: 0.137 // mean of test L2: 4.370 /// ptime: 25.818
+
+[1523/10000] -  mean of train L2: 0.132 // mean of test L2: 4.373 /// ptime: 25.794
+
+[1524/10000] -  mean of train L2: 0.141 // mean of test L2: 4.390 /// ptime: 25.813
+
+[1525/10000] -  mean of train L2: 0.142 // mean of test L2: 4.371 /// ptime: 25.874
+
+[1526/10000] -  mean of train L2: 0.130 // mean of test L2: 4.401 /// ptime: 25.859
+
+[1527/10000] -  mean of train L2: 0.133 // mean of test L2: 4.390 /// ptime: 25.901
+
+[1528/10000] -  mean of train L2: 0.139 // mean of test L2: 4.417 /// ptime: 25.483
+
+[1529/10000] -  mean of train L2: 0.138 // mean of test L2: 4.362 /// ptime: 25.938
+
+[1530/10000] -  mean of train L2: 0.134 // mean of test L2: 4.381 /// ptime: 25.872
+
+[1531/10000] -  mean of train L2: 0.136 // mean of test L2: 4.390 /// ptime: 25.783
+
+[1532/10000] -  mean of train L2: 0.134 // mean of test L2: 4.374 /// ptime: 25.819
+
+[1533/10000] -  mean of train L2: 0.127 // mean of test L2: 4.379 /// ptime: 25.675
+
+[1534/10000] -  mean of train L2: 0.137 // mean of test L2: 4.372 /// ptime: 25.614
+
+[1535/10000] -  mean of train L2: 0.136 // mean of test L2: 4.375 /// ptime: 25.568
+
+[1536/10000] -  mean of train L2: 0.129 // mean of test L2: 4.386 /// ptime: 25.783
+
+[1537/10000] -  mean of train L2: 0.135 // mean of test L2: 4.367 /// ptime: 25.731
+
+[1538/10000] -  mean of train L2: 0.135 // mean of test L2: 4.385 /// ptime: 25.874
+
+[1539/10000] -  mean of train L2: 0.132 // mean of test L2: 4.376 /// ptime: 25.915
+
+[1540/10000] -  mean of train L2: 0.132 // mean of test L2: 4.373 /// ptime: 25.626
+
+[1541/10000] -  mean of train L2: 0.134 // mean of test L2: 4.389 /// ptime: 25.663
+
+[1542/10000] -  mean of train L2: 0.136 // mean of test L2: 4.381 /// ptime: 25.657
+
+[1543/10000] -  mean of train L2: 0.133 // mean of test L2: 4.369 /// ptime: 25.777
+
+[1544/10000] -  mean of train L2: 0.146 // mean of test L2: 4.360 /// ptime: 25.586
+
+[1545/10000] -  mean of train L2: 0.137 // mean of test L2: 4.373 /// ptime: 25.971
+
+[1546/10000] -  mean of train L2: 0.134 // mean of test L2: 4.386 /// ptime: 25.719
+
+[1547/10000] -  mean of train L2: 0.136 // mean of test L2: 4.378 /// ptime: 25.652
+
+[1548/10000] -  mean of train L2: 0.129 // mean of test L2: 4.373 /// ptime: 25.835
+
+[1549/10000] -  mean of train L2: 0.127 // mean of test L2: 4.358 /// ptime: 25.534
+
+[1550/10000] -  mean of train L2: 0.138 // mean of test L2: 4.393 /// ptime: 25.878
+
+[1551/10000] -  mean of train L2: 0.137 // mean of test L2: 4.378 /// ptime: 25.902
+
+[1552/10000] -  mean of train L2: 0.135 // mean of test L2: 4.396 /// ptime: 25.681
+
+[1553/10000] -  mean of train L2: 0.132 // mean of test L2: 4.375 /// ptime: 25.323
+
+[1554/10000] -  mean of train L2: 0.134 // mean of test L2: 4.372 /// ptime: 25.704
+
+[1555/10000] -  mean of train L2: 0.133 // mean of test L2: 4.383 /// ptime: 25.554
+
+[1556/10000] -  mean of train L2: 0.132 // mean of test L2: 4.403 /// ptime: 25.510
+
+[1557/10000] -  mean of train L2: 0.134 // mean of test L2: 4.387 /// ptime: 25.902
+
+[1558/10000] -  mean of train L2: 0.134 // mean of test L2: 4.382 /// ptime: 25.526
+
+[1559/10000] -  mean of train L2: 0.131 // mean of test L2: 4.380 /// ptime: 25.707
+
+[1560/10000] -  mean of train L2: 0.131 // mean of test L2: 4.382 /// ptime: 25.831
+
+[1561/10000] -  mean of train L2: 0.133 // mean of test L2: 4.435 /// ptime: 25.620
+
+[1562/10000] -  mean of train L2: 0.138 // mean of test L2: 4.358 /// ptime: 25.839
+
+[1563/10000] -  mean of train L2: 0.139 // mean of test L2: 4.372 /// ptime: 26.002
+
+[1564/10000] -  mean of train L2: 0.133 // mean of test L2: 4.363 /// ptime: 25.885
+
+[1565/10000] -  mean of train L2: 0.130 // mean of test L2: 4.362 /// ptime: 26.424
+
+[1566/10000] -  mean of train L2: 0.132 // mean of test L2: 4.371 /// ptime: 25.654
+
+[1567/10000] -  mean of train L2: 0.134 // mean of test L2: 4.392 /// ptime: 26.125
+
+[1568/10000] -  mean of train L2: 0.131 // mean of test L2: 4.374 /// ptime: 25.990
+
+[1569/10000] -  mean of train L2: 0.136 // mean of test L2: 4.405 /// ptime: 25.593
+
+[1570/10000] -  mean of train L2: 0.134 // mean of test L2: 4.397 /// ptime: 26.081
+
+[1571/10000] -  mean of train L2: 0.139 // mean of test L2: 4.385 /// ptime: 25.820
+
+[1572/10000] -  mean of train L2: 0.139 // mean of test L2: 4.375 /// ptime: 25.701
+
+[1573/10000] -  mean of train L2: 0.134 // mean of test L2: 4.361 /// ptime: 25.652
+
+[1574/10000] -  mean of train L2: 0.141 // mean of test L2: 4.353 /// ptime: 25.480
+
+[1575/10000] -  mean of train L2: 0.134 // mean of test L2: 4.390 /// ptime: 25.452
+
+[1576/10000] -  mean of train L2: 0.130 // mean of test L2: 4.404 /// ptime: 25.853
+
+[1577/10000] -  mean of train L2: 0.143 // mean of test L2: 4.406 /// ptime: 25.746
+
+[1578/10000] -  mean of train L2: 0.130 // mean of test L2: 4.361 /// ptime: 25.629
+
+[1579/10000] -  mean of train L2: 0.135 // mean of test L2: 4.378 /// ptime: 25.509
+
+[1580/10000] -  mean of train L2: 0.135 // mean of test L2: 4.379 /// ptime: 25.632
+
+[1581/10000] -  mean of train L2: 0.131 // mean of test L2: 4.407 /// ptime: 25.637
+
+[1582/10000] -  mean of train L2: 0.124 // mean of test L2: 4.349 /// ptime: 25.982
+
+[1583/10000] -  mean of train L2: 0.129 // mean of test L2: 4.363 /// ptime: 25.628
+
+[1584/10000] -  mean of train L2: 0.137 // mean of test L2: 4.388 /// ptime: 25.711
+
+[1585/10000] -  mean of train L2: 0.127 // mean of test L2: 4.353 /// ptime: 25.873
+
+[1586/10000] -  mean of train L2: 0.138 // mean of test L2: 4.370 /// ptime: 25.781
+
+[1587/10000] -  mean of train L2: 0.132 // mean of test L2: 4.389 /// ptime: 25.992
+
+[1588/10000] -  mean of train L2: 0.131 // mean of test L2: 4.383 /// ptime: 25.972
+
+[1589/10000] -  mean of train L2: 0.126 // mean of test L2: 4.337 /// ptime: 25.735
+
+[1590/10000] -  mean of train L2: 0.134 // mean of test L2: 4.386 /// ptime: 25.562
+
+[1591/10000] -  mean of train L2: 0.133 // mean of test L2: 4.411 /// ptime: 25.936
+
+[1592/10000] -  mean of train L2: 0.136 // mean of test L2: 4.396 /// ptime: 25.666
+
+[1593/10000] -  mean of train L2: 0.137 // mean of test L2: 4.358 /// ptime: 25.711
+
+[1594/10000] -  mean of train L2: 0.138 // mean of test L2: 4.337 /// ptime: 25.607
+
+[1595/10000] -  mean of train L2: 0.130 // mean of test L2: 4.401 /// ptime: 25.870
+
+[1596/10000] -  mean of train L2: 0.125 // mean of test L2: 4.380 /// ptime: 25.910
+
+[1597/10000] -  mean of train L2: 0.131 // mean of test L2: 4.371 /// ptime: 25.880
+
+[1598/10000] -  mean of train L2: 0.132 // mean of test L2: 4.407 /// ptime: 25.576
+
+[1599/10000] -  mean of train L2: 0.129 // mean of test L2: 4.377 /// ptime: 25.578
+
+[1600/10000] -  mean of train L2: 0.133 // mean of test L2: 4.405 /// ptime: 25.599
+
+[1601/10000] -  mean of train L2: 0.141 // mean of test L2: 4.408 /// ptime: 25.673
+
+[1602/10000] -  mean of train L2: 0.130 // mean of test L2: 4.382 /// ptime: 25.631
+
+[1603/10000] -  mean of train L2: 0.134 // mean of test L2: 4.353 /// ptime: 25.866
+
+[1604/10000] -  mean of train L2: 0.136 // mean of test L2: 4.374 /// ptime: 25.805
+
+[1605/10000] -  mean of train L2: 0.130 // mean of test L2: 4.342 /// ptime: 26.039
+
+[1606/10000] -  mean of train L2: 0.142 // mean of test L2: 4.409 /// ptime: 25.807
+
+[1607/10000] -  mean of train L2: 0.141 // mean of test L2: 4.372 /// ptime: 25.773
+
+[1608/10000] -  mean of train L2: 0.133 // mean of test L2: 4.355 /// ptime: 25.738
+
+[1609/10000] -  mean of train L2: 0.127 // mean of test L2: 4.365 /// ptime: 25.573
+
+[1610/10000] -  mean of train L2: 0.131 // mean of test L2: 4.363 /// ptime: 25.863
+
+[1611/10000] -  mean of train L2: 0.137 // mean of test L2: 4.371 /// ptime: 25.721
+
+[1612/10000] -  mean of train L2: 0.128 // mean of test L2: 4.362 /// ptime: 25.862
+
+[1613/10000] -  mean of train L2: 0.130 // mean of test L2: 4.355 /// ptime: 25.722
+
+[1614/10000] -  mean of train L2: 0.139 // mean of test L2: 4.413 /// ptime: 25.869
+
+[1615/10000] -  mean of train L2: 0.135 // mean of test L2: 4.364 /// ptime: 25.578
+
+[1616/10000] -  mean of train L2: 0.133 // mean of test L2: 4.394 /// ptime: 25.707
+
+[1617/10000] -  mean of train L2: 0.131 // mean of test L2: 4.386 /// ptime: 25.951
+
+[1618/10000] -  mean of train L2: 0.127 // mean of test L2: 4.377 /// ptime: 25.762
+
+[1619/10000] -  mean of train L2: 0.127 // mean of test L2: 4.363 /// ptime: 25.839
+
+[1620/10000] -  mean of train L2: 0.141 // mean of test L2: 4.403 /// ptime: 25.556
+
+[1621/10000] -  mean of train L2: 0.129 // mean of test L2: 4.436 /// ptime: 25.636
+
+[1622/10000] -  mean of train L2: 0.137 // mean of test L2: 4.402 /// ptime: 25.578
+
+[1623/10000] -  mean of train L2: 0.132 // mean of test L2: 4.381 /// ptime: 25.788
+
+[1624/10000] -  mean of train L2: 0.136 // mean of test L2: 4.391 /// ptime: 25.809
+
+[1625/10000] -  mean of train L2: 0.131 // mean of test L2: 4.358 /// ptime: 25.870
+
+[1626/10000] -  mean of train L2: 0.126 // mean of test L2: 4.361 /// ptime: 25.808
+
+[1627/10000] -  mean of train L2: 0.124 // mean of test L2: 4.366 /// ptime: 26.140
+
+[1628/10000] -  mean of train L2: 0.127 // mean of test L2: 4.356 /// ptime: 25.673
+
+[1629/10000] -  mean of train L2: 0.129 // mean of test L2: 4.392 /// ptime: 25.661
+
+[1630/10000] -  mean of train L2: 0.125 // mean of test L2: 4.354 /// ptime: 25.409
+
+[1631/10000] -  mean of train L2: 0.129 // mean of test L2: 4.355 /// ptime: 25.585
+
+[1632/10000] -  mean of train L2: 0.133 // mean of test L2: 4.384 /// ptime: 25.834
+
+[1633/10000] -  mean of train L2: 0.130 // mean of test L2: 4.363 /// ptime: 25.618
+
+[1634/10000] -  mean of train L2: 0.130 // mean of test L2: 4.360 /// ptime: 25.704
+
+[1635/10000] -  mean of train L2: 0.127 // mean of test L2: 4.388 /// ptime: 25.572
+
+[1636/10000] -  mean of train L2: 0.130 // mean of test L2: 4.381 /// ptime: 25.457
+
+[1637/10000] -  mean of train L2: 0.131 // mean of test L2: 4.371 /// ptime: 25.824
+
+[1638/10000] -  mean of train L2: 0.128 // mean of test L2: 4.392 /// ptime: 25.679
+
+[1639/10000] -  mean of train L2: 0.132 // mean of test L2: 4.369 /// ptime: 25.745
+
+[1640/10000] -  mean of train L2: 0.132 // mean of test L2: 4.355 /// ptime: 25.677
+
+[1641/10000] -  mean of train L2: 0.123 // mean of test L2: 4.379 /// ptime: 25.849
+
+[1642/10000] -  mean of train L2: 0.125 // mean of test L2: 4.399 /// ptime: 26.071
+
+[1643/10000] -  mean of train L2: 0.128 // mean of test L2: 4.360 /// ptime: 25.522
+
+[1644/10000] -  mean of train L2: 0.126 // mean of test L2: 4.372 /// ptime: 25.865
+
+[1645/10000] -  mean of train L2: 0.136 // mean of test L2: 4.371 /// ptime: 25.914
+
+[1646/10000] -  mean of train L2: 0.132 // mean of test L2: 4.398 /// ptime: 25.731
+
+[1647/10000] -  mean of train L2: 0.129 // mean of test L2: 4.366 /// ptime: 25.700
+
+[1648/10000] -  mean of train L2: 0.128 // mean of test L2: 4.372 /// ptime: 25.856
+
+[1649/10000] -  mean of train L2: 0.131 // mean of test L2: 4.404 /// ptime: 25.553
+
+[1650/10000] -  mean of train L2: 0.126 // mean of test L2: 4.380 /// ptime: 25.641
+
+[1651/10000] -  mean of train L2: 0.127 // mean of test L2: 4.369 /// ptime: 25.744
+
+[1652/10000] -  mean of train L2: 0.124 // mean of test L2: 4.358 /// ptime: 25.630
+
+[1653/10000] -  mean of train L2: 0.127 // mean of test L2: 4.412 /// ptime: 25.916
+
+[1654/10000] -  mean of train L2: 0.128 // mean of test L2: 4.374 /// ptime: 25.923
+
+[1655/10000] -  mean of train L2: 0.131 // mean of test L2: 4.379 /// ptime: 25.483
+
+[1656/10000] -  mean of train L2: 0.125 // mean of test L2: 4.390 /// ptime: 25.817
+
+[1657/10000] -  mean of train L2: 0.128 // mean of test L2: 4.357 /// ptime: 25.251
+
+[1658/10000] -  mean of train L2: 0.129 // mean of test L2: 4.385 /// ptime: 25.480
+
+[1659/10000] -  mean of train L2: 0.133 // mean of test L2: 4.398 /// ptime: 25.726
+
+[1660/10000] -  mean of train L2: 0.130 // mean of test L2: 4.388 /// ptime: 25.839
+
+[1661/10000] -  mean of train L2: 0.129 // mean of test L2: 4.382 /// ptime: 25.647
+
+[1662/10000] -  mean of train L2: 0.126 // mean of test L2: 4.372 /// ptime: 25.601
+
+[1663/10000] -  mean of train L2: 0.126 // mean of test L2: 4.390 /// ptime: 25.786
+
+[1664/10000] -  mean of train L2: 0.125 // mean of test L2: 4.398 /// ptime: 25.705
+
+[1665/10000] -  mean of train L2: 0.129 // mean of test L2: 4.375 /// ptime: 25.902
+
+[1666/10000] -  mean of train L2: 0.128 // mean of test L2: 4.392 /// ptime: 25.609
+
+[1667/10000] -  mean of train L2: 0.127 // mean of test L2: 4.359 /// ptime: 25.753
+
+[1668/10000] -  mean of train L2: 0.130 // mean of test L2: 4.358 /// ptime: 25.553
+
+[1669/10000] -  mean of train L2: 0.132 // mean of test L2: 4.404 /// ptime: 25.492
+
+[1670/10000] -  mean of train L2: 0.129 // mean of test L2: 4.354 /// ptime: 25.483
+
+[1671/10000] -  mean of train L2: 0.131 // mean of test L2: 4.374 /// ptime: 25.649
+
+[1672/10000] -  mean of train L2: 0.130 // mean of test L2: 4.373 /// ptime: 25.689
+
+[1673/10000] -  mean of train L2: 0.129 // mean of test L2: 4.381 /// ptime: 25.653
+
+[1674/10000] -  mean of train L2: 0.136 // mean of test L2: 4.376 /// ptime: 25.853
+
+[1675/10000] -  mean of train L2: 0.136 // mean of test L2: 4.361 /// ptime: 25.871
+
+[1676/10000] -  mean of train L2: 0.129 // mean of test L2: 4.357 /// ptime: 25.541
+
+[1677/10000] -  mean of train L2: 0.132 // mean of test L2: 4.356 /// ptime: 25.501
+
+[1678/10000] -  mean of train L2: 0.132 // mean of test L2: 4.370 /// ptime: 25.705
+
+[1679/10000] -  mean of train L2: 0.136 // mean of test L2: 4.356 /// ptime: 25.721
+
+[1680/10000] -  mean of train L2: 0.128 // mean of test L2: 4.346 /// ptime: 25.659
+
+[1681/10000] -  mean of train L2: 0.130 // mean of test L2: 4.384 /// ptime: 25.462
+
+[1682/10000] -  mean of train L2: 0.125 // mean of test L2: 4.375 /// ptime: 25.635
+
+[1683/10000] -  mean of train L2: 0.126 // mean of test L2: 4.369 /// ptime: 25.861
+
+[1684/10000] -  mean of train L2: 0.129 // mean of test L2: 4.345 /// ptime: 25.875
+
+[1685/10000] -  mean of train L2: 0.127 // mean of test L2: 4.390 /// ptime: 25.953
+
+[1686/10000] -  mean of train L2: 0.126 // mean of test L2: 4.382 /// ptime: 25.492
+
+[1687/10000] -  mean of train L2: 0.132 // mean of test L2: 4.377 /// ptime: 25.707
+
+[1688/10000] -  mean of train L2: 0.126 // mean of test L2: 4.397 /// ptime: 25.425
+
+[1689/10000] -  mean of train L2: 0.124 // mean of test L2: 4.370 /// ptime: 25.637
+
+[1690/10000] -  mean of train L2: 0.126 // mean of test L2: 4.358 /// ptime: 25.905
+
+[1691/10000] -  mean of train L2: 0.130 // mean of test L2: 4.348 /// ptime: 25.553
+
+[1692/10000] -  mean of train L2: 0.128 // mean of test L2: 4.373 /// ptime: 25.687
+
+[1693/10000] -  mean of train L2: 0.140 // mean of test L2: 4.387 /// ptime: 25.747
+
+[1694/10000] -  mean of train L2: 0.126 // mean of test L2: 4.351 /// ptime: 25.853
+
+[1695/10000] -  mean of train L2: 0.123 // mean of test L2: 4.329 /// ptime: 25.850
+
+[1696/10000] -  mean of train L2: 0.123 // mean of test L2: 4.357 /// ptime: 25.962
+
+[1697/10000] -  mean of train L2: 0.120 // mean of test L2: 4.370 /// ptime: 26.065
+
+[1698/10000] -  mean of train L2: 0.133 // mean of test L2: 4.376 /// ptime: 25.707
+
+[1699/10000] -  mean of train L2: 0.138 // mean of test L2: 4.376 /// ptime: 25.910
+
+[1700/10000] -  mean of train L2: 0.136 // mean of test L2: 4.386 /// ptime: 25.451
+
+[1701/10000] -  mean of train L2: 0.130 // mean of test L2: 4.371 /// ptime: 25.731
+
+[1702/10000] -  mean of train L2: 0.131 // mean of test L2: 4.365 /// ptime: 25.826
+
+[1703/10000] -  mean of train L2: 0.129 // mean of test L2: 4.371 /// ptime: 25.698
+
+[1704/10000] -  mean of train L2: 0.134 // mean of test L2: 4.413 /// ptime: 25.937
+
+[1705/10000] -  mean of train L2: 0.127 // mean of test L2: 4.371 /// ptime: 25.975
+
+[1706/10000] -  mean of train L2: 0.126 // mean of test L2: 4.361 /// ptime: 25.678
+
+[1707/10000] -  mean of train L2: 0.130 // mean of test L2: 4.380 /// ptime: 25.526
+
+[1708/10000] -  mean of train L2: 0.134 // mean of test L2: 4.365 /// ptime: 25.643
+
+[1709/10000] -  mean of train L2: 0.129 // mean of test L2: 4.362 /// ptime: 25.976
+
+[1710/10000] -  mean of train L2: 0.135 // mean of test L2: 4.369 /// ptime: 25.662
+
+[1711/10000] -  mean of train L2: 0.130 // mean of test L2: 4.322 /// ptime: 25.802
+
+[1712/10000] -  mean of train L2: 0.124 // mean of test L2: 4.363 /// ptime: 25.593
+
+[1713/10000] -  mean of train L2: 0.126 // mean of test L2: 4.378 /// ptime: 25.848
+
+[1714/10000] -  mean of train L2: 0.127 // mean of test L2: 4.337 /// ptime: 25.959
+
+[1715/10000] -  mean of train L2: 0.130 // mean of test L2: 4.370 /// ptime: 25.776
+
+[1716/10000] -  mean of train L2: 0.122 // mean of test L2: 4.347 /// ptime: 25.919
+
+[1717/10000] -  mean of train L2: 0.125 // mean of test L2: 4.363 /// ptime: 26.075
+
+[1718/10000] -  mean of train L2: 0.149 // mean of test L2: 4.420 /// ptime: 25.899
+
+[1719/10000] -  mean of train L2: 0.147 // mean of test L2: 4.334 /// ptime: 25.739
+
+[1720/10000] -  mean of train L2: 0.131 // mean of test L2: 4.375 /// ptime: 25.900
+
+[1721/10000] -  mean of train L2: 0.137 // mean of test L2: 4.331 /// ptime: 25.838
+
+[1722/10000] -  mean of train L2: 0.136 // mean of test L2: 4.395 /// ptime: 25.905
+
+[1723/10000] -  mean of train L2: 0.127 // mean of test L2: 4.368 /// ptime: 25.930
+
+[1724/10000] -  mean of train L2: 0.132 // mean of test L2: 4.382 /// ptime: 25.854
+
+[1725/10000] -  mean of train L2: 0.121 // mean of test L2: 4.373 /// ptime: 25.475
+
+[1726/10000] -  mean of train L2: 0.118 // mean of test L2: 4.384 /// ptime: 25.911
+
+[1727/10000] -  mean of train L2: 0.120 // mean of test L2: 4.442 /// ptime: 25.727
+
+[1728/10000] -  mean of train L2: 0.122 // mean of test L2: 4.371 /// ptime: 25.782
+
+[1729/10000] -  mean of train L2: 0.125 // mean of test L2: 4.387 /// ptime: 25.665
+
+[1730/10000] -  mean of train L2: 0.122 // mean of test L2: 4.370 /// ptime: 25.640
+
+[1731/10000] -  mean of train L2: 0.120 // mean of test L2: 4.360 /// ptime: 25.693
+
+[1732/10000] -  mean of train L2: 0.126 // mean of test L2: 4.369 /// ptime: 25.743
+
+[1733/10000] -  mean of train L2: 0.128 // mean of test L2: 4.370 /// ptime: 25.588
+
+[1734/10000] -  mean of train L2: 0.119 // mean of test L2: 4.359 /// ptime: 25.582
+
+[1735/10000] -  mean of train L2: 0.127 // mean of test L2: 4.362 /// ptime: 25.772
+
+[1736/10000] -  mean of train L2: 0.123 // mean of test L2: 4.392 /// ptime: 25.928
+
+[1737/10000] -  mean of train L2: 0.126 // mean of test L2: 4.407 /// ptime: 26.024
+
+[1738/10000] -  mean of train L2: 0.125 // mean of test L2: 4.361 /// ptime: 25.730
+
+[1739/10000] -  mean of train L2: 0.121 // mean of test L2: 4.388 /// ptime: 25.735
+
+[1740/10000] -  mean of train L2: 0.127 // mean of test L2: 4.378 /// ptime: 25.737
+
+[1741/10000] -  mean of train L2: 0.125 // mean of test L2: 4.353 /// ptime: 25.838
+
+[1742/10000] -  mean of train L2: 0.127 // mean of test L2: 4.382 /// ptime: 25.681
+
+[1743/10000] -  mean of train L2: 0.118 // mean of test L2: 4.328 /// ptime: 25.752
+
+[1744/10000] -  mean of train L2: 0.122 // mean of test L2: 4.378 /// ptime: 25.737
+
+[1745/10000] -  mean of train L2: 0.124 // mean of test L2: 4.404 /// ptime: 25.960
+
+[1746/10000] -  mean of train L2: 0.120 // mean of test L2: 4.390 /// ptime: 25.834
+
+[1747/10000] -  mean of train L2: 0.121 // mean of test L2: 4.371 /// ptime: 25.777
+
+[1748/10000] -  mean of train L2: 0.126 // mean of test L2: 4.356 /// ptime: 25.687
+
+[1749/10000] -  mean of train L2: 0.135 // mean of test L2: 4.380 /// ptime: 25.844
+
+[1750/10000] -  mean of train L2: 0.130 // mean of test L2: 4.370 /// ptime: 25.959
+
+[1751/10000] -  mean of train L2: 0.129 // mean of test L2: 4.348 /// ptime: 25.949
+
+[1752/10000] -  mean of train L2: 0.131 // mean of test L2: 4.418 /// ptime: 25.615
+
+[1753/10000] -  mean of train L2: 0.134 // mean of test L2: 4.384 /// ptime: 25.904
+
+[1754/10000] -  mean of train L2: 0.130 // mean of test L2: 4.351 /// ptime: 25.793
+
+[1755/10000] -  mean of train L2: 0.128 // mean of test L2: 4.359 /// ptime: 25.473
+
+[1756/10000] -  mean of train L2: 0.122 // mean of test L2: 4.387 /// ptime: 25.843
+
+[1757/10000] -  mean of train L2: 0.120 // mean of test L2: 4.365 /// ptime: 25.895
+
+[1758/10000] -  mean of train L2: 0.119 // mean of test L2: 4.364 /// ptime: 25.717
+
+[1759/10000] -  mean of train L2: 0.121 // mean of test L2: 4.373 /// ptime: 25.815
+
+[1760/10000] -  mean of train L2: 0.123 // mean of test L2: 4.339 /// ptime: 25.773
+
+[1761/10000] -  mean of train L2: 0.125 // mean of test L2: 4.399 /// ptime: 25.901
+
+[1762/10000] -  mean of train L2: 0.129 // mean of test L2: 4.391 /// ptime: 25.931
+
+[1763/10000] -  mean of train L2: 0.122 // mean of test L2: 4.395 /// ptime: 25.840
+
+[1764/10000] -  mean of train L2: 0.120 // mean of test L2: 4.388 /// ptime: 25.629
+
+[1765/10000] -  mean of train L2: 0.121 // mean of test L2: 4.383 /// ptime: 25.698
+
+[1766/10000] -  mean of train L2: 0.130 // mean of test L2: 4.402 /// ptime: 25.509
+
+[1767/10000] -  mean of train L2: 0.129 // mean of test L2: 4.380 /// ptime: 25.773
+
+[1768/10000] -  mean of train L2: 0.129 // mean of test L2: 4.407 /// ptime: 25.824
+
+[1769/10000] -  mean of train L2: 0.133 // mean of test L2: 4.382 /// ptime: 25.577
+
+[1770/10000] -  mean of train L2: 0.125 // mean of test L2: 4.387 /// ptime: 25.910
+
+[1771/10000] -  mean of train L2: 0.129 // mean of test L2: 4.339 /// ptime: 25.590
+
+[1772/10000] -  mean of train L2: 0.119 // mean of test L2: 4.381 /// ptime: 25.818
+
+[1773/10000] -  mean of train L2: 0.130 // mean of test L2: 4.368 /// ptime: 25.523
+
+[1774/10000] -  mean of train L2: 0.115 // mean of test L2: 4.359 /// ptime: 25.783
+
+[1775/10000] -  mean of train L2: 0.124 // mean of test L2: 4.389 /// ptime: 25.386
+
+[1776/10000] -  mean of train L2: 0.127 // mean of test L2: 4.361 /// ptime: 25.572
+
+[1777/10000] -  mean of train L2: 0.121 // mean of test L2: 4.374 /// ptime: 25.731
+
+[1778/10000] -  mean of train L2: 0.122 // mean of test L2: 4.353 /// ptime: 25.568
+
+[1779/10000] -  mean of train L2: 0.120 // mean of test L2: 4.351 /// ptime: 25.914
+
+[1780/10000] -  mean of train L2: 0.120 // mean of test L2: 4.371 /// ptime: 25.501
+
+[1781/10000] -  mean of train L2: 0.123 // mean of test L2: 4.369 /// ptime: 25.519
+
+[1782/10000] -  mean of train L2: 0.120 // mean of test L2: 4.358 /// ptime: 26.026
+
+[1783/10000] -  mean of train L2: 0.120 // mean of test L2: 4.361 /// ptime: 25.918
+
+[1784/10000] -  mean of train L2: 0.123 // mean of test L2: 4.356 /// ptime: 25.929
+
+[1785/10000] -  mean of train L2: 0.122 // mean of test L2: 4.369 /// ptime: 25.503
+
+[1786/10000] -  mean of train L2: 0.124 // mean of test L2: 4.345 /// ptime: 25.806
+
+[1787/10000] -  mean of train L2: 0.122 // mean of test L2: 4.369 /// ptime: 25.802
+
+[1788/10000] -  mean of train L2: 0.120 // mean of test L2: 4.368 /// ptime: 25.492
+
+[1789/10000] -  mean of train L2: 0.125 // mean of test L2: 4.372 /// ptime: 25.541
+
+[1790/10000] -  mean of train L2: 0.124 // mean of test L2: 4.382 /// ptime: 25.744
+
+[1791/10000] -  mean of train L2: 0.126 // mean of test L2: 4.376 /// ptime: 25.647
+
+[1792/10000] -  mean of train L2: 0.124 // mean of test L2: 4.331 /// ptime: 25.963
+
+[1793/10000] -  mean of train L2: 0.125 // mean of test L2: 4.331 /// ptime: 25.902
+
+[1794/10000] -  mean of train L2: 0.126 // mean of test L2: 4.374 /// ptime: 25.981
+
+[1795/10000] -  mean of train L2: 0.124 // mean of test L2: 4.371 /// ptime: 25.816
+
+[1796/10000] -  mean of train L2: 0.124 // mean of test L2: 4.367 /// ptime: 25.934
+
+[1797/10000] -  mean of train L2: 0.118 // mean of test L2: 4.365 /// ptime: 25.851
+
+[1798/10000] -  mean of train L2: 0.125 // mean of test L2: 4.394 /// ptime: 25.978
+
+[1799/10000] -  mean of train L2: 0.121 // mean of test L2: 4.369 /// ptime: 25.886
+
+[1800/10000] -  mean of train L2: 0.123 // mean of test L2: 4.362 /// ptime: 25.918
+
+[1801/10000] -  mean of train L2: 0.123 // mean of test L2: 4.367 /// ptime: 25.852
+
+[1802/10000] -  mean of train L2: 0.121 // mean of test L2: 4.314 /// ptime: 25.683
+
+[1803/10000] -  mean of train L2: 0.117 // mean of test L2: 4.355 /// ptime: 25.971
+
+[1804/10000] -  mean of train L2: 0.129 // mean of test L2: 4.391 /// ptime: 25.613
+
+[1805/10000] -  mean of train L2: 0.119 // mean of test L2: 4.381 /// ptime: 25.657
+
+[1806/10000] -  mean of train L2: 0.120 // mean of test L2: 4.362 /// ptime: 25.923
+
+[1807/10000] -  mean of train L2: 0.132 // mean of test L2: 4.381 /// ptime: 25.891
+
+[1808/10000] -  mean of train L2: 0.130 // mean of test L2: 4.396 /// ptime: 25.829
+
+[1809/10000] -  mean of train L2: 0.126 // mean of test L2: 4.370 /// ptime: 25.868
+
+[1810/10000] -  mean of train L2: 0.125 // mean of test L2: 4.376 /// ptime: 25.593
+
+[1811/10000] -  mean of train L2: 0.124 // mean of test L2: 4.379 /// ptime: 26.010
+
+[1812/10000] -  mean of train L2: 0.120 // mean of test L2: 4.354 /// ptime: 25.666
+
+[1813/10000] -  mean of train L2: 0.126 // mean of test L2: 4.378 /// ptime: 25.757
+
+[1814/10000] -  mean of train L2: 0.116 // mean of test L2: 4.350 /// ptime: 25.645
+
+[1815/10000] -  mean of train L2: 0.119 // mean of test L2: 4.348 /// ptime: 25.797
+
+[1816/10000] -  mean of train L2: 0.130 // mean of test L2: 4.394 /// ptime: 25.978
+
+[1817/10000] -  mean of train L2: 0.118 // mean of test L2: 4.385 /// ptime: 25.857
+
+[1818/10000] -  mean of train L2: 0.117 // mean of test L2: 4.351 /// ptime: 25.849
+
+[1819/10000] -  mean of train L2: 0.114 // mean of test L2: 4.377 /// ptime: 25.560
+
+[1820/10000] -  mean of train L2: 0.119 // mean of test L2: 4.344 /// ptime: 25.914
+
+[1821/10000] -  mean of train L2: 0.122 // mean of test L2: 4.355 /// ptime: 25.800
+
+[1822/10000] -  mean of train L2: 0.122 // mean of test L2: 4.359 /// ptime: 25.853
+
+[1823/10000] -  mean of train L2: 0.113 // mean of test L2: 4.364 /// ptime: 25.978
+
+[1824/10000] -  mean of train L2: 0.124 // mean of test L2: 4.374 /// ptime: 25.876
+
+[1825/10000] -  mean of train L2: 0.126 // mean of test L2: 4.372 /// ptime: 25.768
+
+[1826/10000] -  mean of train L2: 0.122 // mean of test L2: 4.364 /// ptime: 25.792
+
+[1827/10000] -  mean of train L2: 0.117 // mean of test L2: 4.365 /// ptime: 25.682
+
+[1828/10000] -  mean of train L2: 0.119 // mean of test L2: 4.346 /// ptime: 25.909
+
+[1829/10000] -  mean of train L2: 0.119 // mean of test L2: 4.355 /// ptime: 25.844
+
+[1830/10000] -  mean of train L2: 0.119 // mean of test L2: 4.384 /// ptime: 25.836
+
+[1831/10000] -  mean of train L2: 0.119 // mean of test L2: 4.370 /// ptime: 25.765
+
+[1832/10000] -  mean of train L2: 0.120 // mean of test L2: 4.351 /// ptime: 25.416
+
+[1833/10000] -  mean of train L2: 0.124 // mean of test L2: 4.344 /// ptime: 25.876
+
+[1834/10000] -  mean of train L2: 0.120 // mean of test L2: 4.352 /// ptime: 25.919
+
+[1835/10000] -  mean of train L2: 0.122 // mean of test L2: 4.349 /// ptime: 25.540
+
+[1836/10000] -  mean of train L2: 0.122 // mean of test L2: 4.377 /// ptime: 25.936
+
+[1837/10000] -  mean of train L2: 0.125 // mean of test L2: 4.363 /// ptime: 25.834
+
+[1838/10000] -  mean of train L2: 0.121 // mean of test L2: 4.368 /// ptime: 25.690
+
+[1839/10000] -  mean of train L2: 0.117 // mean of test L2: 4.386 /// ptime: 25.756
+
+[1840/10000] -  mean of train L2: 0.124 // mean of test L2: 4.341 /// ptime: 25.729
+
+[1841/10000] -  mean of train L2: 0.118 // mean of test L2: 4.373 /// ptime: 25.460
+
+[1842/10000] -  mean of train L2: 0.121 // mean of test L2: 4.368 /// ptime: 25.764
+
+[1843/10000] -  mean of train L2: 0.123 // mean of test L2: 4.368 /// ptime: 25.648
+
+[1844/10000] -  mean of train L2: 0.125 // mean of test L2: 4.370 /// ptime: 25.742
+
+[1845/10000] -  mean of train L2: 0.126 // mean of test L2: 4.368 /// ptime: 25.848
+
+[1846/10000] -  mean of train L2: 0.125 // mean of test L2: 4.366 /// ptime: 25.836
+
+[1847/10000] -  mean of train L2: 0.120 // mean of test L2: 4.335 /// ptime: 25.872
+
+[1848/10000] -  mean of train L2: 0.121 // mean of test L2: 4.342 /// ptime: 25.745
+
+[1849/10000] -  mean of train L2: 0.122 // mean of test L2: 4.381 /// ptime: 25.528
+
+[1850/10000] -  mean of train L2: 0.127 // mean of test L2: 4.363 /// ptime: 25.626
+
+[1851/10000] -  mean of train L2: 0.120 // mean of test L2: 4.390 /// ptime: 25.883
+
+[1852/10000] -  mean of train L2: 0.122 // mean of test L2: 4.369 /// ptime: 26.042
+
+[1853/10000] -  mean of train L2: 0.124 // mean of test L2: 4.354 /// ptime: 25.762
+
+[1854/10000] -  mean of train L2: 0.121 // mean of test L2: 4.361 /// ptime: 25.983
+
+[1855/10000] -  mean of train L2: 0.124 // mean of test L2: 4.384 /// ptime: 25.749
+
+[1856/10000] -  mean of train L2: 0.134 // mean of test L2: 4.375 /// ptime: 25.661
+
+[1857/10000] -  mean of train L2: 0.119 // mean of test L2: 4.365 /// ptime: 25.809
+
+[1858/10000] -  mean of train L2: 0.119 // mean of test L2: 4.381 /// ptime: 25.929
+
+[1859/10000] -  mean of train L2: 0.119 // mean of test L2: 4.350 /// ptime: 25.887
+
+[1860/10000] -  mean of train L2: 0.121 // mean of test L2: 4.349 /// ptime: 25.932
+
+[1861/10000] -  mean of train L2: 0.117 // mean of test L2: 4.355 /// ptime: 25.697
+
+[1862/10000] -  mean of train L2: 0.121 // mean of test L2: 4.376 /// ptime: 25.884
+
+[1863/10000] -  mean of train L2: 0.118 // mean of test L2: 4.352 /// ptime: 25.762
+
+[1864/10000] -  mean of train L2: 0.123 // mean of test L2: 4.385 /// ptime: 25.716
+
+[1865/10000] -  mean of train L2: 0.127 // mean of test L2: 4.347 /// ptime: 25.802
+
+[1866/10000] -  mean of train L2: 0.122 // mean of test L2: 4.392 /// ptime: 25.551
+
+[1867/10000] -  mean of train L2: 0.119 // mean of test L2: 4.358 /// ptime: 25.702
+
+[1868/10000] -  mean of train L2: 0.126 // mean of test L2: 4.347 /// ptime: 25.957
+
+[1869/10000] -  mean of train L2: 0.120 // mean of test L2: 4.328 /// ptime: 25.835
+
+[1870/10000] -  mean of train L2: 0.116 // mean of test L2: 4.337 /// ptime: 25.747
+
+[1871/10000] -  mean of train L2: 0.118 // mean of test L2: 4.344 /// ptime: 25.723
+
+[1872/10000] -  mean of train L2: 0.117 // mean of test L2: 4.345 /// ptime: 25.808
+
+[1873/10000] -  mean of train L2: 0.122 // mean of test L2: 4.366 /// ptime: 25.999
+
+[1874/10000] -  mean of train L2: 0.121 // mean of test L2: 4.399 /// ptime: 25.852
+
+[1875/10000] -  mean of train L2: 0.122 // mean of test L2: 4.367 /// ptime: 25.732
+
+[1876/10000] -  mean of train L2: 0.120 // mean of test L2: 4.345 /// ptime: 25.680
+
+[1877/10000] -  mean of train L2: 0.114 // mean of test L2: 4.353 /// ptime: 25.825
+
+[1878/10000] -  mean of train L2: 0.115 // mean of test L2: 4.375 /// ptime: 25.619
+
+[1879/10000] -  mean of train L2: 0.121 // mean of test L2: 4.350 /// ptime: 25.551
+
+[1880/10000] -  mean of train L2: 0.116 // mean of test L2: 4.356 /// ptime: 25.551
+
+[1881/10000] -  mean of train L2: 0.116 // mean of test L2: 4.386 /// ptime: 25.645
+
+[1882/10000] -  mean of train L2: 0.119 // mean of test L2: 4.400 /// ptime: 25.663
+
+[1883/10000] -  mean of train L2: 0.121 // mean of test L2: 4.391 /// ptime: 25.746
+
+[1884/10000] -  mean of train L2: 0.115 // mean of test L2: 4.347 /// ptime: 25.743
+
+[1885/10000] -  mean of train L2: 0.118 // mean of test L2: 4.358 /// ptime: 25.880
+
+[1886/10000] -  mean of train L2: 0.125 // mean of test L2: 4.359 /// ptime: 25.721
+
+[1887/10000] -  mean of train L2: 0.127 // mean of test L2: 4.355 /// ptime: 25.796
+
+[1888/10000] -  mean of train L2: 0.118 // mean of test L2: 4.360 /// ptime: 25.638
+
+[1889/10000] -  mean of train L2: 0.120 // mean of test L2: 4.361 /// ptime: 25.757
+
+[1890/10000] -  mean of train L2: 0.115 // mean of test L2: 4.349 /// ptime: 26.008
+
+[1891/10000] -  mean of train L2: 0.126 // mean of test L2: 4.359 /// ptime: 25.586
+
+[1892/10000] -  mean of train L2: 0.118 // mean of test L2: 4.384 /// ptime: 25.988
+
+[1893/10000] -  mean of train L2: 0.117 // mean of test L2: 4.348 /// ptime: 25.779
+
+[1894/10000] -  mean of train L2: 0.112 // mean of test L2: 4.348 /// ptime: 25.667
+
+[1895/10000] -  mean of train L2: 0.122 // mean of test L2: 4.365 /// ptime: 25.896
+
+[1896/10000] -  mean of train L2: 0.115 // mean of test L2: 4.366 /// ptime: 25.712
+
+[1897/10000] -  mean of train L2: 0.121 // mean of test L2: 4.362 /// ptime: 25.952
+
+[1898/10000] -  mean of train L2: 0.123 // mean of test L2: 4.356 /// ptime: 25.671
+
+[1899/10000] -  mean of train L2: 0.121 // mean of test L2: 4.375 /// ptime: 25.755
+
+[1900/10000] -  mean of train L2: 0.120 // mean of test L2: 4.394 /// ptime: 25.707
+
+[1901/10000] -  mean of train L2: 0.122 // mean of test L2: 4.370 /// ptime: 25.628
+
+[1902/10000] -  mean of train L2: 0.119 // mean of test L2: 4.347 /// ptime: 25.494
+
+[1903/10000] -  mean of train L2: 0.119 // mean of test L2: 4.360 /// ptime: 25.796
+
+[1904/10000] -  mean of train L2: 0.125 // mean of test L2: 4.384 /// ptime: 25.904
+
+[1905/10000] -  mean of train L2: 0.121 // mean of test L2: 4.341 /// ptime: 25.557
+
+[1906/10000] -  mean of train L2: 0.119 // mean of test L2: 4.337 /// ptime: 25.854
+
+[1907/10000] -  mean of train L2: 0.121 // mean of test L2: 4.325 /// ptime: 25.596
+
+[1908/10000] -  mean of train L2: 0.137 // mean of test L2: 4.354 /// ptime: 25.743
+
+[1909/10000] -  mean of train L2: 0.119 // mean of test L2: 4.345 /// ptime: 25.793
+
+[1910/10000] -  mean of train L2: 0.118 // mean of test L2: 4.335 /// ptime: 25.685
+
+[1911/10000] -  mean of train L2: 0.124 // mean of test L2: 4.379 /// ptime: 25.568
+
+[1912/10000] -  mean of train L2: 0.119 // mean of test L2: 4.370 /// ptime: 25.915
+
+[1913/10000] -  mean of train L2: 0.119 // mean of test L2: 4.361 /// ptime: 25.693
+
+[1914/10000] -  mean of train L2: 0.118 // mean of test L2: 4.368 /// ptime: 25.848
+
+[1915/10000] -  mean of train L2: 0.119 // mean of test L2: 4.341 /// ptime: 25.571
+
+[1916/10000] -  mean of train L2: 0.114 // mean of test L2: 4.350 /// ptime: 25.938
+
+[1917/10000] -  mean of train L2: 0.115 // mean of test L2: 4.329 /// ptime: 25.893
+
+[1918/10000] -  mean of train L2: 0.122 // mean of test L2: 4.351 /// ptime: 25.452
+
+[1919/10000] -  mean of train L2: 0.118 // mean of test L2: 4.358 /// ptime: 25.373
+
+[1920/10000] -  mean of train L2: 0.117 // mean of test L2: 4.335 /// ptime: 25.847
+
+[1921/10000] -  mean of train L2: 0.115 // mean of test L2: 4.347 /// ptime: 26.046
+
+[1922/10000] -  mean of train L2: 0.121 // mean of test L2: 4.352 /// ptime: 25.847
+
+[1923/10000] -  mean of train L2: 0.118 // mean of test L2: 4.388 /// ptime: 25.764
+
+[1924/10000] -  mean of train L2: 0.127 // mean of test L2: 4.346 /// ptime: 25.947
+
+[1925/10000] -  mean of train L2: 0.117 // mean of test L2: 4.345 /// ptime: 25.989
+
+[1926/10000] -  mean of train L2: 0.116 // mean of test L2: 4.368 /// ptime: 25.750
+
+[1927/10000] -  mean of train L2: 0.115 // mean of test L2: 4.363 /// ptime: 25.619
+
+[1928/10000] -  mean of train L2: 0.118 // mean of test L2: 4.345 /// ptime: 25.779
+
+[1929/10000] -  mean of train L2: 0.112 // mean of test L2: 4.345 /// ptime: 25.595
+
+[1930/10000] -  mean of train L2: 0.116 // mean of test L2: 4.348 /// ptime: 25.913
+
+[1931/10000] -  mean of train L2: 0.122 // mean of test L2: 4.362 /// ptime: 25.641
+
+[1932/10000] -  mean of train L2: 0.118 // mean of test L2: 4.326 /// ptime: 25.487
+
+[1933/10000] -  mean of train L2: 0.114 // mean of test L2: 4.363 /// ptime: 25.578
+
+[1934/10000] -  mean of train L2: 0.116 // mean of test L2: 4.346 /// ptime: 25.832
+
+[1935/10000] -  mean of train L2: 0.114 // mean of test L2: 4.360 /// ptime: 25.882
+
+[1936/10000] -  mean of train L2: 0.109 // mean of test L2: 4.351 /// ptime: 25.986
+
+[1937/10000] -  mean of train L2: 0.116 // mean of test L2: 4.361 /// ptime: 25.641
+
+[1938/10000] -  mean of train L2: 0.115 // mean of test L2: 4.378 /// ptime: 25.667
+
+[1939/10000] -  mean of train L2: 0.117 // mean of test L2: 4.360 /// ptime: 25.919
+
+[1940/10000] -  mean of train L2: 0.117 // mean of test L2: 4.360 /// ptime: 25.746
+
+[1941/10000] -  mean of train L2: 0.119 // mean of test L2: 4.371 /// ptime: 25.381
+
+[1942/10000] -  mean of train L2: 0.116 // mean of test L2: 4.319 /// ptime: 25.703
+
+[1943/10000] -  mean of train L2: 0.117 // mean of test L2: 4.365 /// ptime: 25.579
+
+[1944/10000] -  mean of train L2: 0.114 // mean of test L2: 4.381 /// ptime: 25.656
+
+[1945/10000] -  mean of train L2: 0.115 // mean of test L2: 4.357 /// ptime: 25.809
+
+[1946/10000] -  mean of train L2: 0.112 // mean of test L2: 4.354 /// ptime: 25.613
+
+[1947/10000] -  mean of train L2: 0.118 // mean of test L2: 4.332 /// ptime: 25.926
+
+[1948/10000] -  mean of train L2: 0.130 // mean of test L2: 4.356 /// ptime: 25.882
+
+[1949/10000] -  mean of train L2: 0.120 // mean of test L2: 4.340 /// ptime: 25.765
+
+[1950/10000] -  mean of train L2: 0.119 // mean of test L2: 4.335 /// ptime: 25.637
+
+[1951/10000] -  mean of train L2: 0.114 // mean of test L2: 4.373 /// ptime: 25.593
+
+[1952/10000] -  mean of train L2: 0.113 // mean of test L2: 4.353 /// ptime: 25.593
+
+[1953/10000] -  mean of train L2: 0.116 // mean of test L2: 4.331 /// ptime: 25.898
+
+[1954/10000] -  mean of train L2: 0.119 // mean of test L2: 4.349 /// ptime: 25.892
+
+[1955/10000] -  mean of train L2: 0.117 // mean of test L2: 4.348 /// ptime: 25.970
+
+[1956/10000] -  mean of train L2: 0.115 // mean of test L2: 4.349 /// ptime: 25.861
+
+[1957/10000] -  mean of train L2: 0.118 // mean of test L2: 4.357 /// ptime: 25.676
+
+[1958/10000] -  mean of train L2: 0.115 // mean of test L2: 4.335 /// ptime: 25.681
+
+[1959/10000] -  mean of train L2: 0.113 // mean of test L2: 4.333 /// ptime: 25.884
+
+[1960/10000] -  mean of train L2: 0.114 // mean of test L2: 4.351 /// ptime: 25.856
+
+[1961/10000] -  mean of train L2: 0.115 // mean of test L2: 4.342 /// ptime: 25.879
+
+[1962/10000] -  mean of train L2: 0.115 // mean of test L2: 4.351 /// ptime: 25.834
+
+[1963/10000] -  mean of train L2: 0.127 // mean of test L2: 4.383 /// ptime: 25.566
+
+[1964/10000] -  mean of train L2: 0.118 // mean of test L2: 4.351 /// ptime: 25.656
+
+[1965/10000] -  mean of train L2: 0.119 // mean of test L2: 4.347 /// ptime: 25.484
+
+[1966/10000] -  mean of train L2: 0.113 // mean of test L2: 4.352 /// ptime: 25.761
+
+[1967/10000] -  mean of train L2: 0.114 // mean of test L2: 4.311 /// ptime: 25.912
+
+[1968/10000] -  mean of train L2: 0.112 // mean of test L2: 4.312 /// ptime: 25.874
+
+[1969/10000] -  mean of train L2: 0.112 // mean of test L2: 4.335 /// ptime: 25.600
+
+[1970/10000] -  mean of train L2: 0.114 // mean of test L2: 4.349 /// ptime: 25.665
+
+[1971/10000] -  mean of train L2: 0.123 // mean of test L2: 4.342 /// ptime: 25.720
+
+[1972/10000] -  mean of train L2: 0.118 // mean of test L2: 4.345 /// ptime: 25.948
+
+[1973/10000] -  mean of train L2: 0.116 // mean of test L2: 4.329 /// ptime: 25.722
+
+[1974/10000] -  mean of train L2: 0.123 // mean of test L2: 4.349 /// ptime: 25.958
+
+[1975/10000] -  mean of train L2: 0.116 // mean of test L2: 4.338 /// ptime: 25.765
+
+[1976/10000] -  mean of train L2: 0.118 // mean of test L2: 4.374 /// ptime: 25.721
+
+[1977/10000] -  mean of train L2: 0.117 // mean of test L2: 4.358 /// ptime: 25.777
+
+[1978/10000] -  mean of train L2: 0.119 // mean of test L2: 4.361 /// ptime: 25.926
+
+[1979/10000] -  mean of train L2: 0.123 // mean of test L2: 4.347 /// ptime: 25.411
+
+[1980/10000] -  mean of train L2: 0.122 // mean of test L2: 4.375 /// ptime: 25.788
+
+[1981/10000] -  mean of train L2: 0.123 // mean of test L2: 4.367 /// ptime: 25.754
+
+[1982/10000] -  mean of train L2: 0.118 // mean of test L2: 4.344 /// ptime: 25.885
+
+[1983/10000] -  mean of train L2: 0.116 // mean of test L2: 4.347 /// ptime: 25.673
+
+[1984/10000] -  mean of train L2: 0.113 // mean of test L2: 4.358 /// ptime: 25.644
+
+[1985/10000] -  mean of train L2: 0.114 // mean of test L2: 4.338 /// ptime: 25.638
+
+[1986/10000] -  mean of train L2: 0.115 // mean of test L2: 4.362 /// ptime: 25.748
+
+[1987/10000] -  mean of train L2: 0.115 // mean of test L2: 4.315 /// ptime: 25.530
+
+[1988/10000] -  mean of train L2: 0.116 // mean of test L2: 4.343 /// ptime: 25.792
+
+[1989/10000] -  mean of train L2: 0.120 // mean of test L2: 4.329 /// ptime: 25.896
+
+[1990/10000] -  mean of train L2: 0.120 // mean of test L2: 4.325 /// ptime: 25.820
+
+[1991/10000] -  mean of train L2: 0.113 // mean of test L2: 4.335 /// ptime: 25.757
+
+[1992/10000] -  mean of train L2: 0.111 // mean of test L2: 4.350 /// ptime: 25.676
+
+[1993/10000] -  mean of train L2: 0.111 // mean of test L2: 4.356 /// ptime: 25.831
+
+[1994/10000] -  mean of train L2: 0.114 // mean of test L2: 4.336 /// ptime: 25.651
+
+[1995/10000] -  mean of train L2: 0.116 // mean of test L2: 4.315 /// ptime: 25.750
+
+[1996/10000] -  mean of train L2: 0.112 // mean of test L2: 4.320 /// ptime: 25.727
+
+[1997/10000] -  mean of train L2: 0.110 // mean of test L2: 4.330 /// ptime: 25.946
+
+[1998/10000] -  mean of train L2: 0.116 // mean of test L2: 4.348 /// ptime: 25.864
+
+[1999/10000] -  mean of train L2: 0.111 // mean of test L2: 4.377 /// ptime: 26.144
+
+[2000/10000] -  mean of train L2: 0.111 // mean of test L2: 4.329 /// ptime: 25.923
+
+[2001/10000] -  mean of train L2: 0.117 // mean of test L2: 4.347 /// ptime: 25.646
+
+[2002/10000] -  mean of train L2: 0.113 // mean of test L2: 4.339 /// ptime: 25.818
+
+[2003/10000] -  mean of train L2: 0.111 // mean of test L2: 4.331 /// ptime: 25.624
+
+[2004/10000] -  mean of train L2: 0.111 // mean of test L2: 4.314 /// ptime: 25.868
+
+[2005/10000] -  mean of train L2: 0.111 // mean of test L2: 4.360 /// ptime: 25.888
+
+[2006/10000] -  mean of train L2: 0.114 // mean of test L2: 4.351 /// ptime: 25.924
+
+[2007/10000] -  mean of train L2: 0.112 // mean of test L2: 4.352 /// ptime: 25.832
+
+[2008/10000] -  mean of train L2: 0.111 // mean of test L2: 4.349 /// ptime: 26.001
+
+[2009/10000] -  mean of train L2: 0.119 // mean of test L2: 4.317 /// ptime: 25.828
+
+[2010/10000] -  mean of train L2: 0.116 // mean of test L2: 4.364 /// ptime: 25.981
+
+[2011/10000] -  mean of train L2: 0.119 // mean of test L2: 4.361 /// ptime: 25.846
+
+[2012/10000] -  mean of train L2: 0.112 // mean of test L2: 4.357 /// ptime: 25.910
+
+[2013/10000] -  mean of train L2: 0.118 // mean of test L2: 4.347 /// ptime: 25.790
+
+[2014/10000] -  mean of train L2: 0.118 // mean of test L2: 4.345 /// ptime: 26.010
+
+[2015/10000] -  mean of train L2: 0.117 // mean of test L2: 4.341 /// ptime: 25.855
+
+[2016/10000] -  mean of train L2: 0.129 // mean of test L2: 4.390 /// ptime: 25.829
+
+[2017/10000] -  mean of train L2: 0.120 // mean of test L2: 4.341 /// ptime: 25.866
+
+[2018/10000] -  mean of train L2: 0.116 // mean of test L2: 4.329 /// ptime: 25.761
+
+[2019/10000] -  mean of train L2: 0.119 // mean of test L2: 4.321 /// ptime: 25.551
+
+[2020/10000] -  mean of train L2: 0.115 // mean of test L2: 4.345 /// ptime: 26.065
+
+[2021/10000] -  mean of train L2: 0.109 // mean of test L2: 4.330 /// ptime: 25.895
+
+[2022/10000] -  mean of train L2: 0.116 // mean of test L2: 4.331 /// ptime: 25.528
+
+[2023/10000] -  mean of train L2: 0.114 // mean of test L2: 4.354 /// ptime: 25.919
+
+[2024/10000] -  mean of train L2: 0.112 // mean of test L2: 4.348 /// ptime: 25.998
+
+[2025/10000] -  mean of train L2: 0.111 // mean of test L2: 4.391 /// ptime: 25.721
+
+[2026/10000] -  mean of train L2: 0.111 // mean of test L2: 4.333 /// ptime: 25.942
+
+[2027/10000] -  mean of train L2: 0.117 // mean of test L2: 4.341 /// ptime: 26.001
+
+[2028/10000] -  mean of train L2: 0.113 // mean of test L2: 4.327 /// ptime: 25.840
+
+[2029/10000] -  mean of train L2: 0.113 // mean of test L2: 4.340 /// ptime: 25.971
+
+[2030/10000] -  mean of train L2: 0.113 // mean of test L2: 4.371 /// ptime: 25.531
+
+[2031/10000] -  mean of train L2: 0.114 // mean of test L2: 4.321 /// ptime: 25.761
+
+[2032/10000] -  mean of train L2: 0.119 // mean of test L2: 4.350 /// ptime: 25.820
+
+[2033/10000] -  mean of train L2: 0.115 // mean of test L2: 4.326 /// ptime: 25.805
+
+[2034/10000] -  mean of train L2: 0.116 // mean of test L2: 4.341 /// ptime: 25.685
+
+[2035/10000] -  mean of train L2: 0.115 // mean of test L2: 4.366 /// ptime: 25.834
+
+[2036/10000] -  mean of train L2: 0.119 // mean of test L2: 4.360 /// ptime: 25.775
+
+[2037/10000] -  mean of train L2: 0.136 // mean of test L2: 4.332 /// ptime: 25.961
+
+[2038/10000] -  mean of train L2: 0.121 // mean of test L2: 4.359 /// ptime: 25.884
+
+[2039/10000] -  mean of train L2: 0.113 // mean of test L2: 4.328 /// ptime: 25.792
+
+[2040/10000] -  mean of train L2: 0.121 // mean of test L2: 4.339 /// ptime: 25.940
+
+[2041/10000] -  mean of train L2: 0.112 // mean of test L2: 4.313 /// ptime: 25.704
+
+[2042/10000] -  mean of train L2: 0.119 // mean of test L2: 4.322 /// ptime: 25.888
+
+[2043/10000] -  mean of train L2: 0.120 // mean of test L2: 4.363 /// ptime: 25.616
+
+[2044/10000] -  mean of train L2: 0.117 // mean of test L2: 4.312 /// ptime: 25.736
+
+[2045/10000] -  mean of train L2: 0.112 // mean of test L2: 4.335 /// ptime: 25.604
+
+[2046/10000] -  mean of train L2: 0.110 // mean of test L2: 4.333 /// ptime: 25.628
+
+[2047/10000] -  mean of train L2: 0.110 // mean of test L2: 4.336 /// ptime: 25.716
+
+[2048/10000] -  mean of train L2: 0.114 // mean of test L2: 4.361 /// ptime: 25.929
+
+[2049/10000] -  mean of train L2: 0.117 // mean of test L2: 4.343 /// ptime: 25.555
+
+[2050/10000] -  mean of train L2: 0.118 // mean of test L2: 4.346 /// ptime: 25.622
+
+[2051/10000] -  mean of train L2: 0.114 // mean of test L2: 4.351 /// ptime: 25.599
+
+[2052/10000] -  mean of train L2: 0.111 // mean of test L2: 4.348 /// ptime: 25.459
+
+[2053/10000] -  mean of train L2: 0.109 // mean of test L2: 4.325 /// ptime: 25.901
+
+[2054/10000] -  mean of train L2: 0.111 // mean of test L2: 4.339 /// ptime: 25.701
+
+[2055/10000] -  mean of train L2: 0.108 // mean of test L2: 4.344 /// ptime: 25.828
+
+[2056/10000] -  mean of train L2: 0.105 // mean of test L2: 4.354 /// ptime: 25.852
+
+[2057/10000] -  mean of train L2: 0.110 // mean of test L2: 4.330 /// ptime: 25.591
+
+[2058/10000] -  mean of train L2: 0.111 // mean of test L2: 4.324 /// ptime: 25.816
+
+[2059/10000] -  mean of train L2: 0.113 // mean of test L2: 4.332 /// ptime: 25.576
+
+[2060/10000] -  mean of train L2: 0.120 // mean of test L2: 4.356 /// ptime: 25.966
+
+[2061/10000] -  mean of train L2: 0.110 // mean of test L2: 4.335 /// ptime: 25.765
+
+[2062/10000] -  mean of train L2: 0.111 // mean of test L2: 4.323 /// ptime: 25.438
+
+[2063/10000] -  mean of train L2: 0.109 // mean of test L2: 4.336 /// ptime: 25.479
+
+[2064/10000] -  mean of train L2: 0.110 // mean of test L2: 4.360 /// ptime: 25.805
+
+[2065/10000] -  mean of train L2: 0.110 // mean of test L2: 4.338 /// ptime: 25.577
+
+[2066/10000] -  mean of train L2: 0.113 // mean of test L2: 4.327 /// ptime: 25.488
+
+[2067/10000] -  mean of train L2: 0.104 // mean of test L2: 4.345 /// ptime: 25.471
+
+[2068/10000] -  mean of train L2: 0.113 // mean of test L2: 4.329 /// ptime: 25.803
+
+[2069/10000] -  mean of train L2: 0.114 // mean of test L2: 4.346 /// ptime: 25.668
+
+[2070/10000] -  mean of train L2: 0.107 // mean of test L2: 4.354 /// ptime: 25.813
+
+[2071/10000] -  mean of train L2: 0.115 // mean of test L2: 4.341 /// ptime: 25.655
+
+[2072/10000] -  mean of train L2: 0.113 // mean of test L2: 4.351 /// ptime: 25.891
+
+[2073/10000] -  mean of train L2: 0.112 // mean of test L2: 4.327 /// ptime: 25.893
+
+[2074/10000] -  mean of train L2: 0.113 // mean of test L2: 4.329 /// ptime: 25.580
+
+[2075/10000] -  mean of train L2: 0.116 // mean of test L2: 4.339 /// ptime: 25.822
+
+[2076/10000] -  mean of train L2: 0.116 // mean of test L2: 4.314 /// ptime: 25.715
+
+[2077/10000] -  mean of train L2: 0.113 // mean of test L2: 4.314 /// ptime: 25.541
+
+[2078/10000] -  mean of train L2: 0.114 // mean of test L2: 4.360 /// ptime: 26.068
+
+[2079/10000] -  mean of train L2: 0.131 // mean of test L2: 4.398 /// ptime: 25.729
+
+[2080/10000] -  mean of train L2: 0.122 // mean of test L2: 4.331 /// ptime: 25.982
+
+[2081/10000] -  mean of train L2: 0.119 // mean of test L2: 4.321 /// ptime: 25.808
+
+[2082/10000] -  mean of train L2: 0.119 // mean of test L2: 4.321 /// ptime: 25.916
+
+[2083/10000] -  mean of train L2: 0.112 // mean of test L2: 4.339 /// ptime: 25.900
+
+[2084/10000] -  mean of train L2: 0.112 // mean of test L2: 4.339 /// ptime: 25.702
+
+[2085/10000] -  mean of train L2: 0.111 // mean of test L2: 4.346 /// ptime: 25.710
+
+[2086/10000] -  mean of train L2: 0.112 // mean of test L2: 4.341 /// ptime: 25.746
+
+[2087/10000] -  mean of train L2: 0.109 // mean of test L2: 4.358 /// ptime: 25.772
+
+[2088/10000] -  mean of train L2: 0.111 // mean of test L2: 4.338 /// ptime: 25.477
+
+[2089/10000] -  mean of train L2: 0.115 // mean of test L2: 4.349 /// ptime: 25.947
+
+[2090/10000] -  mean of train L2: 0.114 // mean of test L2: 4.340 /// ptime: 26.078
+
+[2091/10000] -  mean of train L2: 0.118 // mean of test L2: 4.338 /// ptime: 25.708
+
+[2092/10000] -  mean of train L2: 0.109 // mean of test L2: 4.346 /// ptime: 25.498
+
+[2093/10000] -  mean of train L2: 0.110 // mean of test L2: 4.361 /// ptime: 25.753
+
+[2094/10000] -  mean of train L2: 0.121 // mean of test L2: 4.361 /// ptime: 25.991
+
+[2095/10000] -  mean of train L2: 0.116 // mean of test L2: 4.315 /// ptime: 25.827
+
+[2096/10000] -  mean of train L2: 0.110 // mean of test L2: 4.341 /// ptime: 25.601
+
+[2097/10000] -  mean of train L2: 0.110 // mean of test L2: 4.329 /// ptime: 25.896
+
+[2098/10000] -  mean of train L2: 0.107 // mean of test L2: 4.314 /// ptime: 25.708
+
+[2099/10000] -  mean of train L2: 0.106 // mean of test L2: 4.336 /// ptime: 25.531
+
+[2100/10000] -  mean of train L2: 0.107 // mean of test L2: 4.338 /// ptime: 25.587
+
+[2101/10000] -  mean of train L2: 0.109 // mean of test L2: 4.341 /// ptime: 25.549
+
+[2102/10000] -  mean of train L2: 0.112 // mean of test L2: 4.351 /// ptime: 25.719
+
+[2103/10000] -  mean of train L2: 0.109 // mean of test L2: 4.337 /// ptime: 25.519
+
+[2104/10000] -  mean of train L2: 0.110 // mean of test L2: 4.329 /// ptime: 25.484
+
+[2105/10000] -  mean of train L2: 0.113 // mean of test L2: 4.343 /// ptime: 25.593
+
+[2106/10000] -  mean of train L2: 0.116 // mean of test L2: 4.349 /// ptime: 25.944
+
+[2107/10000] -  mean of train L2: 0.111 // mean of test L2: 4.336 /// ptime: 25.760
+
+[2108/10000] -  mean of train L2: 0.107 // mean of test L2: 4.347 /// ptime: 25.869
+
+[2109/10000] -  mean of train L2: 0.111 // mean of test L2: 4.343 /// ptime: 25.662
+
+[2110/10000] -  mean of train L2: 0.111 // mean of test L2: 4.347 /// ptime: 25.449
+
+[2111/10000] -  mean of train L2: 0.117 // mean of test L2: 4.342 /// ptime: 25.663
+
+[2112/10000] -  mean of train L2: 0.112 // mean of test L2: 4.367 /// ptime: 25.965
+
+[2113/10000] -  mean of train L2: 0.111 // mean of test L2: 4.340 /// ptime: 25.794
+
+[2114/10000] -  mean of train L2: 0.116 // mean of test L2: 4.344 /// ptime: 25.520
+
+[2115/10000] -  mean of train L2: 0.113 // mean of test L2: 4.335 /// ptime: 25.776
+
+[2116/10000] -  mean of train L2: 0.111 // mean of test L2: 4.312 /// ptime: 25.656
+
+[2117/10000] -  mean of train L2: 0.108 // mean of test L2: 4.309 /// ptime: 25.805
+
+[2118/10000] -  mean of train L2: 0.115 // mean of test L2: 4.346 /// ptime: 25.858
+
+[2119/10000] -  mean of train L2: 0.113 // mean of test L2: 4.303 /// ptime: 25.528
+
+[2120/10000] -  mean of train L2: 0.113 // mean of test L2: 4.341 /// ptime: 25.702
+
+[2121/10000] -  mean of train L2: 0.111 // mean of test L2: 4.346 /// ptime: 25.732
+
+[2122/10000] -  mean of train L2: 0.109 // mean of test L2: 4.327 /// ptime: 25.541
+
+[2123/10000] -  mean of train L2: 0.105 // mean of test L2: 4.350 /// ptime: 25.539
+
+[2124/10000] -  mean of train L2: 0.111 // mean of test L2: 4.348 /// ptime: 25.943
+
+[2125/10000] -  mean of train L2: 0.115 // mean of test L2: 4.322 /// ptime: 25.445
+
+[2126/10000] -  mean of train L2: 0.110 // mean of test L2: 4.348 /// ptime: 25.597
+
+[2127/10000] -  mean of train L2: 0.109 // mean of test L2: 4.331 /// ptime: 25.700
+
+[2128/10000] -  mean of train L2: 0.113 // mean of test L2: 4.343 /// ptime: 26.124
+
+[2129/10000] -  mean of train L2: 0.113 // mean of test L2: 4.335 /// ptime: 26.056
+
+[2130/10000] -  mean of train L2: 0.108 // mean of test L2: 4.340 /// ptime: 25.689
+
+[2131/10000] -  mean of train L2: 0.113 // mean of test L2: 4.348 /// ptime: 25.644
+
+[2132/10000] -  mean of train L2: 0.112 // mean of test L2: 4.359 /// ptime: 25.786
+
+[2133/10000] -  mean of train L2: 0.113 // mean of test L2: 4.377 /// ptime: 25.823
+
+[2134/10000] -  mean of train L2: 0.117 // mean of test L2: 4.354 /// ptime: 25.716
+
+[2135/10000] -  mean of train L2: 0.112 // mean of test L2: 4.324 /// ptime: 25.551
+
+[2136/10000] -  mean of train L2: 0.110 // mean of test L2: 4.354 /// ptime: 25.880
+
+[2137/10000] -  mean of train L2: 0.110 // mean of test L2: 4.355 /// ptime: 25.567
+
+[2138/10000] -  mean of train L2: 0.108 // mean of test L2: 4.354 /// ptime: 25.628
+
+[2139/10000] -  mean of train L2: 0.109 // mean of test L2: 4.329 /// ptime: 25.762
+
+[2140/10000] -  mean of train L2: 0.118 // mean of test L2: 4.379 /// ptime: 25.931
+
+[2141/10000] -  mean of train L2: 0.115 // mean of test L2: 4.352 /// ptime: 25.783
+
+[2142/10000] -  mean of train L2: 0.109 // mean of test L2: 4.337 /// ptime: 25.721
+
+[2143/10000] -  mean of train L2: 0.109 // mean of test L2: 4.332 /// ptime: 25.594
+
+[2144/10000] -  mean of train L2: 0.114 // mean of test L2: 4.360 /// ptime: 25.823
+
+[2145/10000] -  mean of train L2: 0.108 // mean of test L2: 4.348 /// ptime: 25.703
+
+[2146/10000] -  mean of train L2: 0.110 // mean of test L2: 4.324 /// ptime: 25.833
+
+[2147/10000] -  mean of train L2: 0.111 // mean of test L2: 4.350 /// ptime: 25.787
+
+[2148/10000] -  mean of train L2: 0.115 // mean of test L2: 4.353 /// ptime: 26.019
+
+[2149/10000] -  mean of train L2: 0.109 // mean of test L2: 4.351 /// ptime: 25.611
+
+[2150/10000] -  mean of train L2: 0.111 // mean of test L2: 4.384 /// ptime: 25.972
+
+[2151/10000] -  mean of train L2: 0.115 // mean of test L2: 4.311 /// ptime: 25.620
+
+[2152/10000] -  mean of train L2: 0.110 // mean of test L2: 4.347 /// ptime: 26.046
+
+[2153/10000] -  mean of train L2: 0.119 // mean of test L2: 4.350 /// ptime: 25.826
+
+[2154/10000] -  mean of train L2: 0.114 // mean of test L2: 4.379 /// ptime: 25.487
+
+[2155/10000] -  mean of train L2: 0.109 // mean of test L2: 4.359 /// ptime: 26.001
+
+[2156/10000] -  mean of train L2: 0.106 // mean of test L2: 4.307 /// ptime: 25.814
+
+[2157/10000] -  mean of train L2: 0.112 // mean of test L2: 4.343 /// ptime: 25.863
+
+[2158/10000] -  mean of train L2: 0.110 // mean of test L2: 4.326 /// ptime: 25.873
+
+[2159/10000] -  mean of train L2: 0.119 // mean of test L2: 4.355 /// ptime: 25.602
+
+[2160/10000] -  mean of train L2: 0.108 // mean of test L2: 4.346 /// ptime: 25.725
+
+[2161/10000] -  mean of train L2: 0.107 // mean of test L2: 4.319 /// ptime: 25.892
+
+[2162/10000] -  mean of train L2: 0.114 // mean of test L2: 4.349 /// ptime: 25.831
+
+[2163/10000] -  mean of train L2: 0.119 // mean of test L2: 4.332 /// ptime: 25.878
+
+[2164/10000] -  mean of train L2: 0.113 // mean of test L2: 4.342 /// ptime: 25.681
+
+[2165/10000] -  mean of train L2: 0.115 // mean of test L2: 4.315 /// ptime: 25.594
+
+[2166/10000] -  mean of train L2: 0.109 // mean of test L2: 4.363 /// ptime: 25.563
+
+[2167/10000] -  mean of train L2: 0.109 // mean of test L2: 4.367 /// ptime: 25.767
+
+[2168/10000] -  mean of train L2: 0.111 // mean of test L2: 4.331 /// ptime: 25.826
+
+[2169/10000] -  mean of train L2: 0.109 // mean of test L2: 4.345 /// ptime: 25.809
+
+[2170/10000] -  mean of train L2: 0.105 // mean of test L2: 4.321 /// ptime: 25.726
+
+[2171/10000] -  mean of train L2: 0.104 // mean of test L2: 4.333 /// ptime: 25.688
+
+[2172/10000] -  mean of train L2: 0.107 // mean of test L2: 4.339 /// ptime: 25.690
+
+[2173/10000] -  mean of train L2: 0.105 // mean of test L2: 4.356 /// ptime: 25.386
+
+[2174/10000] -  mean of train L2: 0.107 // mean of test L2: 4.323 /// ptime: 25.752
+
+[2175/10000] -  mean of train L2: 0.110 // mean of test L2: 4.318 /// ptime: 25.847
+
+[2176/10000] -  mean of train L2: 0.108 // mean of test L2: 4.320 /// ptime: 25.667
+
+[2177/10000] -  mean of train L2: 0.104 // mean of test L2: 4.347 /// ptime: 25.496
+
+[2178/10000] -  mean of train L2: 0.107 // mean of test L2: 4.355 /// ptime: 25.947
+
+[2179/10000] -  mean of train L2: 0.107 // mean of test L2: 4.310 /// ptime: 25.976
+
+[2180/10000] -  mean of train L2: 0.111 // mean of test L2: 4.343 /// ptime: 25.771
+
+[2181/10000] -  mean of train L2: 0.107 // mean of test L2: 4.332 /// ptime: 25.539
+
+[2182/10000] -  mean of train L2: 0.108 // mean of test L2: 4.356 /// ptime: 25.910
+
+[2183/10000] -  mean of train L2: 0.109
