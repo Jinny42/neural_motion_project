@@ -646,7 +646,7 @@ mean_ED = tf.reduce_mean(loss_ED)
 
 for epoch in range(max_epoch-already_done_epoch):
     ##Update
-    _, ED = sess.run([train_op, tf.reduce_mean(mean_ED)], 
+    _, ED = sess.run([train_op, mean_ED], 
                           feed_dict={X: input_batch, Y: label_batch, is_training: True})
 ```
 
