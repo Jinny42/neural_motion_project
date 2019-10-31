@@ -160,3 +160,4 @@ Python version : 3.6.8
 Anaconda version : 4.6.2
 
 Tensorflow version : 1.12
+ 
